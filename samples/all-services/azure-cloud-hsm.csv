@@ -1,0 +1,2 @@
+batch_id,line_id,service,label,notes,config.region,config.standardBOne,config.months
+azure-cloud-hsm,example-001,azure-cloud-hsm,Azure Cloud HSM example,Microsoft native defaults; review every setting and usage,us-east,0,1

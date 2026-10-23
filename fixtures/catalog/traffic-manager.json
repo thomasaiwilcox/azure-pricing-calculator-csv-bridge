@@ -1,0 +1,71 @@
+{
+  "service": "traffic-manager",
+  "display_name": "Traffic Manager",
+  "observed_utc": "2026-10-22",
+  "site_build": "20261019-0214-20261019-2100-186570892",
+  "schema_signature": {
+    "azureChecks": "number",
+    "displayName": "string",
+    "externalChecks": "number",
+    "fastAzureChecks": "number",
+    "fastExternalChecks": "number",
+    "isBreakingChange": "boolean",
+    "isCollapsed": "boolean",
+    "isDeprecated": "boolean",
+    "months": "number",
+    "queries": "number",
+    "realUserMeasurements": "number",
+    "region": "string",
+    "serviceSlug": "string",
+    "total": "number",
+    "trafficDataPoints": "number",
+    "upfrontTotal": "number",
+    "version": "string"
+  },
+  "golden": {
+    "description": "",
+    "displayName": "",
+    "layoutId": "",
+    "hasPricing": true,
+    "isBreakingChange": false,
+    "isCollapsed": false,
+    "prices": {
+      "upfrontTotal": 0,
+      "total": 0
+    },
+    "region": "us-east",
+    "resourceId": {},
+    "serviceSlug": "traffic-manager",
+    "shouldShowFreeAccountBenefits": true,
+    "sku": {},
+    "total": 0.0,
+    "upfrontTotal": 0.0,
+    "version": "v1.0.4",
+    "queries": 0,
+    "azureChecks": 0,
+    "fastAzureChecks": 0,
+    "externalChecks": 0,
+    "fastExternalChecks": 0,
+    "realUserMeasurements": 0,
+    "trafficDataPoints": 0,
+    "isDeprecated": false,
+    "months": 1
+  },
+  "configuration": {
+    "region": "us-east",
+    "queries": 0,
+    "azureChecks": 0,
+    "fastAzureChecks": 0,
+    "externalChecks": 0,
+    "fastExternalChecks": 0,
+    "realUserMeasurements": 0,
+    "trafficDataPoints": 0,
+    "months": 1
+  },
+  "endpoints": [
+    {
+      "version": "v2",
+      "slug": "traffic-manager"
+    }
+  ]
+}

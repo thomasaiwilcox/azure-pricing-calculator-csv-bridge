@@ -1,0 +1,58 @@
+{
+  "pause_before_reload": {
+    "status": "paused",
+    "loaded": 1,
+    "id": "6db509ae-817e-4484-bdb4-fa72a73cdd48",
+    "firstModuleId": "2e521c0c-9841-4195-948c-d70f8a78b7db",
+    "estimateCount": 7,
+    "exportBlocked": true
+  },
+  "resume_after_reload": {
+    "status": "website-validated",
+    "loaded": 3,
+    "id": "6db509ae-817e-4484-bdb4-fa72a73cdd48",
+    "sameEstimate": true,
+    "firstModuleId": "2e521c0c-9841-4195-948c-d70f8a78b7db",
+    "sameFirstModule": true,
+    "uniqueIds": 3,
+    "estimateCount": 7,
+    "publicCatalogFaultInjected": true,
+    "retries": [
+      {
+        "phase": "Catalog",
+        "attempt": 1,
+        "nextAttempt": 2,
+        "delay_ms": 1000,
+        "message": "Calculator catalog request failed: HTTP 503",
+        "utc": "2026-10-22T14:44:28.720Z"
+      }
+    ],
+    "steps": [
+      {
+        "estimate_id": "6db509ae-817e-4484-bdb4-fa72a73cdd48",
+        "from": 1,
+        "until": 2,
+        "attempts": 1,
+        "status": "website-validated",
+        "finished_utc": "2026-10-22T14:44:33.480Z"
+      },
+      {
+        "estimate_id": "6db509ae-817e-4484-bdb4-fa72a73cdd48",
+        "from": 2,
+        "until": 3,
+        "attempts": 1,
+        "status": "website-validated",
+        "finished_utc": "2026-10-22T14:44:35.626Z"
+      }
+    ],
+    "file": {
+      "filename": "CSV-reload-proof.xlsx",
+      "sha256": "2a486475b430db3f2ddca3c41aef0f8619a05f860e768cd2ff324b41c5f312e1",
+      "bytes": 53997,
+      "received_utc": "2026-10-22T14:44:40.173Z",
+      "request_bytes": 22962,
+      "original_json_bytes": 51314,
+      "compact_json_bytes": 15466
+    }
+  }
+}

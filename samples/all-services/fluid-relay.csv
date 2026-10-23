@@ -1,0 +1,2 @@
+batch_id,line_id,service,label,notes,config.region,config.fluidRelayOfferTier,config.averageUsersPerSession,config.averageOperationsPerUserPerMinute,config.averageSessionDurationInMinutes,config.storagePerSession,config.averageSessionsPerMonth,config.months
+fluid-relay,example-001,fluid-relay,Azure Fluid Relay example,Microsoft native defaults; review every setting and usage,us-east,standard,2,10,60,2,100,1

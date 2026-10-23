@@ -1,0 +1,2 @@
+batch_id,line_id,service,label,notes,config.dataTransferType,config.destinationRegion,config.internetEgressUnits,config.interRegionStorageUnits,config.interRegionUnits,config.routedVia,config.sourceRegion,config.months
+bandwidth,example-001,bandwidth,Bandwidth example,Microsoft native defaults; review every setting and usage,interregion,asia-pacific-east,5,1,5,microsoftglobalnetwork,us-west,1

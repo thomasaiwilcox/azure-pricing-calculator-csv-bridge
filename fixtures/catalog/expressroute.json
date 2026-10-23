@@ -1,0 +1,167 @@
+{
+  "service": "expressroute",
+  "display_name": "Azure ExpressRoute",
+  "observed_utc": "2026-10-22",
+  "site_build": "20261019-0214-20261019-2100-186570892",
+  "schema_signature": {
+    "circuits": "number",
+    "directCircuits": "array",
+    "directGlobalReachCircuits": "array",
+    "displayName": "string",
+    "ertcDataTransfer": "number",
+    "ertcGatewayHours": "number",
+    "ertcGatewayHoursFactor": "number",
+    "expressRouteGatewayHours": "number",
+    "expressRouteGatewayHoursFactor": "number",
+    "gatewayTypeValue": "string",
+    "gatewayValue": "string",
+    "globalReach": "boolean",
+    "globalReachCircuits": "number",
+    "globalReachInboundTransfer": "number",
+    "globalReachInboundTransferUnits": "number",
+    "globalReachOutboundTransfer": "number",
+    "globalReachOutboundTransferUnits": "number",
+    "isBreakingChange": "boolean",
+    "isCollapsed": "boolean",
+    "isDeprecated": "boolean",
+    "metroCircuits": "array",
+    "metroPortPairSpeed": "string",
+    "months": "number",
+    "plan": "string",
+    "portPairSpeed": "string",
+    "portSpeed": "string",
+    "product": "string",
+    "region": "string",
+    "scalableBandwidth": "number",
+    "scalableBandwidthFactor": "number",
+    "serviceSlug": "string",
+    "skuSelection": "string",
+    "storageUnits": "number",
+    "total": "number",
+    "trafficCollector": "boolean",
+    "units": "number",
+    "upfrontTotal": "number",
+    "version": "string",
+    "zone": "string"
+  },
+  "golden": {
+    "description": "",
+    "displayName": "",
+    "layoutId": "",
+    "hasPricing": true,
+    "isBreakingChange": false,
+    "isCollapsed": false,
+    "prices": {
+      "upfrontTotal": 0,
+      "total": 0
+    },
+    "region": "us-east",
+    "resourceId": {},
+    "serviceSlug": "expressroute",
+    "shouldShowFreeAccountBenefits": true,
+    "sku": {},
+    "total": 0.0,
+    "upfrontTotal": 0.0,
+    "version": "v1.0.6",
+    "zone": "zone1",
+    "product": "expressRoute",
+    "plan": "metered",
+    "circuits": 1,
+    "globalReachCircuits": 1,
+    "portSpeed": "50mbps",
+    "skuSelection": "standard",
+    "units": 0,
+    "storageUnits": 1,
+    "globalReach": false,
+    "globalReachInboundTransfer": 0,
+    "globalReachInboundTransferUnits": 1,
+    "globalReachOutboundTransfer": 0,
+    "globalReachOutboundTransferUnits": 1,
+    "portPairSpeed": "10gbps",
+    "directCircuits": [
+      {
+        "count": 0,
+        "speed": "10gbps"
+      }
+    ],
+    "directGlobalReachCircuits": [
+      {
+        "count": 0,
+        "speed": "10gbps"
+      }
+    ],
+    "ertcGatewayHours": 730.0,
+    "ertcGatewayHoursFactor": 1,
+    "ertcDataTransfer": 0,
+    "trafficCollector": false,
+    "metroPortPairSpeed": "10gbps",
+    "metroCircuits": [
+      {
+        "count": 0,
+        "speed": "10gbps"
+      }
+    ],
+    "gatewayValue": "virtual-network-gateways",
+    "gatewayTypeValue": "virtual-network-standard-gateway",
+    "expressRouteGatewayHours": 730.0,
+    "expressRouteGatewayHoursFactor": 1,
+    "scalableBandwidth": 1,
+    "scalableBandwidthFactor": 1,
+    "isDeprecated": false,
+    "months": 1
+  },
+  "configuration": {
+    "region": "us-east",
+    "zone": "zone1",
+    "product": "expressRoute",
+    "plan": "metered",
+    "circuits": 1,
+    "globalReachCircuits": 1,
+    "portSpeed": "50mbps",
+    "skuSelection": "standard",
+    "units": 0,
+    "storageUnits": 1,
+    "globalReach": false,
+    "globalReachInboundTransfer": 0,
+    "globalReachInboundTransferUnits": 1,
+    "globalReachOutboundTransfer": 0,
+    "globalReachOutboundTransferUnits": 1,
+    "portPairSpeed": "10gbps",
+    "directCircuits": [
+      {
+        "count": 0,
+        "speed": "10gbps"
+      }
+    ],
+    "directGlobalReachCircuits": [
+      {
+        "speed": "10gbps",
+        "count": 0
+      }
+    ],
+    "ertcGatewayHours": 730,
+    "ertcGatewayHoursFactor": 1,
+    "ertcDataTransfer": 0,
+    "trafficCollector": false,
+    "metroPortPairSpeed": "10gbps",
+    "metroCircuits": [
+      {
+        "count": 0,
+        "speed": "10gbps"
+      }
+    ],
+    "gatewayValue": "virtual-network-gateways",
+    "gatewayTypeValue": "virtual-network-standard-gateway",
+    "expressRouteGatewayHours": 730,
+    "expressRouteGatewayHoursFactor": 1,
+    "scalableBandwidth": 1,
+    "scalableBandwidthFactor": 1,
+    "months": 1
+  },
+  "endpoints": [
+    {
+      "version": "v2",
+      "slug": "expressroute"
+    }
+  ]
+}

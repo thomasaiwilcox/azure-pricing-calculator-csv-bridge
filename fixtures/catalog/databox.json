@@ -1,0 +1,107 @@
+{
+  "service": "databox",
+  "display_name": "Azure Data Box",
+  "observed_utc": "2026-10-22",
+  "site_build": "20261019-0214-20261019-2100-186570892",
+  "schema_signature": {
+    "dataBox120AdditionalDays": "array",
+    "dataBox120AdditionalUnits": "array",
+    "dataBox525AdditionalDays": "array",
+    "dataBox525AdditionalUnits": "array",
+    "databoxProduct": "string",
+    "diskAdditionalOrdersDays": "array",
+    "diskAdditionalOrdersDisks": "array",
+    "diskOrderProcessingFeeUnits": "number",
+    "diskSelfManagedShippingFee": "boolean",
+    "displayName": "string",
+    "gatewayUnits": "number",
+    "gatewayUnitsFactor": "number",
+    "isBreakingChange": "boolean",
+    "isCollapsed": "boolean",
+    "isDeprecated": "boolean",
+    "months": "number",
+    "region": "string",
+    "serviceSlug": "string",
+    "total": "number",
+    "upfrontTotal": "number",
+    "version": "string"
+  },
+  "golden": {
+    "description": "",
+    "displayName": "",
+    "layoutId": "",
+    "hasPricing": true,
+    "isBreakingChange": false,
+    "isCollapsed": false,
+    "prices": {
+      "upfrontTotal": 0,
+      "total": 0
+    },
+    "region": "us-west",
+    "resourceId": {},
+    "serviceSlug": "databox",
+    "shouldShowFreeAccountBenefits": true,
+    "sku": {},
+    "total": 0.0,
+    "upfrontTotal": 0.0,
+    "version": "v1.0.3",
+    "databoxProduct": "databox-disk",
+    "diskAdditionalOrdersDisks": [
+      1
+    ],
+    "diskAdditionalOrdersDays": [
+      0
+    ],
+    "diskOrderProcessingFeeUnits": 1,
+    "diskSelfManagedShippingFee": false,
+    "gatewayUnits": 1,
+    "gatewayUnitsFactor": 125,
+    "dataBox120AdditionalUnits": [
+      1
+    ],
+    "dataBox525AdditionalUnits": [
+      1
+    ],
+    "dataBox120AdditionalDays": [
+      0
+    ],
+    "dataBox525AdditionalDays": [
+      0
+    ],
+    "isDeprecated": false,
+    "months": 1
+  },
+  "configuration": {
+    "region": "us-west",
+    "databoxProduct": "databox-disk",
+    "diskAdditionalOrdersDisks": [
+      1
+    ],
+    "diskAdditionalOrdersDays": [
+      0
+    ],
+    "diskOrderProcessingFeeUnits": 1,
+    "diskSelfManagedShippingFee": false,
+    "gatewayUnits": 1,
+    "gatewayUnitsFactor": 125,
+    "dataBox120AdditionalUnits": [
+      1
+    ],
+    "dataBox525AdditionalUnits": [
+      1
+    ],
+    "dataBox120AdditionalDays": [
+      0
+    ],
+    "dataBox525AdditionalDays": [
+      0
+    ],
+    "months": 1
+  },
+  "endpoints": [
+    {
+      "version": "v2",
+      "slug": "databox"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "description": "",
+  "displayName": "",
+  "layoutId": "",
+  "hasPricing": true,
+  "isBreakingChange": false,
+  "isCollapsed": false,
+  "prices": {
+    "upfrontTotal": 0,
+    "total": 0
+  },
+  "region": "global",
+  "resourceId": {},
+  "serviceSlug": "",
+  "shouldShowFreeAccountBenefits": true,
+  "sku": {},
+  "total": 0,
+  "upfrontTotal": 0,
+  "version": ""
+}

@@ -1,0 +1,2 @@
+batch_id,line_id,service,label,notes,config.region,config.logsIngested,config.months
+microsoft-defender-isoc,example-001,microsoft-defender-isoc,ISOC in Microsoft Defender example,Microsoft native defaults; review every setting and usage,us-east,1,1

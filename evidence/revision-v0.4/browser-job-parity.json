@@ -1,0 +1,33 @@
+{
+  "node_version": "v24.19.0",
+  "developer_check_only": true,
+  "live_browser_executed": false,
+  "browser_importer_unchanged": true,
+  "browser_importer_sha256": "9fbbae14c10066d9ca0df3616b10fff36d53b6515b2fcb9631866bb027982679",
+  "catalog_unchanged": true,
+  "previous_live_evidence": "../revision-v0.3/index.json",
+  "jobs": [
+    {
+      "name": "mixed-15",
+      "source_files": 13,
+      "items": 15,
+      "browser_validation": "passed",
+      "full_job_semantic_equivalence": true,
+      "browser_configuration_sha256": "47bfec68866d8b811f85b212fa0a372588e4d30bf3384a42d711ed5b03b9e1e3",
+      "resume_identity_unchanged": true,
+      "generated_script_parses": true,
+      "embedded_job_matches": true
+    },
+    {
+      "name": "catalog-149",
+      "source_files": 149,
+      "items": 149,
+      "browser_validation": "passed",
+      "full_job_semantic_equivalence": true,
+      "browser_configuration_sha256": "e9052a32ce5e5933626e9997d83ea24bdcb92abdbc36ab418b3bcdd6f62c0eb9",
+      "resume_identity_unchanged": true,
+      "generated_script_parses": true,
+      "embedded_job_matches": true
+    }
+  ]
+}

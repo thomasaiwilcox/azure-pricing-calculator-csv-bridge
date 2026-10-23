@@ -1,0 +1,2 @@
+batch_id,line_id,service,label,notes,config.region,config.numberOfUserNodes,config.userNodeHours,config.userNodeHoursFactor,config.months
+advanced-container-networking-services,example-001,advanced-container-networking-services,Advanced Container Networking Services example,Microsoft native defaults; review every setting and usage,us-east,1,730,1,1

@@ -1,0 +1,2 @@
+batch_id,line_id,service,label,notes,config.region,config.baseInstanceUnits,config.baseInstanceHours,config.baseInstanceHoursFactor,config.additionalDataPartitionUnits,config.additionalDataPartitionHours,config.additionalDataPartitionHoursFactor,config.tier,config.months
+energy-data-services,example-001,energy-data-services,Azure Data Manager for Energy example,Microsoft native defaults; review every setting and usage,us-east,0,730,1,0,730,1,standard-fixed-cost,1

@@ -1,0 +1,35 @@
+{
+  "error": "mariadb: the native product picker returned no usable price for this pinned service; revalidation is required before import",
+  "estimateCountUnchanged": true,
+  "activeEstimateUnchanged": true,
+  "moduleIdsUnchanged": true,
+  "report": {
+    "format": "calcbridge-browser-report/v2",
+    "run_id": "unavailable03",
+    "source_sha256": "ec368ffbe7e0d3047e72c04cb4689d446fa7fb1c6ffe65a424cd77235499b719",
+    "job_format": "calcbridge-job/v3",
+    "sources": [
+      {
+        "file": "mariadb.csv",
+        "sha256": "ec368ffbe7e0d3047e72c04cb4689d446fa7fb1c6ffe65a424cd77235499b719",
+        "bytes": 453,
+        "rows": 1
+      }
+    ],
+    "site_build": "20261019-0214-20261019-2100-186570892",
+    "currency": "GBP",
+    "pricing_context": "public",
+    "started_utc": "2026-10-22T16:30:04.481Z",
+    "verification_status": "failed",
+    "requested_rows": 1,
+    "loaded_rows": 0,
+    "steps": [],
+    "retries": [],
+    "estimate": {
+      "name": "CSV-unavailable-03",
+      "rows": [],
+      "official_export": "not-requested"
+    },
+    "error": "mariadb: the native product picker returned no usable price for this pinned service; revalidation is required before import"
+  }
+}

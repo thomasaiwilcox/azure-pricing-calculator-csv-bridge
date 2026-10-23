@@ -1,0 +1,71 @@
+{
+  "service": "event-grid",
+  "display_name": "Event Grid",
+  "observed_utc": "2026-10-22",
+  "site_build": "20261019-0214-20261019-2100-186570892",
+  "schema_signature": {
+    "displayName": "string",
+    "events": "number",
+    "hours": "number",
+    "hoursFactor": "number",
+    "isBreakingChange": "boolean",
+    "isCollapsed": "boolean",
+    "isDeprecated": "boolean",
+    "months": "number",
+    "mqtt": "number",
+    "operations": "number",
+    "region": "string",
+    "serviceSlug": "string",
+    "throughput": "number",
+    "tier": "string",
+    "total": "number",
+    "upfrontTotal": "number",
+    "version": "string"
+  },
+  "golden": {
+    "description": "",
+    "displayName": "",
+    "layoutId": "",
+    "hasPricing": true,
+    "isBreakingChange": false,
+    "isCollapsed": false,
+    "prices": {
+      "upfrontTotal": 0,
+      "total": 0
+    },
+    "region": "us-west-2",
+    "resourceId": {},
+    "serviceSlug": "event-grid",
+    "shouldShowFreeAccountBenefits": true,
+    "sku": {},
+    "total": 0.0,
+    "upfrontTotal": 0.0,
+    "version": "v1.0.2",
+    "operations": 100000,
+    "throughput": 1,
+    "hours": 0,
+    "hoursFactor": 1,
+    "events": 0,
+    "mqtt": 0,
+    "tier": "basic",
+    "isDeprecated": false,
+    "months": 1
+  },
+  "configuration": {
+    "region": "us-west-2",
+    "operations": 100000,
+    "throughput": 1,
+    "hours": 0,
+    "hoursFactor": 1,
+    "events": 0,
+    "mqtt": 0,
+    "tier": "basic",
+    "months": 1
+  },
+  "endpoints": [
+    {
+      "version": "v2",
+      "slug": "event-grid"
+    }
+  ]
+}

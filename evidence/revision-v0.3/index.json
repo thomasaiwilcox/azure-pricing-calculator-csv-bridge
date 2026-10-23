@@ -1,0 +1,110 @@
+{
+  "format": "calcbridge-revision-evidence/v3",
+  "version": "0.3.0",
+  "tested_utc_date": "2026-10-22",
+  "site_build": "20261019-0214-20261019-2100-186570892",
+  "verdict": "GO for 149 tested native service samples; PARTIAL GO for entire listed catalog",
+  "catalog_services": 152,
+  "native_import_and_combined_export_verified": 149,
+  "native_pricing_unavailable": [
+    "mariadb",
+    "healthcare-agent-service",
+    "azure-sql-edge"
+  ],
+  "same_estimate_proof": {
+    "source_files": 149,
+    "service_types": 149,
+    "estimate_id": "7fff79b3-2f74-47c8-b825-96321cbf4407",
+    "step_end_counts": [
+      50,
+      100,
+      149
+    ],
+    "workbooks": 1
+  },
+  "offline_tests": {
+    "python": 34,
+    "node": 17,
+    "all_passed": true
+  },
+  "exports": [
+    {
+      "file": "Catalog-149-services-GBP.xlsx",
+      "sha256": "9ff58af7907b46f2766cf13e96ccac490909923c97d387de48a15f254cba1ae5",
+      "bytes": 68527,
+      "structure": "xlsx",
+      "line_coverage": "matched",
+      "phase": "final catalog acceptance",
+      "estimate_name": "CSV-catalog-03-base149",
+      "estimate_id": "7fff79b3-2f74-47c8-b825-96321cbf4407",
+      "currency": "GBP",
+      "source_files": 149,
+      "service_types": 149,
+      "matched_source_lines": 149,
+      "source_job": "Catalog-149-import-job.json",
+      "browser_report": "Catalog-149-import-report.json",
+      "origin_observed": "HTTP 200 from official calculator export endpoint; completed browser download",
+      "workbook_bytes": "unchanged from Microsoft response"
+    },
+    {
+      "file": "Mixed-services-native-base-15-GBP.xlsx",
+      "sha256": "a63c1a9c4ff66dd58793cb075ec45fa169e7462567da7362bc072c23ae0c2bfb",
+      "bytes": 56123,
+      "structure": "xlsx",
+      "line_coverage": "matched",
+      "phase": "final mixed-format acceptance",
+      "estimate_name": "CSV-mixed-services-03-base",
+      "estimate_id": "e0c15ae5-59c3-45ee-b0c2-60588087ace5",
+      "currency": "GBP",
+      "source_files": 13,
+      "service_types": 14,
+      "matched_source_lines": 15,
+      "source_job": "Mixed-services-native-base-import-job.json",
+      "browser_report": "Mixed-services-native-base-import-report.json",
+      "origin_observed": "HTTP 200 from official calculator export endpoint; completed browser download",
+      "workbook_bytes": "unchanged from Microsoft response"
+    },
+    {
+      "file": "Mixed-services-15-GBP.xlsx",
+      "sha256": "0f9b03c7771b3b0758958c6fd845c2690529fc7fab0ae58bc844b3651f9fcf49",
+      "bytes": 56117,
+      "structure": "xlsx",
+      "line_coverage": "matched",
+      "phase": "earlier mixed-format research",
+      "estimate_name": "CSV-mixed-services-03",
+      "estimate_id": "cff9ca33-4648-4405-b99f-bbb9e7a45a10",
+      "currency": "GBP",
+      "source_files": 13,
+      "service_types": 14,
+      "matched_source_lines": 15,
+      "source_job": "Mixed-services-import-job.json",
+      "browser_report": "Mixed-services-import-report.json",
+      "origin_observed": "HTTP 200 from official calculator export endpoint; completed browser download",
+      "workbook_bytes": "unchanged from Microsoft response"
+    }
+  ],
+  "historical_research": {
+    "Catalog-144-results.json": "Superseded: missing native common base was corrected; final 149-service export succeeded",
+    "Catalog-native-observations.json": "Initial adapter baseline; use final catalog status and normal product-picker results for current coverage"
+  },
+  "tested_importer_sha256": "9fbbae14c10066d9ca0df3616b10fff36d53b6515b2fcb9631866bb027982679",
+  "catalog_index_sha256": "3289b99b09c79c7de45b90f3a0263ab4a4b7e1960d0a3a16b966635300c3a587",
+  "artifact_sha256": {
+    "Catalog-144-import-job.json": "b86dc450b256e6a9bea9e2c8d75a3fb0defb19ef8edec655153f2ab8c1153cbf",
+    "Catalog-144-import-report.json": "9aef0336fe693f8604cec09ca577c05ee51fca80c3b091226e67d34a360881c4",
+    "Catalog-144-results.json": "dd3750b47499104431ac966fa61142dbe84fd0c2eff9ae0004d8214dcedfd294",
+    "Catalog-149-import-job.json": "add0cc12b9c21dfa50a1cff2ed92eda255289dd6361d178f7e18ee8003b1192c",
+    "Catalog-149-import-report.json": "25963247913c8c01f6e2b3ad89e1aa2cba6f8da81d5b11343386f1f5de32629e",
+    "Catalog-149-results.json": "fcd3561ecb15b957b21d9ab99ff8aa4821187c5cace1d52ae0610ce6bf98d4e7",
+    "Catalog-149-services-GBP.xlsx": "9ff58af7907b46f2766cf13e96ccac490909923c97d387de48a15f254cba1ae5",
+    "Catalog-native-observations.json": "73d5294a5aad1b00c6a3a73fadf53ae3132a4de9810b4927bdc39b1250411414",
+    "Mixed-services-15-GBP.xlsx": "0f9b03c7771b3b0758958c6fd845c2690529fc7fab0ae58bc844b3651f9fcf49",
+    "Mixed-services-import-job.json": "ac66870ed4273cdcef4d1b791d3ffd6cb4f1347ae73cd1f52daadec8e246f5e4",
+    "Mixed-services-import-report.json": "85b507f78b70b3afee10871af47c3c4fc19ecafda5b28b7cd0d572123cc7bafa",
+    "Mixed-services-native-base-15-GBP.xlsx": "a63c1a9c4ff66dd58793cb075ec45fa169e7462567da7362bc072c23ae0c2bfb",
+    "Mixed-services-native-base-import-job.json": "3026cbc25013a9047626088f267d7fb0c80548172391068723650475bc930abb",
+    "Mixed-services-native-base-import-report.json": "17e331ea6b33e6d26c490ba19a609e5ade8c63c173dbac05df320cf23fb696d8",
+    "Native-product-picker-eight-results.json": "3383e78c4820eb24576810c159f534f71b169e338262682c80c8ba69fe1f1f25",
+    "Unavailable-service-rejection.json": "0ee30e61cc1d43a6ce1f9de795138c72ede7c0c670aa1126e543d5d32518f88b"
+  }
+}

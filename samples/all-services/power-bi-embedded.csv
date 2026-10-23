@@ -1,0 +1,2 @@
+batch_id,line_id,service,label,notes,config.region,config.size,config.nodes,config.hours,config.hoursFactor,config.months
+power-bi-embedded,example-001,power-bi-embedded,Power BI Embedded example,Microsoft native defaults; review every setting and usage,us-east-2,a1,1,730,1,1

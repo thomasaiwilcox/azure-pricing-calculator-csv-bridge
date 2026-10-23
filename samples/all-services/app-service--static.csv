@@ -1,0 +1,2 @@
+batch_id,line_id,service,label,notes,config.region,config.standardApps,config.standardBandwidthOverages,config.standardBandwidthOveragesFactor,config.tier,config.months
+app-service-static,example-001,app-service\static,Static Web Apps example,Microsoft native defaults; review every setting and usage,us-central,1,0,1,free,1

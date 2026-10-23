@@ -1,0 +1,63 @@
+{
+  "service": "chaos-studio",
+  "display_name": "Azure Chaos Studio",
+  "observed_utc": "2026-10-22",
+  "site_build": "20261019-0214-20261019-2100-186570892",
+  "schema_signature": {
+    "additionalUnits": "array",
+    "displayName": "string",
+    "isBreakingChange": "boolean",
+    "isCollapsed": "boolean",
+    "isDeprecated": "boolean",
+    "months": "number",
+    "region": "string",
+    "serviceSlug": "string",
+    "total": "number",
+    "upfrontTotal": "number",
+    "version": "string"
+  },
+  "golden": {
+    "description": "",
+    "displayName": "",
+    "layoutId": "",
+    "hasPricing": true,
+    "isBreakingChange": false,
+    "isCollapsed": false,
+    "prices": {
+      "upfrontTotal": 0,
+      "total": 0
+    },
+    "region": "us-east-2",
+    "resourceId": {},
+    "serviceSlug": "chaos-studio",
+    "shouldShowFreeAccountBenefits": true,
+    "sku": {},
+    "total": 0.0,
+    "upfrontTotal": 0.0,
+    "version": "v1.0.0",
+    "additionalUnits": [
+      {
+        "actions": 1,
+        "minutes": 1
+      }
+    ],
+    "isDeprecated": false,
+    "months": 1
+  },
+  "configuration": {
+    "region": "us-east-2",
+    "additionalUnits": [
+      {
+        "actions": 1,
+        "minutes": 1
+      }
+    ],
+    "months": 1
+  },
+  "endpoints": [
+    {
+      "version": "v3",
+      "slug": "chaos-studio"
+    }
+  ]
+}

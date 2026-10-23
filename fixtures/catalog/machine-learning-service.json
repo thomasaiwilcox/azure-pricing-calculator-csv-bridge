@@ -1,0 +1,82 @@
+{
+  "service": "machine-learning-service",
+  "display_name": "Azure Machine Learning",
+  "observed_utc": "2026-10-22",
+  "site_build": "20261019-0214-20261019-2100-186570892",
+  "schema_signature": {
+    "baseDataSlug": "string",
+    "category": "string",
+    "computeBillingOption": "string",
+    "computePaymentOption": "string",
+    "count": "number",
+    "displayName": "string",
+    "hours": "number",
+    "hoursFactor": "number",
+    "instanceSeries": "string",
+    "isBreakingChange": "boolean",
+    "isCollapsed": "boolean",
+    "isDeprecated": "boolean",
+    "months": "number",
+    "region": "string",
+    "serviceSlug": "string",
+    "size": "string",
+    "total": "number",
+    "upfrontTotal": "number",
+    "version": "string"
+  },
+  "golden": {
+    "description": "",
+    "displayName": "",
+    "layoutId": "",
+    "hasPricing": true,
+    "isBreakingChange": false,
+    "isCollapsed": false,
+    "prices": {
+      "upfrontTotal": 0,
+      "total": 0
+    },
+    "region": "us-east-2",
+    "resourceId": {},
+    "serviceSlug": "machine-learning-service",
+    "shouldShowFreeAccountBenefits": true,
+    "sku": {},
+    "total": 0.0,
+    "upfrontTotal": 0.0,
+    "version": "v1.0.8",
+    "hours": 730,
+    "hoursFactor": 1,
+    "size": "d3v2",
+    "count": 1,
+    "computeBillingOption": "payg",
+    "computePaymentOption": "monthly",
+    "baseDataSlug": "virtual-machines-base",
+    "category": "all",
+    "instanceSeries": "all",
+    "isDeprecated": false,
+    "months": 1
+  },
+  "configuration": {
+    "region": "us-east-2",
+    "hours": 730,
+    "hoursFactor": 1,
+    "size": "d3v2",
+    "count": 1,
+    "computeBillingOption": "payg",
+    "computePaymentOption": "monthly",
+    "baseDataSlug": "virtual-machines-base",
+    "category": "all",
+    "instanceSeries": "all",
+    "months": 1
+  },
+  "endpoints": [
+    {
+      "version": "v3",
+      "slug": "machine-learning-service"
+    },
+    {
+      "version": "v4",
+      "slug": "virtual-machines",
+      "region": "us-east-2"
+    }
+  ]
+}

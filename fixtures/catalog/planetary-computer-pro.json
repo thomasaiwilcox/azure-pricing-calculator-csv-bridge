@@ -1,0 +1,80 @@
+{
+  "service": "planetary-computer-pro",
+  "display_name": "Microsoft Planetary Computer Pro",
+  "observed_utc": "2026-10-22",
+  "site_build": "20261019-0214-20261019-2100-186570892",
+  "schema_signature": {
+    "bandwidthGB": "number",
+    "bcdrType": "string",
+    "computeHours": "number",
+    "dataOperations": "number",
+    "dataOperationsThousands": "number",
+    "displayName": "string",
+    "geospatialStorage": "number",
+    "geospatialStorageFactor": "number",
+    "isBreakingChange": "boolean",
+    "isCollapsed": "boolean",
+    "isDeprecated": "boolean",
+    "months": "number",
+    "region": "string",
+    "serviceSlug": "string",
+    "storageGB": "number",
+    "total": "number",
+    "transferData": "number",
+    "transferDataFactor": "number",
+    "upfrontTotal": "number",
+    "version": "string"
+  },
+  "golden": {
+    "description": "",
+    "displayName": "",
+    "layoutId": "",
+    "hasPricing": true,
+    "isBreakingChange": false,
+    "isCollapsed": false,
+    "prices": {
+      "upfrontTotal": 0,
+      "total": 0
+    },
+    "region": "us-east",
+    "resourceId": {},
+    "serviceSlug": "planetary-computer-pro",
+    "shouldShowFreeAccountBenefits": true,
+    "sku": {},
+    "total": 0.0,
+    "upfrontTotal": 0.0,
+    "version": "v1.0.1",
+    "computeHours": 0,
+    "geospatialStorage": 0,
+    "geospatialStorageFactor": 1,
+    "dataOperations": 0,
+    "transferData": 0,
+    "transferDataFactor": 1,
+    "storageGB": 0,
+    "dataOperationsThousands": 0,
+    "bandwidthGB": 0,
+    "bcdrType": "no",
+    "isDeprecated": false,
+    "months": 1
+  },
+  "configuration": {
+    "region": "us-east",
+    "computeHours": 0,
+    "geospatialStorage": 0,
+    "geospatialStorageFactor": 1,
+    "dataOperations": 0,
+    "transferData": 0,
+    "transferDataFactor": 1,
+    "storageGB": 0,
+    "dataOperationsThousands": 0,
+    "bandwidthGB": 0,
+    "bcdrType": "no",
+    "months": 1
+  },
+  "endpoints": [
+    {
+      "version": "v3",
+      "slug": "planetary-computer-pro"
+    }
+  ]
+}

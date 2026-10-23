@@ -1,0 +1,74 @@
+{
+  "service": "key-vault",
+  "display_name": "Key Vault",
+  "observed_utc": "2026-10-22",
+  "site_build": "20261019-0214-20261019-2100-186570892",
+  "schema_signature": {
+    "advancedKeys": "number",
+    "advancedOperations": "number",
+    "displayName": "string",
+    "hsmPoolsHours": "number",
+    "hsmPoolsHoursFactor": "number",
+    "hsmPoolsUnits": "number",
+    "isBreakingChange": "boolean",
+    "isCollapsed": "boolean",
+    "isDeprecated": "boolean",
+    "keys": "number",
+    "months": "number",
+    "operations": "number",
+    "region": "string",
+    "renewals": "number",
+    "serviceSlug": "string",
+    "total": "number",
+    "upfrontTotal": "number",
+    "version": "string"
+  },
+  "golden": {
+    "description": "",
+    "displayName": "",
+    "layoutId": "",
+    "hasPricing": true,
+    "isBreakingChange": false,
+    "isCollapsed": false,
+    "prices": {
+      "upfrontTotal": 0,
+      "total": 0
+    },
+    "region": "us-east",
+    "resourceId": {},
+    "serviceSlug": "key-vault",
+    "shouldShowFreeAccountBenefits": true,
+    "sku": {},
+    "total": 0.0,
+    "upfrontTotal": 0.0,
+    "version": "v1.0.3",
+    "operations": 0.0,
+    "advancedOperations": 0.0,
+    "renewals": 0,
+    "keys": 0,
+    "advancedKeys": 0,
+    "hsmPoolsUnits": 0,
+    "hsmPoolsHours": 730,
+    "hsmPoolsHoursFactor": 1,
+    "isDeprecated": false,
+    "months": 1
+  },
+  "configuration": {
+    "region": "us-east",
+    "operations": 0,
+    "advancedOperations": 0,
+    "renewals": 0,
+    "keys": 0,
+    "advancedKeys": 0,
+    "hsmPoolsUnits": 0,
+    "hsmPoolsHours": 730,
+    "hsmPoolsHoursFactor": 1,
+    "months": 1
+  },
+  "endpoints": [
+    {
+      "version": "v2",
+      "slug": "key-vault"
+    }
+  ]
+}

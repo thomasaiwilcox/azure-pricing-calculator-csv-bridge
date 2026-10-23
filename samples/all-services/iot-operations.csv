@@ -1,0 +1,2 @@
+batch_id,line_id,service,label,notes,config.assets,config.assetHours,config.assetHoursFactor,config.nodeHours,config.nodeHoursFactor,config.nodes,config.region,config.months
+iot-operations,example-001,iot-operations,Azure IoT Operations example,Microsoft native defaults; review every setting and usage,0,730,1,730,1,1,us-east,1

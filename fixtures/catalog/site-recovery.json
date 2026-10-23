@@ -1,0 +1,56 @@
+{
+  "service": "site-recovery",
+  "display_name": "Azure Site Recovery",
+  "observed_utc": "2026-10-22",
+  "site_build": "20261019-0214-20261019-2100-186570892",
+  "schema_signature": {
+    "azure": "number",
+    "customer": "number",
+    "displayName": "string",
+    "isBreakingChange": "boolean",
+    "isCollapsed": "boolean",
+    "isDeprecated": "boolean",
+    "months": "number",
+    "region": "string",
+    "serviceSlug": "string",
+    "total": "number",
+    "upfrontTotal": "number",
+    "version": "string"
+  },
+  "golden": {
+    "description": "",
+    "displayName": "",
+    "layoutId": "",
+    "hasPricing": true,
+    "isBreakingChange": false,
+    "isCollapsed": false,
+    "prices": {
+      "upfrontTotal": 0,
+      "total": 0
+    },
+    "region": "us-east",
+    "resourceId": {},
+    "serviceSlug": "site-recovery",
+    "shouldShowFreeAccountBenefits": true,
+    "sku": {},
+    "total": 0.0,
+    "upfrontTotal": 0.0,
+    "version": "v1.0.3",
+    "customer": 0,
+    "azure": 0,
+    "isDeprecated": false,
+    "months": 1
+  },
+  "configuration": {
+    "region": "us-east",
+    "customer": 0,
+    "azure": 0,
+    "months": 1
+  },
+  "endpoints": [
+    {
+      "version": "v2",
+      "slug": "site-recovery"
+    }
+  ]
+}

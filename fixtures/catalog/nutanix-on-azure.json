@@ -1,0 +1,68 @@
+{
+  "service": "nutanix-on-azure",
+  "display_name": "Nutanix Cloud Clusters on Azure",
+  "observed_utc": "2026-10-22",
+  "site_build": "20261019-0214-20261019-2100-186570892",
+  "schema_signature": {
+    "billingOption": "string",
+    "displayName": "string",
+    "hours": "number",
+    "hoursFactor": "number",
+    "instance": "string",
+    "isBreakingChange": "boolean",
+    "isCollapsed": "boolean",
+    "isDeprecated": "boolean",
+    "months": "number",
+    "nodes": "number",
+    "paymentOption": "string",
+    "region": "string",
+    "serviceSlug": "string",
+    "total": "number",
+    "upfrontTotal": "number",
+    "version": "string"
+  },
+  "golden": {
+    "description": "",
+    "displayName": "",
+    "layoutId": "",
+    "hasPricing": true,
+    "isBreakingChange": false,
+    "isCollapsed": false,
+    "prices": {
+      "upfrontTotal": 0,
+      "total": 0
+    },
+    "region": "us-east",
+    "resourceId": {},
+    "serviceSlug": "nutanix-on-azure",
+    "shouldShowFreeAccountBenefits": true,
+    "sku": {},
+    "total": 0.0,
+    "upfrontTotal": 0.0,
+    "version": "v1.0.0",
+    "instance": "nodes-for-nutanix-an36",
+    "billingOption": "payg",
+    "paymentOption": "monthly",
+    "nodes": 3,
+    "hours": 730,
+    "hoursFactor": 1,
+    "isDeprecated": false,
+    "months": 1
+  },
+  "configuration": {
+    "region": "us-east",
+    "instance": "nodes-for-nutanix-an36",
+    "billingOption": "payg",
+    "paymentOption": "monthly",
+    "nodes": 3,
+    "hours": 730,
+    "hoursFactor": 1,
+    "months": 1
+  },
+  "endpoints": [
+    {
+      "version": "v3",
+      "slug": "nutanix-on-azure"
+    }
+  ]
+}

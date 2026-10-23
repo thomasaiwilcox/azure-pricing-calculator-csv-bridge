@@ -1,0 +1,22 @@
+{
+  "import": "website-validated",
+  "resources": 149,
+  "source_files": 149,
+  "estimate_id": "7fff79b3-2f74-47c8-b825-96321cbf4407",
+  "step_end_counts": [
+    50,
+    100,
+    149
+  ],
+  "official_export": "HTTP 200; completed download; original bytes retained",
+  "matched_source_lines": 149,
+  "file": {
+    "filename": "CSV-catalog-03-base149.xlsx",
+    "sha256": "9ff58af7907b46f2766cf13e96ccac490909923c97d387de48a15f254cba1ae5",
+    "bytes": 68527,
+    "received_utc": "2026-10-22T16:18:57.848Z",
+    "request_bytes": 1748137,
+    "original_json_bytes": 1142959,
+    "compact_json_bytes": 1125077
+  }
+}

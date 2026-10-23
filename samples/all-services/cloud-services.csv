@@ -1,0 +1,2 @@
+batch_id,line_id,service,label,notes,config.region,config.tier,config.size,config.instances,config.hours,config.hoursFactor,config.computeBillingOption,config.instanceSeries,config.category,config.months
+cloud-services,example-001,cloud-services,Cloud Services example,Microsoft native defaults; review every setting and usage,us-east,standard,d2v3,1,730,1,payg,all,all,1

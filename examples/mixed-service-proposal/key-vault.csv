@@ -1,0 +1,2 @@
+batch_id,line_id,service,label,notes,config.region,config.operations,config.advancedOperations,config.renewals,config.keys,config.advancedKeys,config.hsmPoolsUnits,config.hsmPoolsHours,config.hsmPoolsHoursFactor,config.months
+key-vault,example-001,key-vault,Key Vault example,Microsoft native defaults; review every setting and usage,us-east,0,0,0,0,0,0,730,1,1

@@ -1,0 +1,1222 @@
+{
+  "site_build": "20261019-0214-20261019-2100-186570892",
+  "estimate_id": "0cf0faf2-c3fd-47ab-b3eb-d6ee829863a7",
+  "observations": [
+    {
+      "service": "virtual-machines",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 137.24,
+      "baseline_native_description": "1 D2 v3 (2 vCPUs, 8 GB RAM) x 730 Hours (Pay as you go), Windows (License included), OS Only; 0 managed disks \u2013 S4; Inter Region transfer type, 5 GB outbound data transfer from East US to East Asia",
+      "baseline_prices_total_usd": 137.24,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "storage",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 21.844,
+      "baseline_native_description": "Block Blob Storage, General Purpose V2, Flat Namespace, LRS Redundancy, Hot Access Tier, 1,000 GB Capacity - Pay as you go, 10 x 10,000 Write operations, 10 x 10,000 List and Create Container Operations, 10 x 10,000 Read operations, 1 x 10,000 Other operations. 1,000 GB Data Retrieval, 1,000 GB Data Write, SFTP disabled, Object Replication disabled",
+      "baseline_prices_total_usd": 21.844,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "azure-sql-database",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 122.499999968,
+      "baseline_native_description": "Single Database, vCore, Hyperscale, Provisioned, Standard-series (Gen 5), 1 - 2 vCore instance(s), 3 year reserved, 0 high availability replicas per database x 730 Hours, 0 Named replicas per database x 730 Hours, 10 GB Storage, LRS Backup Storage Redundancy, 0 GB Point-In-Time Restore,  0 x 5 GB Long Term Retention",
+      "baseline_prices_total_usd": 122.499999968,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "app-service",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 54.75,
+      "baseline_native_description": "Basic Tier; 1 B1 (1 Core(s), 1.75 GB RAM, 10 GB Storage) x 730 Hours; Windows OS; 0 SNI SSL Connections; 0 IP SSL Connections; 0 Custom Domains; 0 Standard SLL Certificates; 0 Wildcard SSL Certificates",
+      "baseline_prices_total_usd": 54.75,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "cosmos-db",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 0,
+      "baseline_native_description": "Azure Cosmos DB for NoSQL (formerly Core), Standard provisioned throughput (manual), Always-free quantity disabled, Pay as you go, Business Critical, Per Partition Automatic Failover- East US (Write Region), 0 RUs x 730 Hours, 0 GB transactional storage, Analytical storage disabled, 2 copies of periodic backup storage, Dedicated Gateway not enabled",
+      "baseline_prices_total_usd": 0,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "kubernetes-service",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 85.41000000000001,
+      "baseline_native_description": "Standard; Cluster management for 1 clusters; 1 D2 v3 (2 vCPUs, 8 GB RAM) x 730 Hours (Pay as you go), Linux; 0 managed OS disks \u2013 S4",
+      "baseline_prices_total_usd": 85.41000000000001,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "functions",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 0,
+      "baseline_native_description": "Flex Consumption tier, 2048 MB Instance memory size, 0 x10 On demand executions per month, 100 Active on demand executions seconds per instance, 0 Active on demand instances",
+      "baseline_prices_total_usd": 0,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "cognitive-services",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 0,
+      "baseline_native_description": "Azure Language in Foundry Tools, Pay as you go, Free",
+      "baseline_prices_total_usd": 0,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "cost-management",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 0,
+      "baseline_native_description": "No charge for managed Azure spend.",
+      "baseline_prices_total_usd": 0,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "virtual-machine-scale-sets",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 102.20000000000002,
+      "baseline_native_description": "1 D1 (1 vCPU, 3.5 GB RAM) x 730 Hours (Pay as you go), Windows (License included), OS Only",
+      "baseline_prices_total_usd": 102.20000000000002,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "service-fabric",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 513.652,
+      "baseline_native_description": "Deployment Option: Service Fabric Cluster, Windows OS; Scale Set 1: 5 D1 (1 vCPU, 3.5 GB RAM) x 730 Hours (Pay as you go), Windows (License included); Storage for Logs: 1 GB LRS data redundancy, 1 Service Fabric cluster(s) x 730 Hours",
+      "baseline_prices_total_usd": 513.652,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "container-instances",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 0.0001248611111111112,
+      "baseline_native_description": "1 Container group(s) x 10 Second(s), Linux OS, Pay as you go, 1 GB Memory, 1 vCPU(s)",
+      "baseline_prices_total_usd": 0.0001248611111111112,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "batch",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 160.60000000000002,
+      "baseline_native_description": "Cloud Services: 1 A1 (1 Cores, 1.75 GB RAM) x 730 Hours; Virtual Machines: 1 D1 (1 vCPU, 3.5 GB RAM) x 730 Hours (Pay as you go), Windows (License Included)",
+      "baseline_prices_total_usd": 160.60000000000002,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "cloud-services",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 137.24,
+      "baseline_native_description": "1 D2 v3 (2 Core(s), 8 GB RAM) x 730 Hours",
+      "baseline_prices_total_usd": 137.24,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "azure-vmware",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 17942.910900000003,
+      "baseline_native_description": "3 AV36P VCF BYOL (36 Cores(s), 72 vCPU(s), 768 GB RAM, 20.7 TB vSAN Capacity (all NVMe) ESA x 730 Hours) Pay as you go",
+      "baseline_prices_total_usd": 17942.910900000003,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "virtual-desktop",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 4602.879999999999,
+      "baseline_native_description": "Azure Virtual Desktop, Pooled, Scaling Option: , 500 Users, 90% Peak concurrency, 5% Off peak concurrency, 220 Usage hours/month, multi-session, heavy workload, per user access pricing - Not Applicable, D4s v5 (4 vCPU(s), 16 GB RAM) (Pay as you go), P10 \u200b(128 GiB, 500 IOPS) Disks, Premium File Storage: 0 GB of data at-rest, Inter Region transfer type, 5 GB outbound data transfer from East US 2 to East Asia",
+      "baseline_prices_total_usd": 4602.879999999999,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "spring-apps",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 423.4,
+      "baseline_native_description": "Enterprise Plan, Apps [6 vCPUs, 12 GB Memory, 730 Hours], VMware Tanzu Software IP disabled",
+      "baseline_prices_total_usd": 423.4,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "virtual-machines\\dedicated-host",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 3665.33,
+      "baseline_native_description": "Dsv3 Type 3, 1 host x 730 Hours; 1 Software license: Windows OS, 2 vCPU x 730 Hours",
+      "baseline_prices_total_usd": 3665.33,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "nutanix-on-azure",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 10932.48,
+      "baseline_native_description": "3 AN36 (36 Cores(s), 576 GB RAM, 18.6 TB All Flash Capacity x 730 Hours) Pay as you go",
+      "baseline_prices_total_usd": 10932.48,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "virtual-network",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 4,
+      "baseline_native_description": "East US (Virtual Network 1): 100 GB Outbound Data Transfer; East US (Virtual Network 2): 100 GB Outbound Data Transfer",
+      "baseline_prices_total_usd": 4,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "virtual-network-manager",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 0,
+      "baseline_native_description": "0 Managed virtual networks x 730 Hours, 0 Network Verifier, 0 Managed IPs x 730 Hours",
+      "baseline_prices_total_usd": 0,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "load-balancer",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 0,
+      "baseline_native_description": "Basic Load Balancer is free of charge",
+      "baseline_prices_total_usd": 0,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "application-gateway",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 0,
+      "baseline_native_description": "Basic V1 tier, Small Instance size: 0 Gateway hours instance(s) x 730 Hours, 0 GB Data processed unit(s), 5 GB Zone unit(s)",
+      "baseline_prices_total_usd": 0,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "vpn-gateway",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 26.279999999999998,
+      "baseline_native_description": "VPN Gateways, Basic VPN tier, 730 gateway hours, 10 S2S tunnels, 128 P2S connections, 0 GB, Inter-VNET outbound VPN gateway type",
+      "baseline_prices_total_usd": 26.279999999999998,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "dns",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 0,
+      "baseline_native_description": "Zone 1, DNS, Public; 0 hosted DNS zones, 0 DNS queries",
+      "baseline_prices_total_usd": 0,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "cdn",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 0,
+      "baseline_native_description": "Zone 1: 0 GB, Zone 2: 0 GB, Zone 3: 0 GB, Zone 4: 0 GB, Zone 5: 0 GB",
+      "baseline_prices_total_usd": 0,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "ddos-protection",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 2943.54834,
+      "baseline_native_description": "Network Protection,  Protection for 100 resources",
+      "baseline_prices_total_usd": 2943.54834,
+      "baseline_has_pricing": true
+    },
+    {
+      "service": "traffic-manager",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 0,
+      "baseline_native_description": "0 million DNS queries/mo, 0 Azure endpoint(s), 0 Fast Azure endpoint(s), 0 External endpoint(s), 0 Fast External endpoint(s), 0 million(s) of user measurements, 0 million(s) of data points processed.",
+      "baseline_prices_total_usd": 0,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "expressroute",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 193.7,
+      "baseline_native_description": "ExpressRoute, Zone 1, Standard, Metered; 50 Mbps Circuit X 1 circuit, 0 GB in Additional Outbound Data Transfer, Virtual Network Gateways, Standard VNet Gateway, 730 Hours; Global Reach Add On: Disabled",
+      "baseline_prices_total_usd": 193.7,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "network-watcher",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 5.8,
+      "baseline_native_description": "1 GB Network Logs Collected, 0 Checks for Network Diagnostics, 1 Connection Metrics, 1 DNS or App Gateway Servers x 0 GB logs ingested, 1 GB logs collected for Traffic Analytics (Standard processing), 1 GB logs collected for Traffic Analytics (Accelerated processing)",
+      "baseline_prices_total_usd": 5.8,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "bandwidth",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 0,
+      "baseline_native_description": "Inter Region transfer type, 5 GB outbound data transfer from West US to East Asia",
+      "baseline_prices_total_usd": 0,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "ip-addresses",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 0,
+      "baseline_native_description": "Basic (Classic), 0 Dynamic IP Addresses X 730 Hours, 0 Static IP Addresses X 730 Hours",
+      "baseline_prices_total_usd": 0,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "azure-firewall",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 912.5,
+      "baseline_native_description": "Standard tier, 1 Logical firewall units x 730 Hours, 0 GB Data processed",
+      "baseline_prices_total_usd": 912.5,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "virtual-wan",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 182.5,
+      "baseline_native_description": "730 Deployment Hours, 0 Routing infrastructure units, 0 GB of data processed, Site to site VPN connection for 0 scale units, 0 deployed for 730 Hours, User VPN connection for 0 scale units for 730 Hours and 0 scale units for 730 Hours, ExpressRoute connections for 0 scale units, 0 deployed for 730 Hours",
+      "baseline_prices_total_usd": 182.5,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "azure-bastion",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 138.7,
+      "baseline_native_description": "Basic Tier, 730 Hours, 5 GB Outbound Data Transfer",
+      "baseline_prices_total_usd": 138.7,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "private-link",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 9.3,
+      "baseline_native_description": "1 Endpoints X 730 Hours, 100 GB Outbound data processed, 100 GB Inbound data processed",
+      "baseline_prices_total_usd": 9.3,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "firewall-manager",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 0,
+      "baseline_native_description": "1 Parent Policies. \"Policy 1\" (Policy 1): 1 Firewall(s), 1 Region(s)",
+      "baseline_prices_total_usd": 0,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "frontdoor-standard-premium",
+      "import_status": "native-pricing-error",
+      "baseline_native_total_usd": 0,
+      "baseline_native_description": "An error occurred. Please refresh Azure Front Door or remove it from your estimate",
+      "baseline_prices_total_usd": null,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "route-server",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 0,
+      "baseline_native_description": "0 Gateway hours",
+      "baseline_prices_total_usd": 0,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "communications-gateway",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 1299.4,
+      "baseline_native_description": "Fixed Network service fee, 0 additional users",
+      "baseline_prices_total_usd": 1299.4,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "virtual-network-nat",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 32.85,
+      "baseline_native_description": "Standard Tier, NAT Gateway created with 730 Hours and 0 GB of data processed",
+      "baseline_prices_total_usd": 32.85,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "advanced-container-networking-services",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 18.25,
+      "baseline_native_description": "Nodes 1 x 730 Hours",
+      "baseline_prices_total_usd": 18.25,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "storage-actions",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 0,
+      "baseline_native_description": "0 Task assignment execution runs, 0 x1 million Blobs scanned per run, 0 x1 million average operations per Blob per run",
+      "baseline_prices_total_usd": 0,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "azure-virtual-enclaves",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 2639.098,
+      "baseline_native_description": "730 Hours, 1 enclaves in East US",
+      "baseline_prices_total_usd": 1219.1,
+      "baseline_has_pricing": true
+    },
+    {
+      "service": "databox",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 0,
+      "baseline_native_description": "Data Box Disk, 1 Order, Shipping fee included, 0 Daily disk usage days",
+      "baseline_prices_total_usd": 0,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "data-share",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 730.05,
+      "baseline_native_description": "1 Dataset snapshots, 2 vCores x 730 Hours",
+      "baseline_prices_total_usd": 730.05,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "netapp",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 150.99904,
+      "baseline_native_description": "Standard Storage, Single Encryption, Cool Access not enabled, 1 TiB x 730 Hours",
+      "baseline_prices_total_usd": 150.99904,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "azure-stack-edge",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 717,
+      "baseline_native_description": "Azure Stack Edge Pro, 1 Unit with GPU, 1 Unit ships to US",
+      "baseline_prices_total_usd": 717,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "managed-disks",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 1.586,
+      "baseline_native_description": "Managed Disks, Standard HDD, S4 Disk Type 1 Disks, 100 Storage transactions; Pay as you go",
+      "baseline_prices_total_usd": 1.586,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "confidential-ledger",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 90.67999999999999,
+      "baseline_native_description": "P1 Tier, 1 Ledger x 730 Hours, 1 GB Storage",
+      "baseline_prices_total_usd": 90.67999999999999,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "azure-elastic-san",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 0,
+      "baseline_native_description": "0 Base Units with total 0 IOPS and 0 MBps throughput, 0 Capacity Units",
+      "baseline_prices_total_usd": 0,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "managed-lustre",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 0,
+      "baseline_native_description": "SSD Storage type, Standard 125 MB/s SKU, 0 TiB increments x 730 Hours",
+      "baseline_prices_total_usd": 0,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "storage\\files",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 48.05736,
+      "baseline_native_description": "HDD (Standard) Media tier, LRS Redundancy, Provisioned v2 Billing model, Provisioned capacity \u2013 256 GiB Provisioned storage, 1,052 Provisioned IOPS, 66 MiB/sec Provisioned throughput, Used capacity - 0 GiB Overflow used snapshot storage, 0 GiB Used soft-deleted storage, 0 File sync servers",
+      "baseline_prices_total_usd": 48.05736,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "container-storage",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 7.73,
+      "baseline_native_description": "1,024 GiB Storage Pool Capacity, 1 Storage Pool; Managed Disks, Standard HDD, S4 Disk Type 1 Disks, 100 Storage transactions; Pay as you go",
+      "baseline_prices_total_usd": 7.73,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "azure-storage-discovery",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 0,
+      "baseline_native_description": "Azure Storage Discovery: 0 Storage Account Analyzed, 0 Total Objects Analyzed",
+      "baseline_prices_total_usd": 0,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "api-management",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 150.00039999999998,
+      "baseline_native_description": "API Management v2 Service, Basic Tier, 1 Base unit(s) x 730 Hours, 0 Scale out unit(s) x 730 Hours, 0 API requests per month",
+      "baseline_prices_total_usd": 150.00039999999998,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "search",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 0,
+      "baseline_native_description": "Free tier",
+      "baseline_prices_total_usd": 0,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "signalr-service",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 0,
+      "baseline_native_description": "Free Tier, 1 Unit",
+      "baseline_prices_total_usd": 0,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "web-pubsub",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 0,
+      "baseline_native_description": "Free Tier, 1 Unit",
+      "baseline_prices_total_usd": 0,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "notification-hubs",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 10,
+      "baseline_native_description": "Basic tier, 1 million additional pushes",
+      "baseline_prices_total_usd": 10,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "app-service\\static",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 0,
+      "baseline_native_description": "Free tier",
+      "baseline_prices_total_usd": 0,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "communication-services",
+      "import_status": "native-pricing-error",
+      "baseline_native_total_usd": 0,
+      "baseline_native_description": "An error occurred. Please refresh Azure Communication Services or remove it from your estimate",
+      "baseline_prices_total_usd": null,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "fluid-relay",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 0.358,
+      "baseline_native_description": "Azure Fluid Relay Standard, 2 average number of users per session, 10 average number of operations sent per user per minute, 60 average session duration in minutes, 2 MB Storage per session, 100 average number of sessions per month",
+      "baseline_prices_total_usd": 0.358,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "azure-maps",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 0,
+      "baseline_native_description": "Gen 2 Pricing Tier, 1 x 1,000 Map Tile transactions, 1 x 1,000 Traffic Tile transactions, 1 x 1,000 Weather Tile transactions, 1 x 1,000 Imagery Tile transactions, 1 x 1,000 Static Map Image transactions, 1 x 1,000 Search transactions, 1 x 1,000 Route transactions, 1 x 1,000 Traffic Data transactions, 1 x 1,000 Time Zone transactions, 1 x 1,000 Geolocation transactions, 1 x 1,000 Weather Service transactions, 1 x 1,000 Spatial Operation transactions, 1 x 1,000 Data Upload transactions, Creator: not created",
+      "baseline_prices_total_usd": 0,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "remote-rendering",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 3357.9999999999995,
+      "baseline_native_description": "Standard Remote Rendering, 1 device X 730 Hours, 1 asset conversion",
+      "baseline_prices_total_usd": 3357.9999999999995,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "container-registry",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 4.998,
+      "baseline_native_description": "Basic Tier, 1 registry x 30 days, 0 GB Extra Storage, Container Build - 1 CPUs x 1 Seconds - Inter Region transfer type, 5 GB outbound data transfer from East US to East Asia",
+      "baseline_prices_total_usd": 4.998,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "openshift",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 2100.5699999999997,
+      "baseline_native_description": "Red Hat OpenShift 4, 3 x D4s v3 Worker nodes (Pay as you go), 3 P10 disks, 3 x D8s v3 Control plane nodes (Pay as you go) , 3 P30 disks",
+      "baseline_prices_total_usd": 2100.5699999999997,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "container-apps",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 0,
+      "baseline_native_description": "Consumption Plan Type, 0 million requests per month, Pay as you go, 20 concurrent requests per container app, 100 milliseconds execution time per request, 1 vCPU, 1 GiB memory, Pay as you go",
+      "baseline_prices_total_usd": 0,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "aks-ee",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 0,
+      "baseline_native_description": "0 devices",
+      "baseline_prices_total_usd": 0,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "documentdb",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 21.303,
+      "baseline_native_description": "Azure DocumentDB, M10 cluster with 1 Shards x 730 Hours, 64 GB General Purpose Storage, Without High Availability",
+      "baseline_prices_total_usd": 21.303,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "mysql",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 125.40500000000002,
+      "baseline_native_description": "Flexible Server Deployment, General Purpose Tier, 1 D2DS v4 (2 vCores) x 730 Hours, 5 GB Storage with ZRS redundancy, 0 million Paid IO, 0 GB Additional Backup storage with LRS, without High availability, without Reader Endpoint, without Extended Support",
+      "baseline_prices_total_usd": 125.40500000000002,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "mariadb",
+      "import_status": "native-pricing-error",
+      "baseline_native_total_usd": 0,
+      "baseline_native_description": null,
+      "baseline_prices_total_usd": null,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "postgresql",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 130.515,
+      "baseline_native_description": "Flexible Server Deployment, General Purpose Tier, 1 D2ds v5 (2 vCores) x 730 Hours (Pay as you go), Storage - Premium SSD, 5 GiB Storage, 0 Provisioned IOPS, 0 GiB Additional Backup storage - LRS redundancy, without High Availability, without Extended Support",
+      "baseline_prices_total_usd": 130.515,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "synapse-analytics",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 6418.936514285714,
+      "baseline_native_description": "Tier: Compute Optimized Gen2, Dedicated SQL Pools: DWU 500 x 730 Hours, 1 TB of storage with Geo-redundant disaster recovery; East US Region, 100 GB of data collected per day, 7 days of Hot Cache, 30 days of total retention, 7 times estimated data compression, 730 Hours of 2 x Extra Small (2 vCores) Engine Instances, 730 Hours of 2 x 1 vCore Data Management Instances",
+      "baseline_prices_total_usd": 6418.936514285714,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "database-migration",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 0.308,
+      "baseline_native_description": "Premium pricing tier, 4 vCore, 1 Instances X 1 Hours",
+      "baseline_prices_total_usd": 0.308,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "redis-cache",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 16.06,
+      "baseline_native_description": "Basic tier; 1 C0 instances, 730 Hours",
+      "baseline_prices_total_usd": 16.06,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "health-data-services",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 0,
+      "baseline_native_description": "0 GB Structured storage, 0 GB BLOB storage, 0 x100K API Requests, 0 GB FHIR Transformation, 0 MB Unstructured De-identification Transformation, 0 GB Structured De-identification Transformation, 0 GB Transcode DICOM Transformation, 0 GB Export Batch, 0 x1 million Events",
+      "baseline_prices_total_usd": 0,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "azure-sql",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 400.10000008800006,
+      "baseline_native_description": "Managed Instance, General Purpose, Single Instance, 8 vCore, Primary Instance, 1 instance(s), 3 year reserved, SQL license (AHB), 32 GB Storage, Backup storage redundancy - LRS, 1 GB Point-In-Time Restore, 5 GB Long Term Retention",
+      "baseline_prices_total_usd": 400.10000008800006,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "managed-instance-apache-cassandra",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 2028.3,
+      "baseline_native_description": "3 DS13 v2 (8 vCPUs, 56 GB RAM) x 730 Hours, 3 storage disks",
+      "baseline_prices_total_usd": 2028.3,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "managed-redis",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 315.36,
+      "baseline_native_description": "Memory Optimized; Pay as you go; 1 x M10 Instance(s), With High-Availability",
+      "baseline_prices_total_usd": 315.36,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "horizondb",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 270.18359999999996,
+      "baseline_native_description": "1 replicas with 2 cores per replica for 730 Hours; 10 GB of zone-redundant storage; 10 GB of backup storage",
+      "baseline_prices_total_usd": 270.18359999999996,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "microsoft-fabric",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 262.8,
+      "baseline_native_description": "F2, 2 Capacity units x 730 Hours, OneLake hot storage 0 GB, OneLake cool storage 0 GB, OneLake cold storage 0 GB, OneLake cache 0 GB",
+      "baseline_prices_total_usd": 262.8,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "databricks",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 504.7950000000001,
+      "baseline_native_description": "All-Purpose Compute Workload, Premium Tier, 1 D3V2 (4 vCPU(s), 14 GB RAM) x 730 Hours, Pay as you go, 0.75 DBU x 730 Hours",
+      "baseline_prices_total_usd": 504.7950000000001,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "hdinsight",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 1108.1399999999999,
+      "baseline_native_description": "",
+      "baseline_prices_total_usd": 1108.1399999999999,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "machine-learning-service",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 167.17000000000002,
+      "baseline_native_description": "1 D3 v2 (4 Core(s), 14 GB RAM) x 730 Hours, Pay as you go",
+      "baseline_prices_total_usd": 167.17000000000002,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "stream-analytics",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 81.3,
+      "baseline_native_description": "Standard Type, 1 Streaming Unit(s) x 730 Hours; Stream Analytics on 1 Device(s) with IoT Edge",
+      "baseline_prices_total_usd": 81.3,
+      "baseline_has_pricing": true
+    },
+    {
+      "service": "event-hubs",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 10.95,
+      "baseline_native_description": "Basic tier: 1 Throughput unit(s) x 730 Hours, 0 million Ingress events",
+      "baseline_prices_total_usd": 10.95,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "power-bi-embedded",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 735.913,
+      "baseline_native_description": "1 node(s) x 730 Hours, Node type: A1, 1 Virtual Core(s), 3GB RAM, 1-300 Peak renders/hour",
+      "baseline_prices_total_usd": 735.913,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "analysis-services",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 1481.8999999999999,
+      "baseline_native_description": "Standard S1 (Hours), 1 Instance(s), 730 Hours",
+      "baseline_prices_total_usd": 1481.8999999999999,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "data-catalog",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 0,
+      "baseline_native_description": "Free tier",
+      "baseline_prices_total_usd": 0,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "bot-services",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 0,
+      "baseline_native_description": "Free Tier",
+      "baseline_prices_total_usd": 0,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "data-explorer",
+      "import_status": "native-pricing-error",
+      "baseline_native_total_usd": 0,
+      "baseline_native_description": "An error occurred. Please refresh Azure Data Explorer or remove it from your estimate",
+      "baseline_prices_total_usd": null,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "data-factory",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 0,
+      "baseline_native_description": "Azure Data Factory V2 Type, Data Pipeline Service Type,     ",
+      "baseline_prices_total_usd": 0,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "purview",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 145.59955,
+      "baseline_native_description": "Data Security: 1 Assets x 31 days, 1 User activities, 1 Requests per day x 31 days, 1 GBs x 31 days, 1 Compute Unit x 24 hours,1 x 10,000 assets",
+      "baseline_prices_total_usd": 145.59955,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "chaos-studio",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 0.1,
+      "baseline_native_description": "Azure Chaos Studio: (1 actions x 1 minutes)",
+      "baseline_prices_total_usd": 0.1,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "managed-grafana",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 49.932,
+      "baseline_native_description": "Standard pricing plan, 730 Hours, zone redundancy not added, 0 active users",
+      "baseline_prices_total_usd": 49.932,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "graph-data-connect",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 1859.25,
+      "baseline_native_description": "Ad-hoc Use\u200b scenario;\u00a02,479,000 Objects per billing period",
+      "baseline_prices_total_usd": 1859.25,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "genomics",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 1,
+      "baseline_native_description": "10 Gigabases processed per genome, 1 genomes processed in a month",
+      "baseline_prices_total_usd": 1,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "machine-learning-studio",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 0,
+      "baseline_native_description": "Free",
+      "baseline_prices_total_usd": 0,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "open-datasets",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 0,
+      "baseline_native_description": "There is no charge to use Azure Open Datasets during preview.",
+      "baseline_prices_total_usd": 0,
+      "baseline_has_pricing": true
+    },
+    {
+      "service": "openai-service",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 0,
+      "baseline_native_description": "Language Models, GPT-4o-128K, Standard (On-Demand), Global, 0 x 1,000 input tokens, 0 x 1,000 output tokens",
+      "baseline_prices_total_usd": 0,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "healthcare-agent-service",
+      "import_status": "native-pricing-error",
+      "baseline_native_total_usd": 0,
+      "baseline_native_description": "An error occurred. Please refresh Healthcare agent service or remove it from your estimate",
+      "baseline_prices_total_usd": null,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "form-recognizer",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 0,
+      "baseline_native_description": "Azure Document Intelligence, Pay as you go, Free: Up to 500 pages included per month",
+      "baseline_prices_total_usd": 0,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "video-indexer",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 0,
+      "baseline_native_description": "Video Indexer for Media: All insights, Standard, 0 input content minutes; Video Modification: 0 input content minutes",
+      "baseline_prices_total_usd": 0,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "content-understanding",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 0,
+      "baseline_native_description": "Azure Content Understanding, 0 x 1,000 pages of Non-text files document input, 0 x 1,000 pages of document layouts, 0 x 1,000 pages of document formula, 0 x100 fields and 0 x 1,000 pages of document output, 0 x10 fields and 0 x1,000 images of output, 0 hours of audio input, 0 x10 fields and 0 hours of audio output, 0 hours of video input, 0 hours of video face grouping, 0 x10 fields and 0 hours of face grouping output",
+      "baseline_prices_total_usd": 0,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "sre-agent",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 0,
+      "baseline_native_description": "0 Always on agents x 730 Hours, 0 Active tasks per day x Tasks run for 0 days a month x 0 seconds runtime on each task",
+      "baseline_prices_total_usd": 0,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "planetary-computer-pro",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 0,
+      "baseline_native_description": "0 compute hours, 0 GB geospatial storage, 0 x 10,000 geospatial data operations, 0 GB data transfer",
+      "baseline_prices_total_usd": 0,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "iot-hub",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 0,
+      "baseline_native_description": "Standard Tier, Free: 500 devices, 8,000 msgs/day, $0.00/mo, 0 IoT Hub Units; ",
+      "baseline_prices_total_usd": 0,
+      "baseline_has_pricing": true
+    },
+    {
+      "service": "iot-edge",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 0,
+      "baseline_native_description": "There are no charges to use Azure IoT Edge.",
+      "baseline_prices_total_usd": 0,
+      "baseline_has_pricing": true
+    },
+    {
+      "service": "iot-central",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 0,
+      "baseline_native_description": "Standard 1 tier, 2 Devices x 730, 0 Additional messages",
+      "baseline_prices_total_usd": 0,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "digital-twins",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 4,
+      "baseline_native_description": "1 Million message, 1 Million operation, 1 Million query unit",
+      "baseline_prices_total_usd": 4,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "time-series-insights",
+      "import_status": "native-pricing-error",
+      "baseline_native_total_usd": 0,
+      "baseline_native_description": "An error occurred. Please refresh Azure Time Series Insights or remove it from your estimate",
+      "baseline_prices_total_usd": null,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "event-grid",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 0,
+      "baseline_native_description": "100,000 operations per month",
+      "baseline_prices_total_usd": 0,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "logic-apps",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 180.96699999999998,
+      "baseline_native_description": "Workloads: Standard plan, 1 WS1 (1 vCores, 3.5 GB RAM) x 730 Hours, 0 Standard Connector Calls per day x 1 day, 0 Enterprise Connector Calls per day x 1 day; Integration Accounts: 0 Premium Integration Accounts x 730 Hours, 0 Standard Integration Accounts x 730 Hours, 0 Basic Integration Accounts x 730 Hours.",
+      "baseline_prices_total_usd": 180.96699999999998,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "windows-10-iot-core",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 30,
+      "baseline_native_description": "100 Device(s)",
+      "baseline_prices_total_usd": 30,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "azure-sql-edge",
+      "import_status": "native-pricing-error",
+      "baseline_native_total_usd": 0,
+      "baseline_native_description": null,
+      "baseline_prices_total_usd": null,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "iot-operations",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 174.99998,
+      "baseline_native_description": "1 node(s) x 730 Hours, 0 asset(s) x 730 Hours",
+      "baseline_prices_total_usd": 174.99998,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "service-bus",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 0,
+      "baseline_native_description": "Basic tier: 0 million messaging operations",
+      "baseline_prices_total_usd": 0,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "energy-data-services",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 0,
+      "baseline_native_description": "0 Instance x 730 Hours, 0 Additional partition x 730 Hours",
+      "baseline_prices_total_usd": 0,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "active-directory",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 307,
+      "baseline_native_description": "Premium P1 - 1 users, Premium P2 - 1 users, Enterprise tier, User forest - 730 Hours.",
+      "baseline_prices_total_usd": 307,
+      "baseline_has_pricing": true
+    },
+    {
+      "service": "active-directory-b2c",
+      "import_status": "native-pricing-error",
+      "baseline_native_total_usd": 0,
+      "baseline_native_description": "An error occurred. Please refresh Azure Active Directory B2C or remove it from your estimate",
+      "baseline_prices_total_usd": null,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "microsoft-entra-external-id",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 0,
+      "baseline_native_description": "0 Monthly active users",
+      "baseline_prices_total_usd": 0,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "defender-for-cloud",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 0,
+      "baseline_native_description": "Microsoft Defender for Cloud Security Posture Management: 0 Billable Resources x 730 Hours",
+      "baseline_prices_total_usd": 0,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "azure-sentinel",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 0,
+      "baseline_native_description": "Logs ingested - 0 GB per day of Analytics tier and 0 GB per day of Data lake tier; Data Processing - 0 GB per day in Data Lake tier to be processed; Retention - 3 months of Analytics Retention, 3 months of Total Retention, 0 months of Data lake Retention; Advanced Data Insights \u2013 0 Hours ; Data lake queries \u2013 0 queries per month, 0 GB data scanned per query of Queries, 0 queries per month, 0 GB data scanned per query of Search Jobs; Entity Analyzer \u2013 0 Security compute units per hour x 730 Hours, 0 Overage Security compute units per hour x 730 Hours; Graph \u2013 0 Hours",
+      "baseline_prices_total_usd": 0,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "key-vault",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 0,
+      "baseline_native_description": "Vault: 0 operations, 0 advanced operations, 0 renewals, 0 protected keys, 0 advanced protected keys; Managed HSM Pools: 0 Standard B1 HSM Pool(s) x 730 Hours",
+      "baseline_prices_total_usd": 0,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "azure-dedicated-hsm",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 3540.4999999999995,
+      "baseline_native_description": "1 HSM(s) x 730 Hours",
+      "baseline_prices_total_usd": 3540.4999999999995,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "defender-easm",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 0,
+      "baseline_native_description": "0 IP Addresses x 30 days, 0 Domains x 30 days, 0 Hosts x 30 days",
+      "baseline_prices_total_usd": 0,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "microsoft-security-copilot",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 0,
+      "baseline_native_description": "0 Security compute units per hour x 730 Hours, 0 Overage Security compute units per hour x 730 Hours",
+      "baseline_prices_total_usd": 0,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "artifact-signing",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 9.99,
+      "baseline_native_description": "Basic Tier, 0 additional signatures",
+      "baseline_prices_total_usd": 9.99,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "azure-cloud-hsm",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 0,
+      "baseline_native_description": "0 HSM Hours",
+      "baseline_prices_total_usd": 0,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "extended-security-updates",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 0,
+      "baseline_native_description": "Extended Security Updates \u2013 Windows Server, Windows Server 2012 Version, Datacenter Edition, 0 Physical or Virtual Cores X 730 Hours",
+      "baseline_prices_total_usd": 0,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "microsoft-defender-isoc",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 72,
+      "baseline_native_description": "Logs ingested - 1 GB per day",
+      "baseline_prices_total_usd": 72,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "azure-devops",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 520,
+      "baseline_native_description": "0 Basic Plan license additional users, 10 Basic + Test Plans license users, Free tier - 1 Microsoft Hosted Pipeline(s), 1 Self Hosted Pipeline(s), GitHub-hosted agents - macOS Operating system, Standard Machine size, 0 jobs per month, 0 minutes duration of each job, 0 GB Artifacts, GitHub Advanced security - 0 committers covered by code security and 0 committers covered by secrets protection",
+      "baseline_prices_total_usd": null,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "lab-services",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 146,
+      "baseline_native_description": "1 Instance(s) x 730 Hours x 20 Lab Units, Size: Classroom Small",
+      "baseline_prices_total_usd": 146,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "app-configuration",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 0,
+      "baseline_native_description": "Free tier",
+      "baseline_prices_total_usd": 0,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "githubenterprise",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 0,
+      "baseline_native_description": "GitHub users - 0 GitHub Enterprise users, 0 Copilot enterprise users, 0 Copilot business users, GitHub Code Quality\u200b - 0 Code Quality Users, GitHub Advanced security - 0 committers covered by code security and 0 committers covered by secrets protection, GitHub actions - Linux Operating system, 2 core runner type, 0 jobs per month, 0 minutes duration of each job, GitHub packages - 0 GB GitHub packages overage storage, 0 GB GitHub packages overage egress bandwidth, GitHub codespaces - Linux Operating system, 2 core codespace, 0 developers x 0 hours monthly usage, 0 developers x 0 codespaces per dev x 0 GB average project storage size, Git Large File Storage - 0 GB LFS overage storage, 0 GB LFS overage egress bandwidth",
+      "baseline_prices_total_usd": 0,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "monitor",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 0,
+      "baseline_native_description": "Log analytics: Log Data Ingestion: 0 GB Daily Auxiliary Logs without processing, 0 GB Daily Auxiliary Logs with processing, 0 GB Daily Basic logs, 0 GB Daily Analytics logs ingested, 1 months of Interactive Retention, 0 months of Retention, 0 GB data restored for 0 days, 0 queries per day with 0 GB data scanned per query, 0 GB of Log Data Exported per day, Platform Log Data Processed per day: 0 GB with Destination to Storage or Event Hub and 0 GB with Destination to Marketplace Partners, 0 Search job Queries per day with 0 GB data scanned per query; 0 SCOM MI Endpoints; Metrics: Using default collection estimation method 0 API calls, (with a cluster of 0 linux nodes, 0 Windows nodes, 0 containers, and 0 pods), 0 Average daily Dashboards users, 7 Dashboards, 50000 Data samples queried per dashboard, 25 promql alerting rules, 25 promql recording rules, 0 metrics datapoints exported; Application Insights: 0 GB Daily Analytics logs ingested, 3 months Data retention, 0 Standard Web Tests, 5 Minutes Execution frequency, Executing for 730 hours; 0 resources monitored X 1 metric time-series monitored per resource, 5 Minutes Log Signal frequency with 0 log signals monitored and 1 time series per signal, 0 Additional events (in thousands), 0 Additional emails (in 100 thousands), 0 Additional push notifications (in 100 thousands), 0 Additional web hooks (in millions)",
+      "baseline_prices_total_usd": 0,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "load-testing",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 45.95,
+      "baseline_native_description": "Load testing details: Test with 50 virtual users x 15 minutes of test duration x 1 test run per month; Playwright Workspaces on linux operating system - 200 total tests in test suite, 6 seconds per test, 220 test runs per month",
+      "baseline_prices_total_usd": 45.95,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "advisor",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 0,
+      "baseline_native_description": "There are no charges to use Azure Advisor.",
+      "baseline_prices_total_usd": null,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "backup",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 0,
+      "baseline_native_description": "Azure VMs, Standard Backup policy, 1 Instance(s) x 0 GB, LRS Redundancy, Low Average Daily Churn, 0 GB Average monthly backup data in Standard Tier, 0 GB Average monthly backup data in Archive Tier",
+      "baseline_prices_total_usd": 0,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "azure-policy",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 6,
+      "baseline_native_description": "Azure Automanage machine configuration, 1 Servers",
+      "baseline_prices_total_usd": 6,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "site-recovery",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 0,
+      "baseline_native_description": "0 Customer instances, 0 Azure instances",
+      "baseline_prices_total_usd": 0,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "automation",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 0,
+      "baseline_native_description": "Update Management (Azure and non-Azure nodes) Capability: 5 Nodes",
+      "baseline_prices_total_usd": 0,
+      "baseline_has_pricing": true
+    },
+    {
+      "service": "managed-applications",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 0,
+      "baseline_native_description": "Managed Applications are built using other Azure services like Compute, Storage, Networking, SQL etc. You will be charged for the underlying Azure services included in your application.",
+      "baseline_prices_total_usd": 0,
+      "baseline_has_pricing": true
+    },
+    {
+      "service": "azure-migrate",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 0,
+      "baseline_native_description": "There is no charge to use Azure Migrate.",
+      "baseline_prices_total_usd": 0,
+      "baseline_has_pricing": true
+    },
+    {
+      "service": "scheduler",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 0,
+      "baseline_native_description": "Standard tier, 0 unit(s)",
+      "baseline_prices_total_usd": 0,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "azure-lighthouse",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 0,
+      "baseline_native_description": "There are no charges to use Azure Lighthouse.",
+      "baseline_prices_total_usd": null,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "resource-mover",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 0,
+      "baseline_native_description": "Azure Resource Mover is available for no additional charge",
+      "baseline_prices_total_usd": 0,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "update-management-center",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 0,
+      "baseline_native_description": "Azure Service type, offered for Azure services at no additional cost.\u200b",
+      "baseline_prices_total_usd": 0,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "media-services",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 0,
+      "baseline_native_description": "Video on Demand (VoD) Encoding type; Standard encoder type, H.264 Codec type, SD (less than 1280\u00d7720) Video output quality, Excludes Audio, 0 minutes of Content.",
+      "baseline_prices_total_usd": 0,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "aks-hci",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 0,
+      "baseline_native_description": " 0 Virtual Cores,  30 Days",
+      "baseline_prices_total_usd": 0,
+      "baseline_has_pricing": null
+    },
+    {
+      "service": "azure-arc",
+      "import_status": "native-import-verified",
+      "baseline_native_total_usd": 6,
+      "baseline_native_description": "Azure Arc enabled Servers: Azure Policy guest configuration, 1 Servers; Azure Arc Enabled SQL Server, Standard edition, 0 vCore(s) X 200 Hours; Azure Arc enabled SQL Managed Instance, Single Instance, General Purpose: 0 vCore(s) X 200 Hours, License included; Azure Arc enabled Kubernetes: Kubernetes configurations off, 4 vCPU's in the Kubernetes Cluster",
+      "baseline_prices_total_usd": 6,
+      "baseline_has_pricing": null
+    }
+  ]
+}

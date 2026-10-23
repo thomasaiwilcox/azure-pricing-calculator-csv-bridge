@@ -1,0 +1,65 @@
+{
+  "service": "managed-instance-apache-cassandra",
+  "display_name": "Azure Managed Instance for Apache Cassandra",
+  "observed_utc": "2026-10-22",
+  "site_build": "20261019-0214-20261019-2100-186570892",
+  "schema_signature": {
+    "computeInstance": "string",
+    "computeInstancesCount": "number",
+    "computeInstancesHours": "number",
+    "computeInstancesHoursFactor": "number",
+    "displayName": "string",
+    "isBreakingChange": "boolean",
+    "isCollapsed": "boolean",
+    "isDeprecated": "boolean",
+    "months": "number",
+    "region": "string",
+    "serviceSlug": "string",
+    "storageInstanceCount": "number",
+    "total": "number",
+    "upfrontTotal": "number",
+    "version": "string"
+  },
+  "golden": {
+    "description": "",
+    "displayName": "",
+    "layoutId": "",
+    "hasPricing": true,
+    "isBreakingChange": false,
+    "isCollapsed": false,
+    "prices": {
+      "upfrontTotal": 0,
+      "total": 0
+    },
+    "region": "us-east",
+    "resourceId": {},
+    "serviceSlug": "managed-instance-apache-cassandra",
+    "shouldShowFreeAccountBenefits": true,
+    "sku": {},
+    "total": 0.0,
+    "upfrontTotal": 0.0,
+    "version": "v1.0.1",
+    "computeInstance": "ds13v2",
+    "computeInstancesCount": 3,
+    "computeInstancesHours": 730.0,
+    "computeInstancesHoursFactor": 1,
+    "storageInstanceCount": 3,
+    "isDeprecated": false,
+    "months": 1
+  },
+  "configuration": {
+    "region": "us-east",
+    "computeInstance": "ds13v2",
+    "computeInstancesCount": 3,
+    "computeInstancesHours": 730,
+    "computeInstancesHoursFactor": 1,
+    "storageInstanceCount": 3,
+    "months": 1
+  },
+  "endpoints": [
+    {
+      "version": "v3",
+      "slug": "managed-instance-apache-cassandra"
+    }
+  ]
+}

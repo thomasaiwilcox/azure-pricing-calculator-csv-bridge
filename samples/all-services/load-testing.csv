@@ -1,0 +1,2 @@
+batch_id,line_id,service,label,notes,config.region,config.usageType,config.aggregateUsageHours,config.loadTestOverageHours,config.virtualUsersPerTest,config.testDuration,config.testRunsPerMonth,config.operatingSystem,config.totalTest,config.secondsPerTest,config.testRuns,config.months
+load-testing,example-001,load-testing,Azure App Testing example,Microsoft native defaults; review every setting and usage,us-east,loadtestdetails,1,13,[50],[15],[1],linux,200,6,220,1

@@ -1,0 +1,84 @@
+{
+  "service": "active-directory",
+  "display_name": "Microsoft Entra ID (formerly Azure AD)",
+  "observed_utc": "2026-10-22",
+  "site_build": "20261019-0214-20261019-2100-186570892",
+  "schema_signature": {
+    "displayName": "string",
+    "dsAvailable": "boolean",
+    "dsObjects": "number",
+    "dsTier": "string",
+    "dsTierString": "string",
+    "dsUserForestHours": "number",
+    "dsUserForestHoursFactor": "number",
+    "isBreakingChange": "boolean",
+    "isCollapsed": "boolean",
+    "isDeprecated": "boolean",
+    "months": "number",
+    "numberOfUsers": "number",
+    "premiumP1Users": "number",
+    "premiumP2Users": "number",
+    "region": "string",
+    "serviceSlug": "string",
+    "tier": "string",
+    "total": "number",
+    "upfrontTotal": "number",
+    "version": "string"
+  },
+  "golden": {
+    "description": "",
+    "displayName": "",
+    "layoutId": "",
+    "hasPricing": true,
+    "isBreakingChange": false,
+    "isCollapsed": false,
+    "prices": {
+      "upfrontTotal": 0,
+      "total": 0
+    },
+    "region": "us-west",
+    "resourceId": {},
+    "serviceSlug": "active-directory",
+    "shouldShowFreeAccountBenefits": true,
+    "sku": {},
+    "total": 0.0,
+    "upfrontTotal": 0.0,
+    "version": "v1.0.11",
+    "tier": "free",
+    "premiumP1Users": 1,
+    "premiumP2Users": 1,
+    "dsTier": "aad-ds-enterprise",
+    "dsTierString": "25001-100000",
+    "dsObjects": 5,
+    "dsUserForestHours": 730.0,
+    "dsUserForestHoursFactor": 1,
+    "dsAvailable": true,
+    "numberOfUsers": 1,
+    "isDeprecated": false,
+    "months": 1
+  },
+  "configuration": {
+    "region": "us-west",
+    "tier": "free",
+    "premiumP1Users": 1,
+    "premiumP2Users": 1,
+    "dsTier": "aad-ds-enterprise",
+    "dsTierString": "25001-100000",
+    "dsObjects": 5,
+    "dsUserForestHours": 730,
+    "dsUserForestHoursFactor": 1,
+    "dsAvailable": true,
+    "numberOfUsers": 1,
+    "months": 1
+  },
+  "endpoints": [
+    {
+      "version": "v3",
+      "slug": "active-directory"
+    },
+    {
+      "version": "v3",
+      "slug": "active-directory-ds"
+    }
+  ]
+}

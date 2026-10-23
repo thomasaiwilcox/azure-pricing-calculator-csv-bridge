@@ -1,0 +1,51 @@
+{
+  "service": "windows-10-iot-core",
+  "display_name": "Windows 10 IoT Core Services",
+  "observed_utc": "2026-10-22",
+  "site_build": "20261019-0214-20261019-2100-186570892",
+  "schema_signature": {
+    "devices": "number",
+    "displayName": "string",
+    "isBreakingChange": "boolean",
+    "isCollapsed": "boolean",
+    "isDeprecated": "boolean",
+    "months": "number",
+    "serviceSlug": "string",
+    "total": "number",
+    "upfrontTotal": "number",
+    "version": "string"
+  },
+  "golden": {
+    "description": "",
+    "displayName": "",
+    "layoutId": "",
+    "hasPricing": true,
+    "isBreakingChange": false,
+    "isCollapsed": false,
+    "prices": {
+      "upfrontTotal": 0,
+      "total": 0
+    },
+    "region": "global",
+    "resourceId": {},
+    "serviceSlug": "windows-10-iot-core",
+    "shouldShowFreeAccountBenefits": true,
+    "sku": {},
+    "total": 0.0,
+    "upfrontTotal": 0.0,
+    "version": "v1.0.0",
+    "devices": 100,
+    "isDeprecated": false,
+    "months": 1
+  },
+  "configuration": {
+    "devices": 100,
+    "months": 1
+  },
+  "endpoints": [
+    {
+      "version": "v2",
+      "slug": "windows-10-iot-core"
+    }
+  ]
+}

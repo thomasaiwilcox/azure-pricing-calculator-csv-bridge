@@ -1,0 +1,2 @@
+batch_id,line_id,service,label,notes,config.region,config.additionalSignatures,config.tier,config.months
+artifact-signing,example-001,artifact-signing,Artifact Signing example,Microsoft native defaults; review every setting and usage,us-west,0,basic,1

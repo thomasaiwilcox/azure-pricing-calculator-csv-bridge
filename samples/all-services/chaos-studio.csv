@@ -1,0 +1,2 @@
+batch_id,line_id,service,label,notes,config.region,config.additionalUnits,config.months
+chaos-studio,example-001,chaos-studio,Azure Chaos Studio example,Microsoft native defaults; review every setting and usage,us-east-2,"[{""actions"":1,""minutes"":1}]",1

@@ -1,0 +1,56 @@
+{
+  "service": "aks-hci",
+  "display_name": "Azure Kubernetes Service on Azure Local",
+  "observed_utc": "2026-10-22",
+  "site_build": "20261019-0214-20261019-2100-186570892",
+  "schema_signature": {
+    "displayName": "string",
+    "isBreakingChange": "boolean",
+    "isCollapsed": "boolean",
+    "isDeprecated": "boolean",
+    "months": "number",
+    "physicalCores": "number",
+    "region": "string",
+    "serviceSlug": "string",
+    "total": "number",
+    "upfrontTotal": "number",
+    "version": "string",
+    "virtualDays": "number"
+  },
+  "golden": {
+    "description": "",
+    "displayName": "",
+    "layoutId": "",
+    "hasPricing": true,
+    "isBreakingChange": false,
+    "isCollapsed": false,
+    "prices": {
+      "upfrontTotal": 0,
+      "total": 0
+    },
+    "region": "us-east-2",
+    "resourceId": {},
+    "serviceSlug": "aks-hci",
+    "shouldShowFreeAccountBenefits": true,
+    "sku": {},
+    "total": 0.0,
+    "upfrontTotal": 0.0,
+    "version": "v1.0.1",
+    "physicalCores": 0,
+    "virtualDays": 30,
+    "isDeprecated": false,
+    "months": 1
+  },
+  "configuration": {
+    "region": "us-east-2",
+    "physicalCores": 0,
+    "virtualDays": 30,
+    "months": 1
+  },
+  "endpoints": [
+    {
+      "version": "v3",
+      "slug": "aks-hci"
+    }
+  ]
+}

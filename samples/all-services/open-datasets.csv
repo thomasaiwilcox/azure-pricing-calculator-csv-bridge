@@ -1,0 +1,2 @@
+batch_id,line_id,service,label,notes,config.months
+open-datasets,example-001,open-datasets,Azure Open Datasets example,Microsoft native defaults; review every setting and usage,1

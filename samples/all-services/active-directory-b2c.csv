@@ -1,0 +1,2 @@
+batch_id,line_id,service,label,notes,config.region,config.authentications,config.multiFactorAuthentications,config.tier,config.months
+active-directory-b2c,example-001,active-directory-b2c,Azure Active Directory B2C example,Microsoft native defaults; review every setting and usage,us-west,50000,0,p1,1

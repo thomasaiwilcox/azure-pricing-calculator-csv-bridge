@@ -1,0 +1,75 @@
+{
+  "service": "network-watcher",
+  "display_name": "Network Watcher",
+  "observed_utc": "2026-10-22",
+  "site_build": "20261019-0214-20261019-2100-186570892",
+  "schema_signature": {
+    "averageLogsIngested": "number",
+    "diagnosticTools": "number",
+    "displayName": "string",
+    "isBreakingChange": "boolean",
+    "isCollapsed": "boolean",
+    "isDeprecated": "boolean",
+    "months": "number",
+    "networkAnalyticsMonitored": "number",
+    "networkLogs": "number",
+    "pingMesh": "number",
+    "region": "string",
+    "serviceSlug": "string",
+    "total": "number",
+    "trafficAnalyticsAcceleratedLogs": "number",
+    "trafficAnalyticsStandardLogs": "number",
+    "upfrontTotal": "number",
+    "version": "string"
+  },
+  "golden": {
+    "description": "",
+    "displayName": "",
+    "layoutId": "",
+    "hasPricing": true,
+    "isBreakingChange": false,
+    "isCollapsed": false,
+    "prices": {
+      "upfrontTotal": 0,
+      "total": 0
+    },
+    "region": "us-east",
+    "resourceId": {},
+    "serviceSlug": "network-watcher",
+    "shouldShowFreeAccountBenefits": true,
+    "sku": {},
+    "total": 0.0,
+    "upfrontTotal": 0.0,
+    "version": "v1.0.5",
+    "networkLogs": 1,
+    "diagnosticTools": 0,
+    "pingMesh": 1,
+    "networkAnalyticsMonitored": 1,
+    "averageLogsIngested": 0,
+    "trafficAnalyticsAcceleratedLogs": 1,
+    "trafficAnalyticsStandardLogs": 1,
+    "isDeprecated": false,
+    "months": 1
+  },
+  "configuration": {
+    "region": "us-east",
+    "networkLogs": 1,
+    "diagnosticTools": 0,
+    "pingMesh": 1,
+    "networkAnalyticsMonitored": 1,
+    "averageLogsIngested": 0,
+    "trafficAnalyticsAcceleratedLogs": 1,
+    "trafficAnalyticsStandardLogs": 1,
+    "months": 1
+  },
+  "endpoints": [
+    {
+      "version": "v2",
+      "slug": "network-watcher"
+    },
+    {
+      "version": "v2",
+      "slug": "monitor"
+    }
+  ]
+}

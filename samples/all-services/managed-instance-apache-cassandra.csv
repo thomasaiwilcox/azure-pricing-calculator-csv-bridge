@@ -1,0 +1,2 @@
+batch_id,line_id,service,label,notes,config.region,config.computeInstance,config.computeInstancesCount,config.computeInstancesHours,config.computeInstancesHoursFactor,config.storageInstanceCount,config.months
+managed-instance-apache-cassandra,example-001,managed-instance-apache-cassandra,Azure Managed Instance for Apache Cassandra example,Microsoft native defaults; review every setting and usage,us-east,ds13v2,3,730,1,3,1

@@ -1,0 +1,132 @@
+{
+  "format": "calcbridge-revision-evidence/v2",
+  "tested_utc_date": "2026-10-22",
+  "version": "0.2.0",
+  "verdict": "PARTIAL GO: browser-assisted public pricing; authenticated account Save untested",
+  "site_build": "20261019-0214-20261019-2100-186570892",
+  "same_estimate_proof": {
+    "rows": 250,
+    "source_groups": 5,
+    "estimate_id": "b9b88104-f624-4fd6-9ddc-781562461641",
+    "step_end_counts": [
+      50,
+      100,
+      150,
+      200,
+      250
+    ],
+    "workbooks": 1
+  },
+  "fault_test_note": "Failures were injected in a research browser; live native pricing and official export succeeded afterward. See separate retry and reload results for exactly which injections triggered.",
+  "compact_parity": "Every worksheet XML and sharedStrings.xml byte-identical between native baseline and compact small export",
+  "offline_tests": {
+    "python": 23,
+    "node": 13
+  },
+  "exports": [
+    {
+      "file": "Single-estimate-250-GBP.xlsx",
+      "sha256": "bad6e33a59189712526b7ca6cc9f3f776041527665096e6fcc6e451f21bcaf6a",
+      "bytes": 59203,
+      "structure": "xlsx",
+      "line_coverage": "matched",
+      "estimate_name": "CSV-single-estimate-250",
+      "currency": "GBP",
+      "matched_source_lines": 250,
+      "source_job": "Single-estimate-250-job.json",
+      "browser_report": "Single-estimate-250-report.json",
+      "official_export_endpoint": "https://azure.microsoft.com/pricing/calculator/exportestimate/",
+      "observed_http_status": 200,
+      "observed_download": "completed",
+      "workbook_bytes": "unchanged from Microsoft response",
+      "estimate_id": "b9b88104-f624-4fd6-9ddc-781562461641"
+    },
+    {
+      "file": "Single-estimate-small-GBP.xlsx",
+      "sha256": "f67e6628186b1575452636b06cfe240080218f5c0be138560d1e9e582ab30bae",
+      "bytes": 54000,
+      "structure": "xlsx",
+      "line_coverage": "matched",
+      "estimate_name": "CSV-revision-small",
+      "currency": "GBP",
+      "matched_source_lines": 3,
+      "source_job": "Single-estimate-small-job.json",
+      "browser_report": null,
+      "official_export_endpoint": "https://azure.microsoft.com/pricing/calculator/exportestimate/",
+      "observed_http_status": 200,
+      "observed_download": "completed",
+      "workbook_bytes": "unchanged from Microsoft response"
+    },
+    {
+      "file": "Retry-recovery-USD.xlsx",
+      "sha256": "d81caf2d69762f83114e6e20629ce10502e924c1bbb5896c1fb8536c5973a1d8",
+      "bytes": 53953,
+      "structure": "xlsx",
+      "line_coverage": "matched",
+      "estimate_name": "CSV-retry-proof",
+      "currency": "USD",
+      "matched_source_lines": 3,
+      "source_job": "Retry-recovery-job.json",
+      "browser_report": "Retry-recovery-report.json",
+      "official_export_endpoint": "https://azure.microsoft.com/pricing/calculator/exportestimate/",
+      "observed_http_status": 200,
+      "observed_download": "completed",
+      "workbook_bytes": "unchanged from Microsoft response",
+      "estimate_id": "4a8d6bab-88cc-43e8-a422-bb3bf6ea962a"
+    },
+    {
+      "file": "Reload-resume-GBP.xlsx",
+      "sha256": "2a486475b430db3f2ddca3c41aef0f8619a05f860e768cd2ff324b41c5f312e1",
+      "bytes": 53997,
+      "structure": "xlsx",
+      "line_coverage": "matched",
+      "estimate_name": "CSV-reload-proof",
+      "currency": "GBP",
+      "matched_source_lines": 3,
+      "source_job": "Reload-resume-job.json",
+      "browser_report": "Reload-resume-report.json",
+      "official_export_endpoint": "https://azure.microsoft.com/pricing/calculator/exportestimate/",
+      "observed_http_status": 200,
+      "observed_download": "completed",
+      "workbook_bytes": "unchanged from Microsoft response",
+      "estimate_id": "6db509ae-817e-4484-bdb4-fa72a73cdd48"
+    },
+    {
+      "file": "Native-small-baseline.xlsx",
+      "sha256": "8359950c1b5af3c68638e19750eb67fe7b12fbc6dd6e943086d7ba03f1548351",
+      "bytes": 54009,
+      "structure": "xlsx",
+      "line_coverage": "not-checked",
+      "role": "ordinary native export control",
+      "observed_http_status": 200,
+      "workbook_bytes": "unchanged from Microsoft response"
+    },
+    {
+      "file": "Compact-small.xlsx",
+      "sha256": "f7abd4167fbdd2c7971941ca06e96f6a00093ecc957b1ff8a9f286a2e48b58bf",
+      "bytes": 54009,
+      "structure": "xlsx",
+      "line_coverage": "not-checked",
+      "role": "official endpoint with only unused VM Premium SSD v2 cache removed",
+      "observed_http_status": 200,
+      "workbook_bytes": "unchanged from Microsoft response"
+    }
+  ],
+  "artifact_sha256": {
+    "Compact-small.xlsx": "f7abd4167fbdd2c7971941ca06e96f6a00093ecc957b1ff8a9f286a2e48b58bf",
+    "Injected-failure-results.json": "6dc8a0216a0dcf9f2a7c35144ae4e21ece260fc41cc0f0dd7195866ca02ebb3b",
+    "Native-small-baseline.xlsx": "8359950c1b5af3c68638e19750eb67fe7b12fbc6dd6e943086d7ba03f1548351",
+    "Reload-resume-GBP.xlsx": "2a486475b430db3f2ddca3c41aef0f8619a05f860e768cd2ff324b41c5f312e1",
+    "Reload-resume-job.json": "ab592aa600aff6472b0b32e74f74ad4173fac9bcd5d7e5b25588796854b48fb2",
+    "Reload-resume-report.json": "5f0877b0ed91bced1b10ea8f872251a8826a3cb2f0c9a7416fdac45aa71098c2",
+    "Reload-resume-results.json": "56b41084f171d6a0700a5fbee1c039e83faa40a1b7720b8de607406d87ee38dc",
+    "Retry-recovery-USD.xlsx": "d81caf2d69762f83114e6e20629ce10502e924c1bbb5896c1fb8536c5973a1d8",
+    "Retry-recovery-job.json": "5b2c4fef116c55f09fdab1ba236bd638af2cad15fbf902a839058c7ce62164e6",
+    "Retry-recovery-report.json": "797ec8eaee6b21671b27547411d43274138f1f421124511ce98d9646f67eca8c",
+    "Single-estimate-250-GBP.xlsx": "bad6e33a59189712526b7ca6cc9f3f776041527665096e6fcc6e451f21bcaf6a",
+    "Single-estimate-250-job.json": "c87cf5148db7d1a7ef186eb936f53af65bcf77ae8bbe3139307a1dc047819f36",
+    "Single-estimate-250-report.json": "ee2139213ce86391769c1ce3038683eec47dea6157277a45076189f5cf587dab",
+    "Single-estimate-small-GBP.xlsx": "f67e6628186b1575452636b06cfe240080218f5c0be138560d1e9e582ab30bae",
+    "Single-estimate-small-job.json": "867b85ae62157b780e7b33f05b2938f3f0c5a229668d1aaf2c585bfd23b2ff23"
+  }
+}

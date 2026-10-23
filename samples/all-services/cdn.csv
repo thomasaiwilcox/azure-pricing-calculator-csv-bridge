@@ -1,0 +1,2 @@
+batch_id,line_id,service,label,notes,config.region,config.provider,config.tier,config.zone1,config.zoneOneStorageUnits,config.zone2,config.zoneTwoStorageUnits,config.zone3,config.zoneThreeStorageUnits,config.zone4,config.zoneFourStorageUnits,config.zone5,config.zoneFiveStorageUnits,config.months
+cdn,example-001,cdn,Content Delivery Network example,Microsoft native defaults; review every setting and usage,,microsoft,standard,0,1,0,1,0,1,0,1,0,1,1

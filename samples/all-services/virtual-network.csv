@@ -1,0 +1,2 @@
+batch_id,line_id,service,label,notes,config.vNet1Peering,config.vNet1PeeringFactor,config.vNet1Region,config.vNet2Peering,config.vNet2PeeringFactor,config.vNet2Region,config.months
+virtual-network,example-001,virtual-network,Virtual Network example,Microsoft native defaults; review every setting and usage,100,1,us-east,100,1,us-east,1

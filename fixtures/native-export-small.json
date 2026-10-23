@@ -1,0 +1,4827 @@
+{
+  "currency": "GBP",
+  "payload": {
+    "estimateTimestamp": "2026-10-22T14:02:28.699Z",
+    "instances": [
+      {
+        "serviceSlug": "virtual-machines",
+        "version": "v1.3.1",
+        "region": "united-kingdom-south",
+        "addHybridBenefit": false,
+        "addSnapshot": false,
+        "billingOption": "payg",
+        "category": "all",
+        "computeBillingOption": "payg",
+        "computePaymentOption": "monthly",
+        "count": 1,
+        "dataTransferType": "interregion",
+        "destinationRegion": "asia-pacific-east",
+        "hasOneYearSoftwareData": false,
+        "hasThreeYearSoftwareData": false,
+        "hours": 730,
+        "hoursFactor": 1,
+        "internetEgressStorageUnits": 1,
+        "internetEgressUnits": 0,
+        "interRegionStorageUnits": 1,
+        "interRegionUnits": 0,
+        "instanceSeries": "all",
+        "managedDisks": 0,
+        "managedDiskRedundancy": "lrs",
+        "managedDiskTier": "standardhdd",
+        "managedDisksTransactions": 0,
+        "managedDiskType": "s4",
+        "managedSnapshotRedundancy": "lrs",
+        "operatingSystem": "linux",
+        "osBillingOption": "payg",
+        "routedVia": "microsoftglobalnetwork",
+        "type": "ubuntu",
+        "tier": "standard",
+        "size": "d4sv5",
+        "snapshotStorage": 0,
+        "softwareBillingOption": "payg",
+        "storageV2Number": 1,
+        "storageV2Hours": 730,
+        "storageV2HoursFactor": 1,
+        "storageV2Iops": 3000,
+        "storageV2Size": 1,
+        "storageV2Throughput": 125,
+        "sqlSoftwareBillingOption": "payg",
+        "subscriptionOption": "ahb",
+        "cvmStorageHours": 730,
+        "cvmStorageHoursFactor": 1,
+        "isDeprecated": false,
+        "displayName": "[vm-001] web-01",
+        "isCollapsed": true,
+        "isBreakingChange": false,
+        "upfrontTotal": 0,
+        "total": 162.06,
+        "months": 1,
+        "shouldShowFreeAccountBenefits": true,
+        "vmSkus": {},
+        "description": "1 D4s v5 (4 vCPUs, 16 GB RAM) x 730 Hours (Pay as you go), Linux,  (Pay as you go); 0 managed disks \u2013 S4; Inter Region transfer type, 0 GB outbound data transfer from UK South to East Asia",
+        "layoutId": "virtual-machines-16a4aaf2-3ff6-4e14-803c-6ae21083a541-layout",
+        "prices": {
+          "instance": {
+            "additionalData": {
+              "diskSize": 0,
+              "availableForML": false,
+              "cores": 4,
+              "isHidden": false,
+              "isVcpu": true,
+              "ram": 16,
+              "series": "Dsv5"
+            },
+            "baseOffers": {
+              "compute": {
+                "slug": "linux-d4sv5-standard",
+                "meter": "perhour",
+                "value": 0.222
+              }
+            },
+            "meterSlug": "payg",
+            "offerKind": "v3-flat",
+            "pricingType": "WebDirect",
+            "region": "united-kingdom-south",
+            "resourceId": [],
+            "sku": [],
+            "skuSlug": "linux-d4sv5-standard",
+            "total": 162.06,
+            "value": 0.222,
+            "upfrontTotal": 0,
+            "averagePerMonth": 162.06
+          },
+          "compute": {
+            "instance": {
+              "slug": "linux-d4sv5-standard",
+              "meter": "perhour",
+              "value": 0.222,
+              "additionalData": {
+                "diskSize": 0,
+                "availableForML": false,
+                "cores": 4,
+                "isHidden": false,
+                "isVcpu": true,
+                "ram": 16,
+                "series": "Dsv5"
+              }
+            },
+            "payGoOffer": {
+              "additionalData": {
+                "diskSize": 0,
+                "availableForML": false,
+                "cores": 4,
+                "isHidden": false,
+                "isVcpu": true,
+                "ram": 16,
+                "series": "Dsv5"
+              },
+              "baseOffers": {
+                "compute": {
+                  "slug": "linux-d4sv5-standard",
+                  "meter": "perhour",
+                  "value": 0.222
+                }
+              },
+              "meterSlug": "payg",
+              "offerKind": "v3-flat",
+              "pricingType": "WebDirect",
+              "region": "united-kingdom-south",
+              "resourceId": [],
+              "sku": [],
+              "skuSlug": "linux-d4sv5-standard",
+              "total": 0,
+              "value": 0.222
+            },
+            "oneYearOffer": {
+              "slug": "linux-d4sv5-standard",
+              "meter": "perhouroneyearreserved",
+              "value": 0.1369863014
+            },
+            "threeYearOffer": {
+              "slug": "linux-d4sv5-standard",
+              "meter": "perhourthreeyearreserved",
+              "value": 0.0876712329
+            },
+            "fiveYearOffer": {
+              "value": null
+            },
+            "savingsOneYearOffer": {
+              "slug": "linux-d4sv5-standard",
+              "meter": "perunitoneyearsavings",
+              "value": 0.16681
+            },
+            "savingsThreeYearOffer": {
+              "slug": "linux-d4sv5-standard",
+              "meter": "perunitthreeyearsavings",
+              "value": 0.11671
+            },
+            "upfrontTotal": 0,
+            "averagePerMonth": 162.06,
+            "total": 162.06
+          },
+          "os": {
+            "ahbOffer": {},
+            "oneYearOffer": {},
+            "threeYearOffer": {},
+            "resolvedOffer": {
+              "additionalData": {
+                "availableForML": false,
+                "cores": 4,
+                "isHidden": false,
+                "isVcpu": true,
+                "ram": 16,
+                "series": "Dsv5",
+                "offerType": "compute"
+              },
+              "meterSlug": "linux-d4sv5-standard",
+              "offerKind": "v2-flat",
+              "pricingType": "",
+              "region": "united-kingdom-south",
+              "resourceId": "",
+              "sku": "",
+              "total": 0,
+              "value": 0
+            },
+            "shouldShowSubscriptionOption": false,
+            "upfrontTotal": 0,
+            "averagePerMonth": 0,
+            "total": 0
+          },
+          "software": {
+            "instance": {
+              "value": null
+            },
+            "payGoOffer": {
+              "value": null
+            },
+            "oneYearOffer": {
+              "value": null
+            },
+            "threeYearOffer": {
+              "value": null
+            },
+            "upfrontTotal": 0,
+            "averagePerMonth": 0,
+            "total": 0
+          },
+          "managedDisks": {
+            "managedDisks": {
+              "disks": {
+                "additionalData": {
+                  "iops": 500,
+                  "maxPaidTransaction": 450000,
+                  "size": 32,
+                  "speed": 60
+                },
+                "meterSlug": "standardhdd-s4",
+                "offerKind": "v2-flat",
+                "pricingType": "WebDirect",
+                "region": "united-kingdom-south",
+                "resourceId": "",
+                "sku": "",
+                "total": 0,
+                "value": 1.69
+              },
+              "snapshot": {
+                "additionalData": {
+                  "maxPaidTransaction": 0
+                },
+                "meterSlug": "standardhdd-snapshot-lrs",
+                "offerKind": "v2-flat",
+                "pricingType": "WebDirect",
+                "region": "united-kingdom-south",
+                "resourceId": "",
+                "sku": "",
+                "total": 0,
+                "value": 0.053
+              },
+              "confidentialOsEncryption": {
+                "additionalData": {
+                  "maxPaidTransaction": 0
+                },
+                "meterSlug": "standardhdd-confidential-lrs",
+                "offerKind": "v2-flat",
+                "pricingType": "WebDirect",
+                "region": "united-kingdom-south",
+                "resourceId": "",
+                "sku": "",
+                "total": 0,
+                "value": 1e-05
+              },
+              "value": 0,
+              "total": 0
+            }
+          },
+          "bandwidth": {
+            "offer": {
+              "additionalData": {
+                "intercontinental": {
+                  "prices": [
+                    {
+                      "limit": 5,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 0.05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                }
+              },
+              "meterSlug": "intercontinental-transatlantic",
+              "offerKind": "v2-graduated",
+              "pricingType": "WebDirect",
+              "region": "intercontinental",
+              "resourceId": "",
+              "sku": "",
+              "total": 0,
+              "value": [
+                {
+                  "limit": 5,
+                  "price": {
+                    "value": 0
+                  }
+                },
+                {
+                  "limit": 1.7976931348623157e+308,
+                  "price": {
+                    "value": 0.05
+                  }
+                }
+              ]
+            },
+            "total": 0,
+            "upfrontTotal": 0
+          },
+          "storageTransactions": {
+            "additionalData": {
+              "maxPaidTransaction": 0
+            },
+            "meterSlug": "transactions-hdd",
+            "offerKind": "v2-flat",
+            "pricingType": "WebDirect",
+            "region": "united-kingdom-south",
+            "resourceId": "",
+            "sku": "",
+            "total": 0,
+            "value": 0.0005
+          },
+          "upfrontTotal": 0,
+          "total": 162.06,
+          "premiumssdV2Offer": {
+            "data": {
+              "additionalData": {
+                "maxPaidTransaction": 0
+              },
+              "meterSlug": "premiumssdv2-capacity",
+              "offerKind": "v2-flat",
+              "pricingType": "WebDirect",
+              "region": "united-kingdom-south",
+              "resourceId": "",
+              "sku": "",
+              "total": 0.09271,
+              "value": 0.000127
+            },
+            "iops": {
+              "additionalData": {
+                "australia-central-2": {
+                  "prices": [
+                    {
+                      "limit": 3000,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 8e-06
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "australia-east": {
+                  "prices": [
+                    {
+                      "limit": 3000,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 7e-06
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "australia-southeast": {
+                  "prices": [
+                    {
+                      "limit": 3000,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 1e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "austria-east": {
+                  "prices": [
+                    {
+                      "limit": 3000,
+                      "price": {
+                        "value": 8e-06
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 8e-06
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "belgium-central": {
+                  "prices": [
+                    {
+                      "limit": 3000,
+                      "price": {
+                        "value": 8e-06
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 8e-06
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "brazil-south": {
+                  "prices": [
+                    {
+                      "limit": 3000,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 1.3e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "brazil-southeast": {
+                  "prices": [
+                    {
+                      "limit": 3000,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 1.6e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "canada-central": {
+                  "prices": [
+                    {
+                      "limit": 3000,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 8e-06
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "canada-east": {
+                  "prices": [
+                    {
+                      "limit": 3000,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 8e-06
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "central-india": {
+                  "prices": [
+                    {
+                      "limit": 3000,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 8e-06
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "us-central": {
+                  "prices": [
+                    {
+                      "limit": 3000,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 8e-06
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "chile-central": {
+                  "prices": [
+                    {
+                      "limit": 3000,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 1.3e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "denmark-east": {
+                  "prices": [
+                    {
+                      "limit": 3000,
+                      "price": {
+                        "value": 8e-06
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 8e-06
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "asia-pacific-east": {
+                  "prices": [
+                    {
+                      "limit": 3000,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 9e-06
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "us-east": {
+                  "prices": [
+                    {
+                      "limit": 3000,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 7e-06
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "us-east-2": {
+                  "prices": [
+                    {
+                      "limit": 3000,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 7e-06
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "france-central": {
+                  "prices": [
+                    {
+                      "limit": 3000,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 8e-06
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "germany-north": {
+                  "prices": [
+                    {
+                      "limit": 3000,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 1.2e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "germany-west-central": {
+                  "prices": [
+                    {
+                      "limit": 3000,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 8e-06
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "south-central-india": {
+                  "prices": [
+                    {
+                      "limit": 3000,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 1e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "indonesia-central": {
+                  "prices": [
+                    {
+                      "limit": 3000,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 7e-06
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "israel-central": {
+                  "prices": [
+                    {
+                      "limit": 3000,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 8e-06
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "italy-north": {
+                  "prices": [
+                    {
+                      "limit": 3000,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 8e-06
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "japan-east": {
+                  "prices": [
+                    {
+                      "limit": 3000,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 8e-06
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "japan-west": {
+                  "prices": [
+                    {
+                      "limit": 3000,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 1.1e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "korea-central": {
+                  "prices": [
+                    {
+                      "limit": 3000,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 8e-06
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "malaysia-west": {
+                  "prices": [
+                    {
+                      "limit": 3000,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 7e-06
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "mexico-central": {
+                  "prices": [
+                    {
+                      "limit": 3000,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 1e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "new-zealand-north": {
+                  "prices": [
+                    {
+                      "limit": 3000,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 7e-06
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "us-north-central": {
+                  "prices": [
+                    {
+                      "limit": 3000,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 7e-06
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "europe-north": {
+                  "prices": [
+                    {
+                      "limit": 3000,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 7e-06
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "norway-east": {
+                  "prices": [
+                    {
+                      "limit": 3000,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 1e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "norway-west": {
+                  "prices": [
+                    {
+                      "limit": 3000,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 1.3e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "poland-central": {
+                  "prices": [
+                    {
+                      "limit": 3000,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 8e-06
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "qatar-central": {
+                  "prices": [
+                    {
+                      "limit": 3000,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 1e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "south-africa-north": {
+                  "prices": [
+                    {
+                      "limit": 3000,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 9e-06
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "south-africa-west": {
+                  "prices": [
+                    {
+                      "limit": 3000,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 1.3e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "us-south-central": {
+                  "prices": [
+                    {
+                      "limit": 3000,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 7e-06
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "asia-pacific-southeast": {
+                  "prices": [
+                    {
+                      "limit": 3000,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 8e-06
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "south-india": {
+                  "prices": [
+                    {
+                      "limit": 3000,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 1.1e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "spain-central": {
+                  "prices": [
+                    {
+                      "limit": 3000,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 8e-06
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "sweden-central": {
+                  "prices": [
+                    {
+                      "limit": 3000,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 7e-06
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "switzerland-north": {
+                  "prices": [
+                    {
+                      "limit": 3000,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 1e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "switzerland-west": {
+                  "prices": [
+                    {
+                      "limit": 3000,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 1.3e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "uae-central": {
+                  "prices": [
+                    {
+                      "limit": 3000,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 1.3e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "uae-north": {
+                  "prices": [
+                    {
+                      "limit": 3000,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 8e-06
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "united-kingdom-south": {
+                  "prices": [
+                    {
+                      "limit": 3000,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 8e-06
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "united-kingdom-west": {
+                  "prices": [
+                    {
+                      "limit": 3000,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 8e-06
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "usgov-arizona": {
+                  "prices": [
+                    {
+                      "limit": 3000,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 8e-06
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "usgov-texas": {
+                  "prices": [
+                    {
+                      "limit": 3000,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 8e-06
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "usgov-virginia": {
+                  "prices": [
+                    {
+                      "limit": 3000,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 8e-06
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "us-west-central": {
+                  "prices": [
+                    {
+                      "limit": 3000,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 8e-06
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "europe-west": {
+                  "prices": [
+                    {
+                      "limit": 3000,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 8e-06
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "us-west": {
+                  "prices": [
+                    {
+                      "limit": 3000,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 8e-06
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "us-west-2": {
+                  "prices": [
+                    {
+                      "limit": 3000,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 7e-06
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "us-west-3": {
+                  "prices": [
+                    {
+                      "limit": 3000,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 7e-06
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                }
+              },
+              "meterSlug": "premiumssdv2-iops",
+              "offerKind": "v2-graduated",
+              "pricingType": "WebDirect",
+              "region": "united-kingdom-south",
+              "resourceId": "",
+              "sku": "",
+              "total": 0,
+              "value": [
+                {
+                  "limit": 3000,
+                  "price": {
+                    "value": 0
+                  }
+                },
+                {
+                  "limit": 1.7976931348623157e+308,
+                  "price": {
+                    "value": 8e-06
+                  }
+                }
+              ]
+            },
+            "throughput": {
+              "additionalData": {
+                "australia-central-2": {
+                  "prices": [
+                    {
+                      "limit": 125,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 6.6e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "australia-east": {
+                  "prices": [
+                    {
+                      "limit": 125,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 5.5e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "australia-southeast": {
+                  "prices": [
+                    {
+                      "limit": 125,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 7.7e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "austria-east": {
+                  "prices": [
+                    {
+                      "limit": 125,
+                      "price": {
+                        "value": 6.5e-05
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 6.5e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "belgium-central": {
+                  "prices": [
+                    {
+                      "limit": 125,
+                      "price": {
+                        "value": 6.5e-05
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 6.5e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "brazil-south": {
+                  "prices": [
+                    {
+                      "limit": 125,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 0.000104
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "brazil-southeast": {
+                  "prices": [
+                    {
+                      "limit": 125,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 0.000127
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "canada-central": {
+                  "prices": [
+                    {
+                      "limit": 125,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 6e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "canada-east": {
+                  "prices": [
+                    {
+                      "limit": 125,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 6.6e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "central-india": {
+                  "prices": [
+                    {
+                      "limit": 125,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 6.3e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "us-central": {
+                  "prices": [
+                    {
+                      "limit": 125,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 6.2e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "chile-central": {
+                  "prices": [
+                    {
+                      "limit": 125,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 7.6e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "denmark-east": {
+                  "prices": [
+                    {
+                      "limit": 125,
+                      "price": {
+                        "value": 6.5e-05
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 6.5e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "asia-pacific-east": {
+                  "prices": [
+                    {
+                      "limit": 125,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 7.3e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "us-east": {
+                  "prices": [
+                    {
+                      "limit": 125,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 5.5e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "us-east-2": {
+                  "prices": [
+                    {
+                      "limit": 125,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 5.5e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "france-central": {
+                  "prices": [
+                    {
+                      "limit": 125,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 6.3e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "germany-north": {
+                  "prices": [
+                    {
+                      "limit": 125,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 9.3e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "germany-west-central": {
+                  "prices": [
+                    {
+                      "limit": 125,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 6.5e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "south-central-india": {
+                  "prices": [
+                    {
+                      "limit": 125,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 7.7e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "indonesia-central": {
+                  "prices": [
+                    {
+                      "limit": 125,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 5.9e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "israel-central": {
+                  "prices": [
+                    {
+                      "limit": 125,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 6.6e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "italy-north": {
+                  "prices": [
+                    {
+                      "limit": 125,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 6.3e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "japan-east": {
+                  "prices": [
+                    {
+                      "limit": 125,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 6.6e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "japan-west": {
+                  "prices": [
+                    {
+                      "limit": 125,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 8.5e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "korea-central": {
+                  "prices": [
+                    {
+                      "limit": 125,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 6.3e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "malaysia-west": {
+                  "prices": [
+                    {
+                      "limit": 125,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 5.9e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "mexico-central": {
+                  "prices": [
+                    {
+                      "limit": 125,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 6e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "new-zealand-north": {
+                  "prices": [
+                    {
+                      "limit": 125,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 5.8e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "us-north-central": {
+                  "prices": [
+                    {
+                      "limit": 125,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 5.5e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "europe-north": {
+                  "prices": [
+                    {
+                      "limit": 125,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 5.5e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "norway-east": {
+                  "prices": [
+                    {
+                      "limit": 125,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 7.8e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "norway-west": {
+                  "prices": [
+                    {
+                      "limit": 125,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 0.000102
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "poland-central": {
+                  "prices": [
+                    {
+                      "limit": 125,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 6.5e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "qatar-central": {
+                  "prices": [
+                    {
+                      "limit": 125,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 7.9e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "south-africa-north": {
+                  "prices": [
+                    {
+                      "limit": 125,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 7.1e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "south-africa-west": {
+                  "prices": [
+                    {
+                      "limit": 125,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 0.0001
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "us-south-central": {
+                  "prices": [
+                    {
+                      "limit": 125,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 5.5e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "asia-pacific-southeast": {
+                  "prices": [
+                    {
+                      "limit": 125,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 6.6e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "south-india": {
+                  "prices": [
+                    {
+                      "limit": 125,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 8.3e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "spain-central": {
+                  "prices": [
+                    {
+                      "limit": 125,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 6.5e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "sweden-central": {
+                  "prices": [
+                    {
+                      "limit": 125,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 5.5e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "switzerland-north": {
+                  "prices": [
+                    {
+                      "limit": 125,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 7.8e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "switzerland-west": {
+                  "prices": [
+                    {
+                      "limit": 125,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 0.000101
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "uae-central": {
+                  "prices": [
+                    {
+                      "limit": 125,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 0.000102
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "uae-north": {
+                  "prices": [
+                    {
+                      "limit": 125,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 6.6e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "united-kingdom-south": {
+                  "prices": [
+                    {
+                      "limit": 125,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 6.3e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "united-kingdom-west": {
+                  "prices": [
+                    {
+                      "limit": 125,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 6.6e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "usgov-arizona": {
+                  "prices": [
+                    {
+                      "limit": 125,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 6.6e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "usgov-texas": {
+                  "prices": [
+                    {
+                      "limit": 125,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 6.6e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "usgov-virginia": {
+                  "prices": [
+                    {
+                      "limit": 125,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 6.6e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "us-west-central": {
+                  "prices": [
+                    {
+                      "limit": 125,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 6.6e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "europe-west": {
+                  "prices": [
+                    {
+                      "limit": 125,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 6.5e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "us-west": {
+                  "prices": [
+                    {
+                      "limit": 125,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 6.6e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "us-west-2": {
+                  "prices": [
+                    {
+                      "limit": 125,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 5.5e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "us-west-3": {
+                  "prices": [
+                    {
+                      "limit": 125,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 5.5e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                }
+              },
+              "meterSlug": "premiumssdv2-throughput",
+              "offerKind": "v2-graduated",
+              "pricingType": "WebDirect",
+              "region": "united-kingdom-south",
+              "resourceId": "",
+              "sku": "",
+              "total": 0,
+              "value": [
+                {
+                  "limit": 125,
+                  "price": {
+                    "value": 0
+                  }
+                },
+                {
+                  "limit": 1.7976931348623157e+308,
+                  "price": {
+                    "value": 6.3e-05
+                  }
+                }
+              ]
+            },
+            "total": 0.09271
+          }
+        },
+        "resourceId": {
+          "compute": [],
+          "bandwidthUnits": "",
+          "managedDisks": "",
+          "snapshot": "",
+          "storageTransactions": ""
+        },
+        "sku": {
+          "compute": "",
+          "bandwidthUnits": "",
+          "managedDisks": "",
+          "snapshot": "",
+          "storageTransactions": ""
+        },
+        "zone": "europe",
+        "serviceCategory": "Compute"
+      },
+      {
+        "serviceSlug": "virtual-machines",
+        "version": "v1.3.1",
+        "region": "united-kingdom-south",
+        "addHybridBenefit": false,
+        "addSnapshot": false,
+        "billingOption": "payg",
+        "category": "all",
+        "computeBillingOption": "payg",
+        "computePaymentOption": "monthly",
+        "count": 2,
+        "dataTransferType": "interregion",
+        "destinationRegion": "asia-pacific-east",
+        "hasOneYearSoftwareData": false,
+        "hasThreeYearSoftwareData": false,
+        "hours": 730,
+        "hoursFactor": 1,
+        "internetEgressStorageUnits": 1,
+        "internetEgressUnits": 0,
+        "interRegionStorageUnits": 1,
+        "interRegionUnits": 0,
+        "instanceSeries": "all",
+        "managedDisks": 0,
+        "managedDiskRedundancy": "lrs",
+        "managedDiskTier": "standardhdd",
+        "managedDisksTransactions": 0,
+        "managedDiskType": "s4",
+        "managedSnapshotRedundancy": "lrs",
+        "operatingSystem": "windows",
+        "osBillingOption": "payg",
+        "routedVia": "microsoftglobalnetwork",
+        "type": "os-only",
+        "tier": "standard",
+        "size": "d8sv5",
+        "snapshotStorage": 0,
+        "softwareBillingOption": "payg",
+        "storageV2Number": 1,
+        "storageV2Hours": 730,
+        "storageV2HoursFactor": 1,
+        "storageV2Iops": 3000,
+        "storageV2Size": 1,
+        "storageV2Throughput": 125,
+        "sqlSoftwareBillingOption": "payg",
+        "subscriptionOption": "ahb",
+        "cvmStorageHours": 730,
+        "cvmStorageHoursFactor": 1,
+        "isDeprecated": false,
+        "displayName": "[vm-002] app-01",
+        "isCollapsed": true,
+        "isBreakingChange": false,
+        "upfrontTotal": 0,
+        "total": 1185.52,
+        "months": 1,
+        "shouldShowFreeAccountBenefits": true,
+        "vmSkus": {},
+        "description": "2 D8s v5 (8 vCPUs, 32 GB RAM) x 730 Hours (Pay as you go), Windows (License included), OS Only; 0 managed disks \u2013 S4; Inter Region transfer type, 0 GB outbound data transfer from UK South to East Asia",
+        "layoutId": "virtual-machines-4af72a09-0ea1-4c64-9440-f624c53839a1-layout",
+        "prices": {
+          "instance": {
+            "additionalData": {
+              "diskSize": 0,
+              "availableForML": false,
+              "cores": 8,
+              "isHidden": false,
+              "isVcpu": true,
+              "ram": 32,
+              "series": "Dsv5"
+            },
+            "baseOffers": {
+              "compute": {
+                "slug": "windows-d8sv5-standard",
+                "meter": "perhour",
+                "value": 0.812
+              }
+            },
+            "meterSlug": "payg",
+            "offerKind": "v3-flat",
+            "pricingType": "WebDirect",
+            "region": "united-kingdom-south",
+            "resourceId": [],
+            "sku": [],
+            "skuSlug": "windows-d8sv5-standard",
+            "total": 1185.52,
+            "value": 0.812,
+            "upfrontTotal": 0,
+            "averagePerMonth": 1185.52
+          },
+          "compute": {
+            "instance": {
+              "slug": "windows-d8sv5-standard",
+              "meter": "perhour",
+              "value": 0.444,
+              "additionalData": {
+                "diskSize": 0,
+                "availableForML": false,
+                "cores": 8,
+                "isHidden": false,
+                "isVcpu": true,
+                "ram": 32,
+                "series": "Dsv5"
+              }
+            },
+            "payGoOffer": {
+              "additionalData": {
+                "diskSize": 0,
+                "availableForML": false,
+                "cores": 8,
+                "isHidden": false,
+                "isVcpu": true,
+                "ram": 32,
+                "series": "Dsv5"
+              },
+              "baseOffers": {
+                "compute": {
+                  "slug": "windows-d8sv5-standard",
+                  "meter": "perhour",
+                  "value": 0.812
+                }
+              },
+              "meterSlug": "payg",
+              "offerKind": "v3-flat",
+              "pricingType": "WebDirect",
+              "region": "united-kingdom-south",
+              "resourceId": [],
+              "sku": [],
+              "skuSlug": "windows-d8sv5-standard",
+              "total": 0,
+              "value": 0.444
+            },
+            "oneYearOffer": {
+              "slug": "linux-d8sv5-standard",
+              "meter": "perhouroneyearreserved",
+              "value": 0.2739726027
+            },
+            "threeYearOffer": {
+              "slug": "linux-d8sv5-standard",
+              "meter": "perhourthreeyearreserved",
+              "value": 0.1753805175
+            },
+            "fiveYearOffer": {
+              "value": null
+            },
+            "savingsOneYearOffer": {
+              "slug": "linux-d8sv5-standard",
+              "meter": "perunitoneyearsavings",
+              "value": 0.33362
+            },
+            "savingsThreeYearOffer": {
+              "slug": "linux-d8sv5-standard",
+              "meter": "perunitthreeyearsavings",
+              "value": 0.23341
+            },
+            "upfrontTotal": 0,
+            "averagePerMonth": 648.24,
+            "total": 648.24
+          },
+          "os": {
+            "ahbOffer": {},
+            "oneYearOffer": {
+              "slug": "windows-subscription-1-pack",
+              "meter": "perhouroneyearreserved",
+              "value": 0.0365296804,
+              "isOnPrem": true
+            },
+            "threeYearOffer": {
+              "slug": "windows-subscription-1-pack",
+              "meter": "perhourthreeyearreserved",
+              "value": 0.0243531202,
+              "isOnPrem": true
+            },
+            "resolvedOffer": {
+              "additionalData": {
+                "availableForML": false,
+                "cores": 8,
+                "isHidden": false,
+                "isVcpu": true,
+                "ram": 32,
+                "series": "Dsv5",
+                "offerType": "compute"
+              },
+              "meterSlug": "windows-d8sv5-standard",
+              "offerKind": "v2-flat",
+              "pricingType": "",
+              "region": "united-kingdom-south",
+              "resourceId": "",
+              "sku": "",
+              "total": 0,
+              "value": 0.36800000000000005
+            },
+            "shouldShowSubscriptionOption": false,
+            "upfrontTotal": 0,
+            "averagePerMonth": 537.2800000000001,
+            "total": 537.2800000000001
+          },
+          "software": {
+            "instance": {
+              "value": null
+            },
+            "payGoOffer": {
+              "value": null
+            },
+            "oneYearOffer": {
+              "value": null
+            },
+            "threeYearOffer": {
+              "value": null
+            },
+            "upfrontTotal": 0,
+            "averagePerMonth": 0,
+            "total": 0
+          },
+          "managedDisks": {
+            "managedDisks": {
+              "disks": {
+                "additionalData": {
+                  "iops": 500,
+                  "maxPaidTransaction": 450000,
+                  "size": 32,
+                  "speed": 60
+                },
+                "meterSlug": "standardhdd-s4",
+                "offerKind": "v2-flat",
+                "pricingType": "WebDirect",
+                "region": "united-kingdom-south",
+                "resourceId": "",
+                "sku": "",
+                "total": 0,
+                "value": 1.69
+              },
+              "snapshot": {
+                "additionalData": {
+                  "maxPaidTransaction": 0
+                },
+                "meterSlug": "standardhdd-snapshot-lrs",
+                "offerKind": "v2-flat",
+                "pricingType": "WebDirect",
+                "region": "united-kingdom-south",
+                "resourceId": "",
+                "sku": "",
+                "total": 0,
+                "value": 0.053
+              },
+              "confidentialOsEncryption": {
+                "additionalData": {
+                  "maxPaidTransaction": 0
+                },
+                "meterSlug": "standardhdd-confidential-lrs",
+                "offerKind": "v2-flat",
+                "pricingType": "WebDirect",
+                "region": "united-kingdom-south",
+                "resourceId": "",
+                "sku": "",
+                "total": 0,
+                "value": 1e-05
+              },
+              "value": 0,
+              "total": 0
+            }
+          },
+          "bandwidth": {
+            "offer": {
+              "additionalData": {
+                "intercontinental": {
+                  "prices": [
+                    {
+                      "limit": 5,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 0.05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                }
+              },
+              "meterSlug": "intercontinental-transatlantic",
+              "offerKind": "v2-graduated",
+              "pricingType": "WebDirect",
+              "region": "intercontinental",
+              "resourceId": "",
+              "sku": "",
+              "total": 0,
+              "value": [
+                {
+                  "limit": 5,
+                  "price": {
+                    "value": 0
+                  }
+                },
+                {
+                  "limit": 1.7976931348623157e+308,
+                  "price": {
+                    "value": 0.05
+                  }
+                }
+              ]
+            },
+            "total": 0,
+            "upfrontTotal": 0
+          },
+          "storageTransactions": {
+            "additionalData": {
+              "maxPaidTransaction": 0
+            },
+            "meterSlug": "transactions-hdd",
+            "offerKind": "v2-flat",
+            "pricingType": "WebDirect",
+            "region": "united-kingdom-south",
+            "resourceId": "",
+            "sku": "",
+            "total": 0,
+            "value": 0.0005
+          },
+          "upfrontTotal": 0,
+          "total": 1185.52,
+          "premiumssdV2Offer": {
+            "data": {
+              "additionalData": {
+                "maxPaidTransaction": 0
+              },
+              "meterSlug": "premiumssdv2-capacity",
+              "offerKind": "v2-flat",
+              "pricingType": "WebDirect",
+              "region": "united-kingdom-south",
+              "resourceId": "",
+              "sku": "",
+              "total": 0.09271,
+              "value": 0.000127
+            },
+            "iops": {
+              "additionalData": {
+                "australia-central-2": {
+                  "prices": [
+                    {
+                      "limit": 3000,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 8e-06
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "australia-east": {
+                  "prices": [
+                    {
+                      "limit": 3000,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 7e-06
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "australia-southeast": {
+                  "prices": [
+                    {
+                      "limit": 3000,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 1e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "austria-east": {
+                  "prices": [
+                    {
+                      "limit": 3000,
+                      "price": {
+                        "value": 8e-06
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 8e-06
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "belgium-central": {
+                  "prices": [
+                    {
+                      "limit": 3000,
+                      "price": {
+                        "value": 8e-06
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 8e-06
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "brazil-south": {
+                  "prices": [
+                    {
+                      "limit": 3000,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 1.3e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "brazil-southeast": {
+                  "prices": [
+                    {
+                      "limit": 3000,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 1.6e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "canada-central": {
+                  "prices": [
+                    {
+                      "limit": 3000,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 8e-06
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "canada-east": {
+                  "prices": [
+                    {
+                      "limit": 3000,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 8e-06
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "central-india": {
+                  "prices": [
+                    {
+                      "limit": 3000,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 8e-06
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "us-central": {
+                  "prices": [
+                    {
+                      "limit": 3000,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 8e-06
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "chile-central": {
+                  "prices": [
+                    {
+                      "limit": 3000,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 1.3e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "denmark-east": {
+                  "prices": [
+                    {
+                      "limit": 3000,
+                      "price": {
+                        "value": 8e-06
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 8e-06
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "asia-pacific-east": {
+                  "prices": [
+                    {
+                      "limit": 3000,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 9e-06
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "us-east": {
+                  "prices": [
+                    {
+                      "limit": 3000,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 7e-06
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "us-east-2": {
+                  "prices": [
+                    {
+                      "limit": 3000,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 7e-06
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "france-central": {
+                  "prices": [
+                    {
+                      "limit": 3000,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 8e-06
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "germany-north": {
+                  "prices": [
+                    {
+                      "limit": 3000,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 1.2e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "germany-west-central": {
+                  "prices": [
+                    {
+                      "limit": 3000,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 8e-06
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "south-central-india": {
+                  "prices": [
+                    {
+                      "limit": 3000,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 1e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "indonesia-central": {
+                  "prices": [
+                    {
+                      "limit": 3000,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 7e-06
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "israel-central": {
+                  "prices": [
+                    {
+                      "limit": 3000,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 8e-06
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "italy-north": {
+                  "prices": [
+                    {
+                      "limit": 3000,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 8e-06
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "japan-east": {
+                  "prices": [
+                    {
+                      "limit": 3000,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 8e-06
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "japan-west": {
+                  "prices": [
+                    {
+                      "limit": 3000,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 1.1e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "korea-central": {
+                  "prices": [
+                    {
+                      "limit": 3000,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 8e-06
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "malaysia-west": {
+                  "prices": [
+                    {
+                      "limit": 3000,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 7e-06
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "mexico-central": {
+                  "prices": [
+                    {
+                      "limit": 3000,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 1e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "new-zealand-north": {
+                  "prices": [
+                    {
+                      "limit": 3000,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 7e-06
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "us-north-central": {
+                  "prices": [
+                    {
+                      "limit": 3000,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 7e-06
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "europe-north": {
+                  "prices": [
+                    {
+                      "limit": 3000,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 7e-06
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "norway-east": {
+                  "prices": [
+                    {
+                      "limit": 3000,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 1e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "norway-west": {
+                  "prices": [
+                    {
+                      "limit": 3000,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 1.3e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "poland-central": {
+                  "prices": [
+                    {
+                      "limit": 3000,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 8e-06
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "qatar-central": {
+                  "prices": [
+                    {
+                      "limit": 3000,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 1e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "south-africa-north": {
+                  "prices": [
+                    {
+                      "limit": 3000,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 9e-06
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "south-africa-west": {
+                  "prices": [
+                    {
+                      "limit": 3000,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 1.3e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "us-south-central": {
+                  "prices": [
+                    {
+                      "limit": 3000,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 7e-06
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "asia-pacific-southeast": {
+                  "prices": [
+                    {
+                      "limit": 3000,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 8e-06
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "south-india": {
+                  "prices": [
+                    {
+                      "limit": 3000,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 1.1e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "spain-central": {
+                  "prices": [
+                    {
+                      "limit": 3000,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 8e-06
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "sweden-central": {
+                  "prices": [
+                    {
+                      "limit": 3000,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 7e-06
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "switzerland-north": {
+                  "prices": [
+                    {
+                      "limit": 3000,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 1e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "switzerland-west": {
+                  "prices": [
+                    {
+                      "limit": 3000,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 1.3e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "uae-central": {
+                  "prices": [
+                    {
+                      "limit": 3000,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 1.3e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "uae-north": {
+                  "prices": [
+                    {
+                      "limit": 3000,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 8e-06
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "united-kingdom-south": {
+                  "prices": [
+                    {
+                      "limit": 3000,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 8e-06
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "united-kingdom-west": {
+                  "prices": [
+                    {
+                      "limit": 3000,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 8e-06
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "usgov-arizona": {
+                  "prices": [
+                    {
+                      "limit": 3000,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 8e-06
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "usgov-texas": {
+                  "prices": [
+                    {
+                      "limit": 3000,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 8e-06
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "usgov-virginia": {
+                  "prices": [
+                    {
+                      "limit": 3000,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 8e-06
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "us-west-central": {
+                  "prices": [
+                    {
+                      "limit": 3000,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 8e-06
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "europe-west": {
+                  "prices": [
+                    {
+                      "limit": 3000,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 8e-06
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "us-west": {
+                  "prices": [
+                    {
+                      "limit": 3000,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 8e-06
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "us-west-2": {
+                  "prices": [
+                    {
+                      "limit": 3000,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 7e-06
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "us-west-3": {
+                  "prices": [
+                    {
+                      "limit": 3000,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 7e-06
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                }
+              },
+              "meterSlug": "premiumssdv2-iops",
+              "offerKind": "v2-graduated",
+              "pricingType": "WebDirect",
+              "region": "united-kingdom-south",
+              "resourceId": "",
+              "sku": "",
+              "total": 0,
+              "value": [
+                {
+                  "limit": 3000,
+                  "price": {
+                    "value": 0
+                  }
+                },
+                {
+                  "limit": 1.7976931348623157e+308,
+                  "price": {
+                    "value": 8e-06
+                  }
+                }
+              ]
+            },
+            "throughput": {
+              "additionalData": {
+                "australia-central-2": {
+                  "prices": [
+                    {
+                      "limit": 125,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 6.6e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "australia-east": {
+                  "prices": [
+                    {
+                      "limit": 125,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 5.5e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "australia-southeast": {
+                  "prices": [
+                    {
+                      "limit": 125,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 7.7e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "austria-east": {
+                  "prices": [
+                    {
+                      "limit": 125,
+                      "price": {
+                        "value": 6.5e-05
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 6.5e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "belgium-central": {
+                  "prices": [
+                    {
+                      "limit": 125,
+                      "price": {
+                        "value": 6.5e-05
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 6.5e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "brazil-south": {
+                  "prices": [
+                    {
+                      "limit": 125,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 0.000104
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "brazil-southeast": {
+                  "prices": [
+                    {
+                      "limit": 125,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 0.000127
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "canada-central": {
+                  "prices": [
+                    {
+                      "limit": 125,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 6e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "canada-east": {
+                  "prices": [
+                    {
+                      "limit": 125,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 6.6e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "central-india": {
+                  "prices": [
+                    {
+                      "limit": 125,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 6.3e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "us-central": {
+                  "prices": [
+                    {
+                      "limit": 125,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 6.2e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "chile-central": {
+                  "prices": [
+                    {
+                      "limit": 125,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 7.6e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "denmark-east": {
+                  "prices": [
+                    {
+                      "limit": 125,
+                      "price": {
+                        "value": 6.5e-05
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 6.5e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "asia-pacific-east": {
+                  "prices": [
+                    {
+                      "limit": 125,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 7.3e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "us-east": {
+                  "prices": [
+                    {
+                      "limit": 125,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 5.5e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "us-east-2": {
+                  "prices": [
+                    {
+                      "limit": 125,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 5.5e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "france-central": {
+                  "prices": [
+                    {
+                      "limit": 125,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 6.3e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "germany-north": {
+                  "prices": [
+                    {
+                      "limit": 125,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 9.3e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "germany-west-central": {
+                  "prices": [
+                    {
+                      "limit": 125,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 6.5e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "south-central-india": {
+                  "prices": [
+                    {
+                      "limit": 125,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 7.7e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "indonesia-central": {
+                  "prices": [
+                    {
+                      "limit": 125,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 5.9e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "israel-central": {
+                  "prices": [
+                    {
+                      "limit": 125,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 6.6e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "italy-north": {
+                  "prices": [
+                    {
+                      "limit": 125,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 6.3e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "japan-east": {
+                  "prices": [
+                    {
+                      "limit": 125,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 6.6e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "japan-west": {
+                  "prices": [
+                    {
+                      "limit": 125,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 8.5e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "korea-central": {
+                  "prices": [
+                    {
+                      "limit": 125,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 6.3e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "malaysia-west": {
+                  "prices": [
+                    {
+                      "limit": 125,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 5.9e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "mexico-central": {
+                  "prices": [
+                    {
+                      "limit": 125,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 6e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "new-zealand-north": {
+                  "prices": [
+                    {
+                      "limit": 125,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 5.8e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "us-north-central": {
+                  "prices": [
+                    {
+                      "limit": 125,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 5.5e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "europe-north": {
+                  "prices": [
+                    {
+                      "limit": 125,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 5.5e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "norway-east": {
+                  "prices": [
+                    {
+                      "limit": 125,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 7.8e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "norway-west": {
+                  "prices": [
+                    {
+                      "limit": 125,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 0.000102
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "poland-central": {
+                  "prices": [
+                    {
+                      "limit": 125,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 6.5e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "qatar-central": {
+                  "prices": [
+                    {
+                      "limit": 125,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 7.9e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "south-africa-north": {
+                  "prices": [
+                    {
+                      "limit": 125,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 7.1e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "south-africa-west": {
+                  "prices": [
+                    {
+                      "limit": 125,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 0.0001
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "us-south-central": {
+                  "prices": [
+                    {
+                      "limit": 125,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 5.5e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "asia-pacific-southeast": {
+                  "prices": [
+                    {
+                      "limit": 125,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 6.6e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "south-india": {
+                  "prices": [
+                    {
+                      "limit": 125,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 8.3e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "spain-central": {
+                  "prices": [
+                    {
+                      "limit": 125,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 6.5e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "sweden-central": {
+                  "prices": [
+                    {
+                      "limit": 125,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 5.5e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "switzerland-north": {
+                  "prices": [
+                    {
+                      "limit": 125,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 7.8e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "switzerland-west": {
+                  "prices": [
+                    {
+                      "limit": 125,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 0.000101
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "uae-central": {
+                  "prices": [
+                    {
+                      "limit": 125,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 0.000102
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "uae-north": {
+                  "prices": [
+                    {
+                      "limit": 125,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 6.6e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "united-kingdom-south": {
+                  "prices": [
+                    {
+                      "limit": 125,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 6.3e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "united-kingdom-west": {
+                  "prices": [
+                    {
+                      "limit": 125,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 6.6e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "usgov-arizona": {
+                  "prices": [
+                    {
+                      "limit": 125,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 6.6e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "usgov-texas": {
+                  "prices": [
+                    {
+                      "limit": 125,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 6.6e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "usgov-virginia": {
+                  "prices": [
+                    {
+                      "limit": 125,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 6.6e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "us-west-central": {
+                  "prices": [
+                    {
+                      "limit": 125,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 6.6e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "europe-west": {
+                  "prices": [
+                    {
+                      "limit": 125,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 6.5e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "us-west": {
+                  "prices": [
+                    {
+                      "limit": 125,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 6.6e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "us-west-2": {
+                  "prices": [
+                    {
+                      "limit": 125,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 5.5e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                },
+                "us-west-3": {
+                  "prices": [
+                    {
+                      "limit": 125,
+                      "price": {
+                        "value": 0
+                      }
+                    },
+                    {
+                      "limit": 1.7976931348623157e+308,
+                      "price": {
+                        "value": 5.5e-05
+                      }
+                    }
+                  ],
+                  "pricingTypes": "WebDirect"
+                }
+              },
+              "meterSlug": "premiumssdv2-throughput",
+              "offerKind": "v2-graduated",
+              "pricingType": "WebDirect",
+              "region": "united-kingdom-south",
+              "resourceId": "",
+              "sku": "",
+              "total": 0,
+              "value": [
+                {
+                  "limit": 125,
+                  "price": {
+                    "value": 0
+                  }
+                },
+                {
+                  "limit": 1.7976931348623157e+308,
+                  "price": {
+                    "value": 6.3e-05
+                  }
+                }
+              ]
+            },
+            "total": 0.09271
+          }
+        },
+        "resourceId": {
+          "compute": [],
+          "bandwidthUnits": "",
+          "managedDisks": "",
+          "snapshot": "",
+          "storageTransactions": ""
+        },
+        "sku": {
+          "compute": "",
+          "bandwidthUnits": "",
+          "managedDisks": "",
+          "snapshot": "",
+          "storageTransactions": ""
+        },
+        "zone": "europe",
+        "serviceCategory": "Compute"
+      },
+      {
+        "serviceSlug": "managed-disks",
+        "version": "v1.0.1",
+        "region": "united-kingdom-south",
+        "addDiskBursting": false,
+        "addManagedDisksSharedDisks": false,
+        "addSnapshot": false,
+        "burstingDuration": 30,
+        "expectedIops": {},
+        "expectedThroughput": {},
+        "managedDiskBillingOption": "payg",
+        "managedDisks": 2,
+        "managedDisksSharedDisks": [
+          {
+            "id": "6f6c8aa7-0c76-49fb-a4e6-2dff7708955b",
+            "additionalMounts": 0
+          }
+        ],
+        "managedDisksTransactions": 0,
+        "managedDiskPaymentOption": "monthly",
+        "managedDiskRedundancy": "lrs",
+        "managedDiskType": "p30",
+        "managedSnapshotRedundancy": "lrs",
+        "snapshotFactor": 1,
+        "snapshotStorage": 100,
+        "snapshotUnits": 1000,
+        "storageV2Number": 1,
+        "storageV2Hours": 730,
+        "storageV2HoursFactor": 1,
+        "storageV2Iops": 3000,
+        "storageV2Size": 1,
+        "storageV2Throughput": 125,
+        "ultraDisks": 1,
+        "ultraHours": 730,
+        "ultraHoursFactor": 1,
+        "ultraIops": 100,
+        "ultraSize": 4,
+        "ultraThroughput": 1,
+        "tier": "premiumssd",
+        "workingDays": 20,
+        "cvmStorageHours": 730,
+        "cvmStorageHoursFactor": 1,
+        "isDeprecated": false,
+        "displayName": "[disk-001] app-data-disk",
+        "isCollapsed": true,
+        "isBreakingChange": false,
+        "upfrontTotal": 0,
+        "total": 327.096,
+        "months": 1,
+        "shouldShowFreeAccountBenefits": true,
+        "prices": {
+          "burstableOffer": {
+            "total": 0
+          },
+          "diskOffer": {
+            "additionalData": {
+              "burstingIops": 30000,
+              "burstingThroughput": 1000,
+              "iops": 5000,
+              "maxPaidTransaction": 0,
+              "size": 1024,
+              "speed": 200
+            },
+            "meterSlug": "premiumssd-p30-lrs",
+            "offerKind": "v2-flat",
+            "pricingType": "WebDirect",
+            "region": "united-kingdom-south",
+            "resourceId": "",
+            "sku": "",
+            "total": 327.096,
+            "value": 163.548,
+            "upfrontTotal": 0,
+            "averagePerMonth": 327.096,
+            "payGoOffer": {
+              "additionalData": {
+                "burstingIops": 30000,
+                "burstingThroughput": 1000,
+                "iops": 5000,
+                "maxPaidTransaction": 0,
+                "size": 1024,
+                "speed": 200
+              },
+              "meterSlug": "premiumssd-p30-lrs",
+              "offerKind": "v2-flat",
+              "pricingType": "WebDirect",
+              "region": "united-kingdom-south",
+              "resourceId": "",
+              "sku": "",
+              "total": 0,
+              "value": 163.548,
+              "upfrontTotal": 0,
+              "averagePerMonth": 163.548
+            },
+            "oneYearOffer": {
+              "additionalData": {
+                "burstingIops": 30000,
+                "burstingThroughput": 1000,
+                "iops": 5000,
+                "maxPaidTransaction": 0,
+                "size": 1024,
+                "speed": 200
+              },
+              "meterSlug": "premiumssd-p30-lrs-one-year",
+              "offerKind": "v2-flat",
+              "pricingType": "WebDirect",
+              "region": "united-kingdom-south",
+              "resourceId": "",
+              "sku": "",
+              "total": 0,
+              "value": 155.33333,
+              "upfrontTotal": 1863.9999599999999
+            }
+          },
+          "sharedDiskMount": {
+            "sharedDiskMountOffer": {
+              "additionalData": {
+                "burstingIops": 30000,
+                "burstingThroughput": 1000,
+                "iops": 5000,
+                "maxPaidTransaction": 0,
+                "size": 1024,
+                "speed": 200
+              },
+              "meterSlug": "premiumssd-p30-lrs-disk-mount",
+              "offerKind": "v2-flat",
+              "pricingType": "WebDirect",
+              "region": "united-kingdom-south",
+              "resourceId": "",
+              "sku": "",
+              "total": 0,
+              "value": 8.212
+            },
+            "sharedDiskMountOfferTotals": {
+              "6f6c8aa7-0c76-49fb-a4e6-2dff7708955b": 0
+            },
+            "sharedDiskMountOfferTotal": 0
+          },
+          "snapshot": {
+            "additionalData": {
+              "maxPaidTransaction": 0
+            },
+            "meterSlug": "premiumssd-snapshot-lrs",
+            "offerKind": "v2-flat",
+            "pricingType": "WebDirect",
+            "region": "united-kingdom-south",
+            "resourceId": "",
+            "sku": "",
+            "total": 0,
+            "value": 0.16
+          },
+          "confidentialOsEncryption": {
+            "additionalData": {
+              "maxPaidTransaction": 0
+            },
+            "meterSlug": "premiumssd-confidential-lrs",
+            "offerKind": "v2-flat",
+            "pricingType": "WebDirect",
+            "region": "united-kingdom-south",
+            "resourceId": "",
+            "sku": "",
+            "total": 0,
+            "value": 3.3e-05
+          },
+          "transactions": {
+            "additionalData": {
+              "diskSize": 0
+            },
+            "baseOffers": {},
+            "meterSlug": "payg",
+            "offerKind": "v3-flat",
+            "pricingType": "",
+            "region": "united-kingdom-south",
+            "resourceId": [],
+            "sku": [],
+            "skuSlug": "transactions",
+            "total": 0,
+            "value": null
+          },
+          "upfrontTotal": 0,
+          "total": 327.096
+        },
+        "description": "Managed Disks, Premium SSD, LRS Redundancy, P30 Disk Type 2 Disks; Pay as you go",
+        "layoutId": "managed-disks-82c72527-cba6-480c-88da-a97114c96ffe-layout",
+        "sku": {
+          "capacity": ""
+        },
+        "resourceId": {
+          "capacity": ""
+        },
+        "serviceCategory": "Storage"
+      }
+    ],
+    "name": "CSV-migration-wave-a-final-smoke",
+    "isCurrentCurrencyLocked": false,
+    "markupValue": 0,
+    "priceLevelId": "mca",
+    "total": 1674.676,
+    "annualTotal": 20096.112,
+    "upfrontTotal": 0,
+    "showSkus": false,
+    "showResourceIds": false,
+    "enrollmentId": "",
+    "microsoftCustomerAgreementAccount": {
+      "id": "",
+      "name": ""
+    },
+    "microsoftCustomerAgreementProfile": {
+      "id": "",
+      "name": ""
+    },
+    "support": {
+      "level": "free",
+      "total": 0
+    }
+  }
+}

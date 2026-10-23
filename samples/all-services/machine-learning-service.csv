@@ -1,0 +1,2 @@
+batch_id,line_id,service,label,notes,config.region,config.hours,config.hoursFactor,config.size,config.count,config.computeBillingOption,config.computePaymentOption,config.baseDataSlug,config.category,config.instanceSeries,config.months
+machine-learning-service,example-001,machine-learning-service,Azure Machine Learning example,Microsoft native defaults; review every setting and usage,us-east-2,730,1,d3v2,1,payg,monthly,virtual-machines-base,all,all,1

@@ -1,0 +1,2 @@
+batch_id,line_id,service,label,notes,config.region,config.feature,config.studioTier,config.studioHours,config.studioSeats,config.webApiTier,config.webApiTransactions,config.webApiHours,config.webApiClassicTier,config.webApiClassicTransactions,config.webApiClassicHours,config.months
+machine-learning-studio,example-001,machine-learning-studio,Machine Learning Studio (classic) example,Microsoft native defaults; review every setting and usage,us-south-central,workspace,free,0,0,devtest,0,0,standard,0,0,1

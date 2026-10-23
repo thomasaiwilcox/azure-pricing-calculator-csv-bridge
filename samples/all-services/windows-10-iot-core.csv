@@ -1,0 +1,2 @@
+batch_id,line_id,service,label,notes,config.devices,config.months
+windows-10-iot-core,example-001,windows-10-iot-core,Windows 10 IoT Core Services example,Microsoft native defaults; review every setting and usage,100,1

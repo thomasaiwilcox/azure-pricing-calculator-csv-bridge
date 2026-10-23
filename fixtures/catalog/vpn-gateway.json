@@ -1,0 +1,90 @@
+{
+  "service": "vpn-gateway",
+  "display_name": "VPN Gateway",
+  "observed_utc": "2026-10-22",
+  "site_build": "20261019-0214-20261019-2100-186570892",
+  "schema_signature": {
+    "additionalP2STunnels": "number",
+    "additionalTunnels": "number",
+    "bandwidthGbs": "number",
+    "bandwidthUnits": "number",
+    "displayName": "string",
+    "gatewayHours": "number",
+    "interVnetGbs": "number",
+    "interVnetUnits": "number",
+    "isBreakingChange": "boolean",
+    "isCollapsed": "boolean",
+    "isDeprecated": "boolean",
+    "months": "number",
+    "p2STunnelsGatewayHours": "number",
+    "region": "string",
+    "s2STunnelsGatewayHours": "number",
+    "serviceSlug": "string",
+    "tier": "string",
+    "total": "number",
+    "type": "string",
+    "upfrontTotal": "number",
+    "version": "string",
+    "vpnType": "string"
+  },
+  "golden": {
+    "description": "",
+    "displayName": "",
+    "layoutId": "",
+    "hasPricing": true,
+    "isBreakingChange": false,
+    "isCollapsed": false,
+    "prices": {
+      "upfrontTotal": 0,
+      "total": 0
+    },
+    "region": "us-east",
+    "resourceId": {},
+    "serviceSlug": "vpn-gateway",
+    "shouldShowFreeAccountBenefits": true,
+    "sku": {},
+    "total": 0.0,
+    "upfrontTotal": 0.0,
+    "version": "v1.0.6",
+    "type": "vpngateways",
+    "gatewayHours": 0,
+    "vpnType": "intervnet",
+    "interVnetGbs": 0,
+    "interVnetUnits": 1,
+    "bandwidthGbs": 0,
+    "bandwidthUnits": 1,
+    "tier": "basic",
+    "additionalTunnels": 0,
+    "additionalP2STunnels": 0,
+    "s2STunnelsGatewayHours": 0,
+    "p2STunnelsGatewayHours": 0,
+    "isDeprecated": false,
+    "months": 1
+  },
+  "configuration": {
+    "region": "us-east",
+    "type": "vpngateways",
+    "gatewayHours": 0,
+    "vpnType": "intervnet",
+    "interVnetGbs": 0,
+    "interVnetUnits": 1,
+    "bandwidthGbs": 0,
+    "bandwidthUnits": 1,
+    "tier": "basic",
+    "additionalTunnels": 0,
+    "additionalP2STunnels": 0,
+    "s2STunnelsGatewayHours": 0,
+    "p2STunnelsGatewayHours": 0,
+    "months": 1
+  },
+  "endpoints": [
+    {
+      "version": "v2",
+      "slug": "bandwidth"
+    },
+    {
+      "version": "v2",
+      "slug": "vpn-gateway"
+    }
+  ]
+}

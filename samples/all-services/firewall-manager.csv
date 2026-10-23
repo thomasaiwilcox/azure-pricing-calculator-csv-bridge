@@ -1,0 +1,2 @@
+batch_id,line_id,service,label,notes,config.region,config.policies,config.months
+firewall-manager,example-001,firewall-manager,Azure Firewall Manager example,Microsoft native defaults; review every setting and usage,us-west,"[{""displayName"":""Policy 1"",""firewalls"":1,""regions"":1,""childPolicies"":[]}]",1

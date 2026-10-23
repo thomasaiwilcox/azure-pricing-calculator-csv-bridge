@@ -1,0 +1,2 @@
+batch_id,line_id,service,label,notes,config.region,config.messages,config.operations,config.queries,config.months
+digital-twins,example-001,digital-twins,Azure Digital Twins example,Microsoft native defaults; review every setting and usage,us-east,1,1,1,1

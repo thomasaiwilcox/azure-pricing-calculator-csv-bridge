@@ -1,0 +1,2 @@
+batch_id,line_id,service,label,notes,config.region,config.capability,config.updateManagmentNodes,config.processMinutes,config.azureConfigurationNodes,config.nonAzureConfigurationNodes,config.watchersCount,config.watchersHours,config.watchersHoursFactor,config.months
+automation,example-001,automation,Automation example,Microsoft native defaults; review every setting and usage,us-east-2,update-management,5,0,5,0,1,730,1,1

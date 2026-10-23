@@ -1,0 +1,2 @@
+batch_id,line_id,service,label,notes,config.region,config.computeHours,config.computeHoursFactor,config.computeUnits,config.overageComputeHours,config.overageComputeHoursFactor,config.overageComputeUnits,config.months
+microsoft-security-copilot,example-001,microsoft-security-copilot,Microsoft Security Copilot example,Microsoft native defaults; review every setting and usage,us-east,730,1,0,730,1,0,1

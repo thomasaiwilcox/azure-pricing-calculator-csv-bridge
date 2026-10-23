@@ -1,0 +1,92 @@
+{
+  "service": "load-testing",
+  "display_name": "Azure App Testing",
+  "observed_utc": "2026-10-22",
+  "site_build": "20261019-0214-20261019-2100-186570892",
+  "schema_signature": {
+    "aggregateUsageHours": "number",
+    "displayName": "string",
+    "isBreakingChange": "boolean",
+    "isCollapsed": "boolean",
+    "isDeprecated": "boolean",
+    "loadTestOverageHours": "number",
+    "months": "number",
+    "operatingSystem": "string",
+    "region": "string",
+    "secondsPerTest": "number",
+    "serviceSlug": "string",
+    "testDuration": "array",
+    "testRuns": "number",
+    "testRunsPerMonth": "array",
+    "total": "number",
+    "totalTest": "number",
+    "upfrontTotal": "number",
+    "usageType": "string",
+    "version": "string",
+    "virtualUsersPerTest": "array"
+  },
+  "golden": {
+    "description": "",
+    "displayName": "",
+    "layoutId": "",
+    "hasPricing": true,
+    "isBreakingChange": false,
+    "isCollapsed": false,
+    "prices": {
+      "upfrontTotal": 0,
+      "total": 0
+    },
+    "region": "us-east",
+    "resourceId": {},
+    "serviceSlug": "load-testing",
+    "shouldShowFreeAccountBenefits": true,
+    "sku": {},
+    "total": 0.0,
+    "upfrontTotal": 0.0,
+    "version": "v1.0.2",
+    "usageType": "loadtestdetails",
+    "aggregateUsageHours": 1,
+    "loadTestOverageHours": 0,
+    "virtualUsersPerTest": [
+      50
+    ],
+    "testDuration": [
+      15
+    ],
+    "testRunsPerMonth": [
+      1
+    ],
+    "operatingSystem": "linux",
+    "totalTest": 200,
+    "secondsPerTest": 6,
+    "testRuns": 220,
+    "isDeprecated": false,
+    "months": 1
+  },
+  "configuration": {
+    "region": "us-east",
+    "usageType": "loadtestdetails",
+    "aggregateUsageHours": 1,
+    "loadTestOverageHours": 13,
+    "virtualUsersPerTest": [
+      50
+    ],
+    "testDuration": [
+      15
+    ],
+    "testRunsPerMonth": [
+      1
+    ],
+    "operatingSystem": "linux",
+    "totalTest": 200,
+    "secondsPerTest": 6,
+    "testRuns": 220,
+    "months": 1
+  },
+  "endpoints": [
+    {
+      "version": "v3",
+      "slug": "load-testing"
+    }
+  ]
+}

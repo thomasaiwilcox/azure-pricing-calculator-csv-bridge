@@ -1,0 +1,2 @@
+batch_id,line_id,service,label,notes,config.region,config.basicUnits,config.scaleUnits,config.redundancy,config.months
+azure-elastic-san,example-001,azure-elastic-san,Azure Elastic SAN example,Microsoft native defaults; review every setting and usage,us-east,0,0,lrs,1

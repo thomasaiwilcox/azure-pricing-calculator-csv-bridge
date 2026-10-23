@@ -1,0 +1,2 @@
+batch_id,line_id,service,label,notes,config.region,config.tier,config.hours,config.hoursFactor,config.storageFactor,config.storage,config.ledger,config.months
+confidential-ledger,example-001,confidential-ledger,Azure confidential ledger example,Microsoft native defaults; review every setting and usage,us-east,P1,730,1,1,1,1,1

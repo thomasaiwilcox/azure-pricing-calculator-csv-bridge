@@ -1,0 +1,2 @@
+batch_id,line_id,service,label,notes,config.region,config.hours,config.hoursFactor,config.storageUnits,config.type,config.tier,config.months
+managed-lustre,example-001,managed-lustre,Azure Managed Lustre example,Microsoft native defaults; review every setting and usage,us-east,730,1,0,ssd,standard-tier,1

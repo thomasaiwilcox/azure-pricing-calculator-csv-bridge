@@ -1,0 +1,2 @@
+batch_id,line_id,service,label,notes,config.region,config.pricingPlan,config.storageAccountAnalyzed,config.totalObjectsAnalyzed,config.months
+azure-storage-discovery,example-001,azure-storage-discovery,Azure Storage Discovery example,Microsoft native defaults; review every setting and usage,us-east,standard,0,0,1

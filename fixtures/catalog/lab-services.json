@@ -1,0 +1,65 @@
+{
+  "service": "lab-services",
+  "display_name": "Azure Lab Services",
+  "observed_utc": "2026-10-22",
+  "site_build": "20261019-0214-20261019-2100-186570892",
+  "schema_signature": {
+    "displayName": "string",
+    "hours": "number",
+    "hoursFactor": "number",
+    "instances": "number",
+    "isBreakingChange": "boolean",
+    "isCollapsed": "boolean",
+    "isDeprecated": "boolean",
+    "months": "number",
+    "region": "string",
+    "serviceSlug": "string",
+    "size": "string",
+    "total": "number",
+    "units": "number",
+    "upfrontTotal": "number",
+    "version": "string"
+  },
+  "golden": {
+    "description": "",
+    "displayName": "",
+    "layoutId": "",
+    "hasPricing": true,
+    "isBreakingChange": false,
+    "isCollapsed": false,
+    "prices": {
+      "upfrontTotal": 0,
+      "total": 0
+    },
+    "region": "us-east",
+    "resourceId": {},
+    "serviceSlug": "lab-services",
+    "shouldShowFreeAccountBenefits": true,
+    "sku": {},
+    "total": 0.0,
+    "upfrontTotal": 0.0,
+    "version": "v1.0.2",
+    "instances": 1,
+    "hours": 730,
+    "hoursFactor": 1,
+    "units": 20,
+    "size": "classroom-small",
+    "isDeprecated": false,
+    "months": 1
+  },
+  "configuration": {
+    "instances": 1,
+    "hours": 730,
+    "hoursFactor": 1,
+    "units": 20,
+    "size": "classroom-small",
+    "region": "us-east",
+    "months": 1
+  },
+  "endpoints": [
+    {
+      "version": "v2",
+      "slug": "lab-services"
+    }
+  ]
+}

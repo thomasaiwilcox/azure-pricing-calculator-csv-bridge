@@ -1,0 +1,68 @@
+{
+  "service": "search",
+  "display_name": "Foundry IQ",
+  "observed_utc": "2026-10-22",
+  "site_build": "20261019-0214-20261019-2100-186570892",
+  "schema_signature": {
+    "displayName": "string",
+    "hours": "number",
+    "hoursFactor": "number",
+    "isBreakingChange": "boolean",
+    "isCollapsed": "boolean",
+    "isDeprecated": "boolean",
+    "months": "number",
+    "queries": "number",
+    "region": "string",
+    "semanticRankerToggle": "boolean",
+    "serviceSlug": "string",
+    "tier": "string",
+    "total": "number",
+    "units": "number",
+    "upfrontTotal": "number",
+    "version": "string"
+  },
+  "golden": {
+    "description": "",
+    "displayName": "",
+    "layoutId": "",
+    "hasPricing": true,
+    "isBreakingChange": false,
+    "isCollapsed": false,
+    "prices": {
+      "upfrontTotal": 0,
+      "total": 0
+    },
+    "region": "us-east",
+    "resourceId": {},
+    "serviceSlug": "search",
+    "shouldShowFreeAccountBenefits": true,
+    "sku": {},
+    "total": 0.0,
+    "upfrontTotal": 0.0,
+    "version": "v1.0.3",
+    "tier": "free",
+    "units": 1,
+    "hours": 1,
+    "hoursFactor": 1,
+    "queries": 1,
+    "semanticRankerToggle": false,
+    "isDeprecated": false,
+    "months": 1
+  },
+  "configuration": {
+    "region": "us-east",
+    "tier": "free",
+    "units": 1,
+    "hours": 1,
+    "hoursFactor": 1,
+    "queries": 1,
+    "semanticRankerToggle": false,
+    "months": 1
+  },
+  "endpoints": [
+    {
+      "version": "v2",
+      "slug": "search"
+    }
+  ]
+}

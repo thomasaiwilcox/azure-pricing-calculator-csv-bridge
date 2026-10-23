@@ -1,0 +1,2 @@
+batch_id,line_id,service,label,notes,config.region,config.numberOfIPAddresses,config.numberOfDomains,config.numberOfHosts,config.daysPerMonthIPAddresses,config.daysPerMonthDomains,config.daysPerMonthHosts,config.standardUnit,config.months
+defender-easm,example-001,defender-easm,Defender External Attack Surface Management example,Microsoft native defaults; review every setting and usage,us-east,0,0,0,30,30,30,0,1

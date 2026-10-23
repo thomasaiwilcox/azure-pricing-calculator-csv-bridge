@@ -1,0 +1,2 @@
+batch_id,line_id,service,label,notes,config.zone,config.queries,config.zones,config.privateQueries,config.privateZones,config.inboundEndpoints,config.outboundEndpoints,config.rulesets,config.millionEndPoints,config.domainEndpoints,config.type,config.dnsSku,config.months
+dns,example-001,dns,Azure DNS example,Microsoft native defaults; review every setting and usage,zone1,0,0,0,0,0,0,0,0,0,public,dns,1

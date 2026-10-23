@@ -1,0 +1,2 @@
+batch_id,line_id,service,label,notes,config.region,config.scenario,config.numberOfUsers,config.avgNumberOfEXOEmails,config.avgNumberOfCalenderEvents,config.avgNumberOfTeamsChat,config.avgNumberOfTeamsCallRecords,config.avgNumberOfODSPFile,config.avgNumberOfTaskAndList,config.durationOfDatasets,config.months
+graph-data-connect,example-001,graph-data-connect,Microsoft Graph Data Connect example,Microsoft native defaults; review every setting and usage,us-east,adhocuse,1000,87,3,74,3,8,2,14,1

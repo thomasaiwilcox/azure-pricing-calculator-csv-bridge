@@ -1,0 +1,2 @@
+batch_id,line_id,service,label,notes,config.region,config.queries,config.azureChecks,config.fastAzureChecks,config.externalChecks,config.fastExternalChecks,config.realUserMeasurements,config.trafficDataPoints,config.months
+traffic-manager,example-001,traffic-manager,Traffic Manager example,Microsoft native defaults; review every setting and usage,us-east,0,0,0,0,0,0,0,1

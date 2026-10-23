@@ -1,0 +1,74 @@
+{
+  "service": "automation",
+  "display_name": "Automation",
+  "observed_utc": "2026-10-22",
+  "site_build": "20261019-0214-20261019-2100-186570892",
+  "schema_signature": {
+    "azureConfigurationNodes": "number",
+    "capability": "string",
+    "displayName": "string",
+    "isBreakingChange": "boolean",
+    "isCollapsed": "boolean",
+    "isDeprecated": "boolean",
+    "months": "number",
+    "nonAzureConfigurationNodes": "number",
+    "processMinutes": "number",
+    "region": "string",
+    "serviceSlug": "string",
+    "total": "number",
+    "updateManagmentNodes": "number",
+    "upfrontTotal": "number",
+    "version": "string",
+    "watchersCount": "number",
+    "watchersHours": "number",
+    "watchersHoursFactor": "number"
+  },
+  "golden": {
+    "description": "",
+    "displayName": "",
+    "layoutId": "",
+    "hasPricing": true,
+    "isBreakingChange": false,
+    "isCollapsed": false,
+    "prices": {
+      "upfrontTotal": 0,
+      "total": 0
+    },
+    "region": "us-east-2",
+    "resourceId": {},
+    "serviceSlug": "automation",
+    "shouldShowFreeAccountBenefits": true,
+    "sku": {},
+    "total": 0.0,
+    "upfrontTotal": 0.0,
+    "version": "v1.1.2",
+    "capability": "update-management",
+    "updateManagmentNodes": 5,
+    "processMinutes": 0,
+    "azureConfigurationNodes": 5,
+    "nonAzureConfigurationNodes": 0,
+    "watchersCount": 1,
+    "watchersHours": 730.0,
+    "watchersHoursFactor": 1,
+    "isDeprecated": false,
+    "months": 1
+  },
+  "configuration": {
+    "region": "us-east-2",
+    "capability": "update-management",
+    "updateManagmentNodes": 5,
+    "processMinutes": 0,
+    "azureConfigurationNodes": 5,
+    "nonAzureConfigurationNodes": 0,
+    "watchersCount": 1,
+    "watchersHours": 730,
+    "watchersHoursFactor": 1,
+    "months": 1
+  },
+  "endpoints": [
+    {
+      "version": "v2",
+      "slug": "automation"
+    }
+  ]
+}

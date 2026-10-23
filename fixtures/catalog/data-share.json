@@ -1,0 +1,62 @@
+{
+  "service": "data-share",
+  "display_name": "Azure Data Share",
+  "observed_utc": "2026-10-22",
+  "site_build": "20261019-0214-20261019-2100-186570892",
+  "schema_signature": {
+    "datasetMovementHours": "number",
+    "datasetMovementHoursFactor": "number",
+    "datasetMovementVCores": "number",
+    "datasetSnapshots": "number",
+    "displayName": "string",
+    "isBreakingChange": "boolean",
+    "isCollapsed": "boolean",
+    "isDeprecated": "boolean",
+    "months": "number",
+    "region": "string",
+    "serviceSlug": "string",
+    "total": "number",
+    "upfrontTotal": "number",
+    "version": "string"
+  },
+  "golden": {
+    "description": "",
+    "displayName": "",
+    "layoutId": "",
+    "hasPricing": true,
+    "isBreakingChange": false,
+    "isCollapsed": false,
+    "prices": {
+      "upfrontTotal": 0,
+      "total": 0
+    },
+    "region": "us-east-2",
+    "resourceId": {},
+    "serviceSlug": "data-share",
+    "shouldShowFreeAccountBenefits": true,
+    "sku": {},
+    "total": 0.0,
+    "upfrontTotal": 0.0,
+    "version": "v1.0.1",
+    "datasetMovementVCores": 2,
+    "datasetMovementHours": 730,
+    "datasetMovementHoursFactor": 1,
+    "datasetSnapshots": 1,
+    "isDeprecated": false,
+    "months": 1
+  },
+  "configuration": {
+    "region": "us-east-2",
+    "datasetMovementVCores": 2,
+    "datasetMovementHours": 730,
+    "datasetMovementHoursFactor": 1,
+    "datasetSnapshots": 1,
+    "months": 1
+  },
+  "endpoints": [
+    {
+      "version": "v2",
+      "slug": "data-share"
+    }
+  ]
+}

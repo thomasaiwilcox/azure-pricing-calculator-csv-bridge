@@ -1,0 +1,2 @@
+batch_id,line_id,service,label,notes,config.region,config.serviceType,config.servers,config.months
+update-management-center,example-001,update-management-center,Azure Update Manager example,Microsoft native defaults; review every setting and usage,us-east-2,azure,0,1

@@ -1,0 +1,2 @@
+batch_id,line_id,service,label,notes,config.region,config.tier,config.premiumP1Users,config.premiumP2Users,config.dsTier,config.dsTierString,config.dsObjects,config.dsUserForestHours,config.dsUserForestHoursFactor,config.dsAvailable,config.numberOfUsers,config.months
+active-directory,example-001,active-directory,Microsoft Entra ID (formerly Azure AD) example,Microsoft native defaults; review every setting and usage,us-west,free,1,1,aad-ds-enterprise,25001-100000,5,730,1,true,1,1

@@ -1,0 +1,2 @@
+batch_id,line_id,service,label,notes,config.region,config.tier,config.assetConversionCount,config.sessionsCount,config.sessionsHours,config.sessionsHoursFactor,config.months
+remote-rendering,example-001,remote-rendering,Remote Rendering example,Microsoft native defaults; review every setting and usage,us-east,standard,1,1,730,1,1

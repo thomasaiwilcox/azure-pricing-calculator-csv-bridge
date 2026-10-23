@@ -1,0 +1,2 @@
+batch_id,line_id,service,label,notes,config.region,config.edition,config.editionForDeviceUpdate,config.instances,config.devices,config.tier,config.units,config.isAddedDeviceProvisioningService,config.isAddedDeviceUpdate,config.deviceProvisioningOperations,config.months
+iot-hub,example-001,iot-hub,Azure IoT Hub example,Microsoft native defaults; review every setting and usage,us-east,free,freeedition,0,0,standard,0,false,false,0,1

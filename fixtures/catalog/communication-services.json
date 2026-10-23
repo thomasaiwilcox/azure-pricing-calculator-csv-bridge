@@ -1,0 +1,131 @@
+{
+  "service": "communication-services",
+  "display_name": "Azure Communication Services",
+  "observed_utc": "2026-10-22",
+  "site_build": "20261019-0214-20261019-2100-186570892",
+  "schema_signature": {
+    "avgMessagePerUser": "number",
+    "callDuration": "array",
+    "callsPerMonth": "array",
+    "chatUsers": "number",
+    "closedCaption": "number",
+    "displayName": "string",
+    "emailSize": "number",
+    "emailsSentPerMonth": "number",
+    "isBreakingChange": "boolean",
+    "isCollapsed": "boolean",
+    "isDeprecated": "boolean",
+    "jobRouter": "number",
+    "localPhoneFee": "number",
+    "minutesInbound": "number",
+    "minutesOutbound": "number",
+    "mixedAudioStreamedMinutes": "number",
+    "months": "number",
+    "numberLookup": "number",
+    "numberOfInboundMessages": "number",
+    "numberOfOutboundMessages": "number",
+    "numberOfParticipants": "number",
+    "participantsPerCall": "array",
+    "recordedMinutesMixedAudio": "number",
+    "recordedMinutesMixedAudioAndVideo": "number",
+    "recordedMinutesUnMixedAudio": "number",
+    "region": "string",
+    "serviceSlug": "string",
+    "tollFreePhoneFee": "number",
+    "total": "number",
+    "unmixedAudioInsightsStreamedMinutes": "number",
+    "unmixedAudioStreamedMinutes": "number",
+    "upfrontTotal": "number",
+    "version": "string"
+  },
+  "golden": {
+    "description": "",
+    "displayName": "",
+    "layoutId": "",
+    "hasPricing": true,
+    "isBreakingChange": false,
+    "isCollapsed": false,
+    "prices": {
+      "upfrontTotal": 0,
+      "total": 0
+    },
+    "region": "us-east",
+    "resourceId": {},
+    "serviceSlug": "communication-services",
+    "shouldShowFreeAccountBenefits": true,
+    "sku": {},
+    "total": 0.0,
+    "upfrontTotal": 0.0,
+    "version": "v1.0.9",
+    "avgMessagePerUser": 0,
+    "callDuration": [
+      "minutes-30"
+    ],
+    "callsPerMonth": [
+      0
+    ],
+    "chatUsers": 0,
+    "localPhoneFee": 0,
+    "participantsPerCall": [
+      0
+    ],
+    "tollFreePhoneFee": 0,
+    "recordedMinutesMixedAudio": 0,
+    "recordedMinutesMixedAudioAndVideo": 0,
+    "minutesInbound": 0,
+    "minutesOutbound": 0,
+    "emailsSentPerMonth": 0,
+    "emailSize": 0.0,
+    "numberOfParticipants": 0,
+    "recordedMinutesUnMixedAudio": 0,
+    "numberOfInboundMessages": 0,
+    "numberOfOutboundMessages": 0,
+    "jobRouter": 0,
+    "numberLookup": 0,
+    "mixedAudioStreamedMinutes": 0,
+    "unmixedAudioStreamedMinutes": 0,
+    "unmixedAudioInsightsStreamedMinutes": 0,
+    "closedCaption": 0,
+    "isDeprecated": false,
+    "months": 1
+  },
+  "configuration": {
+    "region": "us-east",
+    "avgMessagePerUser": 0,
+    "callDuration": [
+      "minutes-30"
+    ],
+    "callsPerMonth": [
+      0
+    ],
+    "chatUsers": 0,
+    "localPhoneFee": 0,
+    "participantsPerCall": [
+      0
+    ],
+    "tollFreePhoneFee": 0,
+    "recordedMinutesMixedAudio": 0,
+    "recordedMinutesMixedAudioAndVideo": 0,
+    "minutesInbound": 0,
+    "minutesOutbound": 0,
+    "emailsSentPerMonth": 0,
+    "emailSize": 0,
+    "numberOfParticipants": 0,
+    "recordedMinutesUnMixedAudio": 0,
+    "numberOfInboundMessages": 0,
+    "numberOfOutboundMessages": 0,
+    "jobRouter": 0,
+    "numberLookup": 0,
+    "mixedAudioStreamedMinutes": 0,
+    "unmixedAudioStreamedMinutes": 0,
+    "unmixedAudioInsightsStreamedMinutes": 0,
+    "closedCaption": 0,
+    "months": 1
+  },
+  "endpoints": [
+    {
+      "version": "v3",
+      "slug": "communication-services"
+    }
+  ]
+}

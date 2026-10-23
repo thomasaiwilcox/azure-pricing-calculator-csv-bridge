@@ -1,0 +1,2 @@
+batch_id,line_id,service,label,notes,config.region,config.instances,config.isHighAvailability,config.tier,config.sizes,config.hours,config.hoursFactor,config.billingOption,config.paymentOption,config.months
+managed-redis,example-001,managed-redis,Azure Managed Redis example,Microsoft native defaults; review every setting and usage,us-west,1,true,memoryoptimized,m10,730,1,payg,monthly,1

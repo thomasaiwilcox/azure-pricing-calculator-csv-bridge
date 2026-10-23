@@ -1,0 +1,4 @@
+batch_id,line_id,service,label,region,sku,os,quantity,hours_per_month,pricing_option,term,storage_size_gib,notes
+migration-wave-a,vm-001,virtual-machines,web-01,uksouth,Standard_D4s_v5,Linux,1,730,payg,,,
+migration-wave-a,vm-002,virtual-machines,app-01,uksouth,Standard_D8s_v5,Windows,2,730,payg,,,
+migration-wave-a,disk-001,managed-disks,app-data-disk,uksouth,P30,,2,,payg,,1024,Illustrative only - verify tier and meter in calculator

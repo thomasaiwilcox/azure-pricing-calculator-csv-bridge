@@ -1,0 +1,2 @@
+batch_id,line_id,service,label,notes,config.region,config.esuServer,config.esuServerVersion,config.serverEdition,config.sqlServerInstance,config.physicalVirtualCore,config.physicalVirtualCoreHours,config.physicalVirtualCoreHoursFactor,config.months
+extended-security-updates,example-001,extended-security-updates,Extended Security Updates (ESU) example,Microsoft native defaults; review every setting and usage,us-east,windows-server,windows-server-2012,datacenter,azure-arc,0,730,1,1

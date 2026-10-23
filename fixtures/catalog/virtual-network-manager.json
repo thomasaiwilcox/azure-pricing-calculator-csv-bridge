@@ -1,0 +1,81 @@
+{
+  "service": "virtual-network-manager",
+  "display_name": "Azure Virtual Network Manager",
+  "observed_utc": "2026-10-22",
+  "site_build": "20261019-0214-20261019-2100-186570892",
+  "schema_signature": {
+    "deployedConfiguration": "string",
+    "displayName": "string",
+    "ipsHours": "number",
+    "ipsHoursFactor": "number",
+    "isBreakingChange": "boolean",
+    "isCollapsed": "boolean",
+    "isDeprecated": "boolean",
+    "months": "number",
+    "numberOfManagedIps": "number",
+    "numberOfManagedSubscriptions": "number",
+    "numberOfManagedVirtualNetworks": "number",
+    "numberOfReachabilityAnalysis": "number",
+    "serviceSlug": "string",
+    "subscriptionHours": "number",
+    "subscriptionHoursFactor": "number",
+    "total": "number",
+    "upfrontTotal": "number",
+    "version": "string",
+    "virtualNetworkHours": "number",
+    "virtualNetworkHoursFactor": "number"
+  },
+  "golden": {
+    "description": "",
+    "displayName": "",
+    "layoutId": "",
+    "hasPricing": true,
+    "isBreakingChange": false,
+    "isCollapsed": false,
+    "prices": {
+      "upfrontTotal": 0,
+      "total": 0
+    },
+    "region": "global",
+    "resourceId": {},
+    "serviceSlug": "virtual-network-manager",
+    "shouldShowFreeAccountBenefits": true,
+    "sku": {},
+    "total": 0.0,
+    "upfrontTotal": 0.0,
+    "version": "v1.0.2",
+    "numberOfManagedSubscriptions": 0,
+    "subscriptionHours": 730.0,
+    "subscriptionHoursFactor": 1,
+    "numberOfManagedVirtualNetworks": 0,
+    "virtualNetworkHours": 730.0,
+    "virtualNetworkHoursFactor": 1,
+    "numberOfReachabilityAnalysis": 0,
+    "deployedConfiguration": "virtual-network-based-billing",
+    "numberOfManagedIps": 0,
+    "ipsHours": 730.0,
+    "ipsHoursFactor": 1,
+    "isDeprecated": false,
+    "months": 1
+  },
+  "configuration": {
+    "numberOfManagedSubscriptions": 0,
+    "subscriptionHours": 730,
+    "subscriptionHoursFactor": 1,
+    "numberOfManagedVirtualNetworks": 0,
+    "virtualNetworkHours": 730,
+    "virtualNetworkHoursFactor": 1,
+    "numberOfReachabilityAnalysis": 0,
+    "deployedConfiguration": "virtual-network-based-billing",
+    "numberOfManagedIps": 0,
+    "ipsHours": 730,
+    "ipsHoursFactor": 1,
+    "months": 1
+  },
+  "endpoints": [
+    {
+      "version": "v3",
+      "slug": "virtual-network-manager"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "service": "machine-learning-studio",
+  "display_name": "Machine Learning Studio (classic)",
+  "observed_utc": "2026-10-22",
+  "site_build": "20261019-0214-20261019-2100-186570892",
+  "schema_signature": {
+    "displayName": "string",
+    "feature": "string",
+    "isBreakingChange": "boolean",
+    "isCollapsed": "boolean",
+    "isDeprecated": "boolean",
+    "months": "number",
+    "region": "string",
+    "serviceSlug": "string",
+    "studioHours": "number",
+    "studioSeats": "number",
+    "studioTier": "string",
+    "total": "number",
+    "upfrontTotal": "number",
+    "version": "string",
+    "webApiClassicHours": "number",
+    "webApiClassicTier": "string",
+    "webApiClassicTransactions": "number",
+    "webApiHours": "number",
+    "webApiTier": "string",
+    "webApiTransactions": "number"
+  },
+  "golden": {
+    "description": "",
+    "displayName": "",
+    "layoutId": "",
+    "hasPricing": true,
+    "isBreakingChange": false,
+    "isCollapsed": false,
+    "prices": {
+      "upfrontTotal": 0,
+      "total": 0
+    },
+    "region": "us-south-central",
+    "resourceId": {},
+    "serviceSlug": "machine-learning-studio",
+    "shouldShowFreeAccountBenefits": true,
+    "sku": {},
+    "total": 0.0,
+    "upfrontTotal": 0.0,
+    "version": "v1.0.4",
+    "feature": "workspace",
+    "studioTier": "free",
+    "studioHours": 0,
+    "studioSeats": 0,
+    "webApiTier": "devtest",
+    "webApiTransactions": 0,
+    "webApiHours": 0,
+    "webApiClassicTier": "standard",
+    "webApiClassicTransactions": 0,
+    "webApiClassicHours": 0,
+    "isDeprecated": false,
+    "months": 1
+  },
+  "configuration": {
+    "region": "us-south-central",
+    "feature": "workspace",
+    "studioTier": "free",
+    "studioHours": 0,
+    "studioSeats": 0,
+    "webApiTier": "devtest",
+    "webApiTransactions": 0,
+    "webApiHours": 0,
+    "webApiClassicTier": "standard",
+    "webApiClassicTransactions": 0,
+    "webApiClassicHours": 0,
+    "months": 1
+  },
+  "endpoints": [
+    {
+      "version": "v2",
+      "slug": "machine-learning-studio"
+    }
+  ]
+}

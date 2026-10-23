@@ -1,0 +1,77 @@
+{
+  "service": "graph-data-connect",
+  "display_name": "Microsoft Graph Data Connect",
+  "observed_utc": "2026-10-22",
+  "site_build": "20261019-0214-20261019-2100-186570892",
+  "schema_signature": {
+    "avgNumberOfCalenderEvents": "number",
+    "avgNumberOfEXOEmails": "number",
+    "avgNumberOfODSPFile": "number",
+    "avgNumberOfTaskAndList": "number",
+    "avgNumberOfTeamsCallRecords": "number",
+    "avgNumberOfTeamsChat": "number",
+    "displayName": "string",
+    "durationOfDatasets": "number",
+    "isBreakingChange": "boolean",
+    "isCollapsed": "boolean",
+    "isDeprecated": "boolean",
+    "months": "number",
+    "numberOfUsers": "number",
+    "region": "string",
+    "scenario": "string",
+    "serviceSlug": "string",
+    "total": "number",
+    "upfrontTotal": "number",
+    "version": "string"
+  },
+  "golden": {
+    "description": "",
+    "displayName": "",
+    "layoutId": "",
+    "hasPricing": true,
+    "isBreakingChange": false,
+    "isCollapsed": false,
+    "prices": {
+      "upfrontTotal": 0,
+      "total": 0
+    },
+    "region": "us-east",
+    "resourceId": {},
+    "serviceSlug": "graph-data-connect",
+    "shouldShowFreeAccountBenefits": true,
+    "sku": {},
+    "total": 0.0,
+    "upfrontTotal": 0.0,
+    "version": "v1.0.0",
+    "scenario": "adhocuse",
+    "numberOfUsers": 1000,
+    "avgNumberOfEXOEmails": 87,
+    "avgNumberOfCalenderEvents": 3,
+    "avgNumberOfTeamsChat": 74,
+    "avgNumberOfTeamsCallRecords": 3,
+    "avgNumberOfODSPFile": 8,
+    "avgNumberOfTaskAndList": 2,
+    "durationOfDatasets": 14,
+    "isDeprecated": false,
+    "months": 1
+  },
+  "configuration": {
+    "region": "us-east",
+    "scenario": "adhocuse",
+    "numberOfUsers": 1000,
+    "avgNumberOfEXOEmails": 87,
+    "avgNumberOfCalenderEvents": 3,
+    "avgNumberOfTeamsChat": 74,
+    "avgNumberOfTeamsCallRecords": 3,
+    "avgNumberOfODSPFile": 8,
+    "avgNumberOfTaskAndList": 2,
+    "durationOfDatasets": 14,
+    "months": 1
+  },
+  "endpoints": [
+    {
+      "version": "v3",
+      "slug": "graph-data-connect"
+    }
+  ]
+}

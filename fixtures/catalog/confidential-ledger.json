@@ -1,0 +1,68 @@
+{
+  "service": "confidential-ledger",
+  "display_name": "Azure confidential ledger",
+  "observed_utc": "2026-10-22",
+  "site_build": "20261019-0214-20261019-2100-186570892",
+  "schema_signature": {
+    "displayName": "string",
+    "hours": "number",
+    "hoursFactor": "number",
+    "isBreakingChange": "boolean",
+    "isCollapsed": "boolean",
+    "isDeprecated": "boolean",
+    "ledger": "number",
+    "months": "number",
+    "region": "string",
+    "serviceSlug": "string",
+    "storage": "number",
+    "storageFactor": "number",
+    "tier": "string",
+    "total": "number",
+    "upfrontTotal": "number",
+    "version": "string"
+  },
+  "golden": {
+    "description": "",
+    "displayName": "",
+    "layoutId": "",
+    "hasPricing": true,
+    "isBreakingChange": false,
+    "isCollapsed": false,
+    "prices": {
+      "upfrontTotal": 0,
+      "total": 0
+    },
+    "region": "us-east",
+    "resourceId": {},
+    "serviceSlug": "confidential-ledger",
+    "shouldShowFreeAccountBenefits": true,
+    "sku": {},
+    "total": 0.0,
+    "upfrontTotal": 0.0,
+    "version": "v1.0.0",
+    "tier": "P1",
+    "hours": 730.0,
+    "hoursFactor": 1,
+    "storageFactor": 1,
+    "storage": 1,
+    "ledger": 1,
+    "isDeprecated": false,
+    "months": 1
+  },
+  "configuration": {
+    "region": "us-east",
+    "tier": "P1",
+    "hours": 730,
+    "hoursFactor": 1,
+    "storageFactor": 1,
+    "storage": 1,
+    "ledger": 1,
+    "months": 1
+  },
+  "endpoints": [
+    {
+      "version": "v3",
+      "slug": "confidential-ledger"
+    }
+  ]
+}

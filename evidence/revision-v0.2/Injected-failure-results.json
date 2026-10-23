@@ -1,0 +1,112 @@
+{
+  "status": "website-validated",
+  "rows": 3,
+  "uniqueIds": 3,
+  "steps": [
+    {
+      "estimate_id": "4a8d6bab-88cc-43e8-a422-bb3bf6ea962a",
+      "from": 0,
+      "until": 1,
+      "attempts": 2,
+      "status": "website-validated",
+      "finished_utc": "2026-10-22T14:34:40.716Z"
+    },
+    {
+      "estimate_id": "4a8d6bab-88cc-43e8-a422-bb3bf6ea962a",
+      "from": 1,
+      "until": 2,
+      "attempts": 2,
+      "status": "website-validated",
+      "finished_utc": "2026-10-22T14:34:43.438Z"
+    },
+    {
+      "estimate_id": "4a8d6bab-88cc-43e8-a422-bb3bf6ea962a",
+      "from": 2,
+      "until": 3,
+      "attempts": 1,
+      "status": "website-validated",
+      "finished_utc": "2026-10-22T14:34:45.368Z"
+    }
+  ],
+  "faults": {
+    "publicCatalog": false,
+    "nativeCatalog": true,
+    "lostAcknowledgement": true,
+    "beforeCommit": true,
+    "export": true
+  },
+  "calls": [
+    {
+      "count": 1,
+      "ids": [
+        "b0249af6-631f-43ae-adc7-501fef7889b9"
+      ]
+    },
+    {
+      "count": 2,
+      "ids": [
+        "b0249af6-631f-43ae-adc7-501fef7889b9",
+        "fa1590a3-9c1e-4a91-8e24-7671c569c268"
+      ]
+    },
+    {
+      "count": 2,
+      "ids": [
+        "b0249af6-631f-43ae-adc7-501fef7889b9",
+        "fa1590a3-9c1e-4a91-8e24-7671c569c268"
+      ]
+    },
+    {
+      "count": 3,
+      "ids": [
+        "b0249af6-631f-43ae-adc7-501fef7889b9",
+        "fa1590a3-9c1e-4a91-8e24-7671c569c268",
+        "1adfc848-a2d3-4982-b41b-218b8e88bfcf"
+      ]
+    }
+  ],
+  "realLoads": 3,
+  "retries": [
+    {
+      "phase": "Pricing catalog",
+      "attempt": 1,
+      "nextAttempt": 2,
+      "delay_ms": 1000,
+      "message": "Native catalog HTTP 503",
+      "utc": "2026-10-22T14:34:37.446Z"
+    },
+    {
+      "phase": "Loading step",
+      "attempt": 1,
+      "nextAttempt": 2,
+      "delay_ms": 940,
+      "message": "Failed to fetch (injected lost acknowledgement)",
+      "utc": "2026-10-22T14:34:39.023Z"
+    },
+    {
+      "phase": "Loading step",
+      "attempt": 1,
+      "nextAttempt": 2,
+      "delay_ms": 853,
+      "message": "Failed to fetch (injected before commit)",
+      "utc": "2026-10-22T14:34:40.918Z"
+    },
+    {
+      "phase": "Excel export",
+      "attempt": 1,
+      "nextAttempt": 2,
+      "delay_ms": 1104,
+      "message": "Microsoft export HTTP 503",
+      "utc": "2026-10-22T14:34:46.399Z"
+    }
+  ],
+  "file": {
+    "filename": "CSV-retry-proof.xlsx",
+    "sha256": "d81caf2d69762f83114e6e20629ce10502e924c1bbb5896c1fb8536c5973a1d8",
+    "bytes": 53953,
+    "received_utc": "2026-10-22T14:34:50.228Z",
+    "request_bytes": 22961,
+    "original_json_bytes": 51313,
+    "compact_json_bytes": 15465
+  }
+}

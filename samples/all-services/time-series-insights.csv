@@ -1,0 +1,2 @@
+batch_id,line_id,service,label,notes,config.region,config.tier,config.units,config.months
+time-series-insights,example-001,time-series-insights,Azure Time Series Insights example,Microsoft native defaults; review every setting and usage,us-west,s1,1,1

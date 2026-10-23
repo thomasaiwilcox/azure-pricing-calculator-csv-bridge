@@ -1,0 +1,2 @@
+batch_id,line_id,service,label,notes,config.region,config.tier,config.units,config.hours,config.hoursFactor,config.queries,config.semanticRankerToggle,config.months
+search,example-001,search,Foundry IQ example,Microsoft native defaults; review every setting and usage,us-east,free,1,1,1,1,false,1

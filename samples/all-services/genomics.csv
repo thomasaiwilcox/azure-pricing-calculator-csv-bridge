@@ -1,0 +1,2 @@
+batch_id,line_id,service,label,notes,config.region,config.gigabases,config.genomes,config.months
+genomics,example-001,genomics,Microsoft Genomics example,Microsoft native defaults; review every setting and usage,us-west-2,10,1,1

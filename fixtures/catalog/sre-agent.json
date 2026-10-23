@@ -1,0 +1,74 @@
+{
+  "service": "sre-agent",
+  "display_name": "Azure SRE Agent",
+  "observed_utc": "2026-10-22",
+  "site_build": "20261019-0214-20261019-2100-186570892",
+  "schema_signature": {
+    "agentUnitPerHour": "number",
+    "agentUnitPerSec": "number",
+    "agentsCount": "number",
+    "agentsHours": "number",
+    "agentsHoursFactor": "number",
+    "displayName": "string",
+    "eachTasksRunTime": "number",
+    "isBreakingChange": "boolean",
+    "isCollapsed": "boolean",
+    "isDeprecated": "boolean",
+    "months": "number",
+    "region": "string",
+    "serviceSlug": "string",
+    "tasksCountPerDay": "number",
+    "tasksRunningDaysFactor": "number",
+    "total": "number",
+    "upfrontTotal": "number",
+    "version": "string"
+  },
+  "golden": {
+    "description": "",
+    "displayName": "",
+    "layoutId": "",
+    "hasPricing": true,
+    "isBreakingChange": false,
+    "isCollapsed": false,
+    "prices": {
+      "upfrontTotal": 0,
+      "total": 0
+    },
+    "region": "us-east",
+    "resourceId": {},
+    "serviceSlug": "sre-agent",
+    "shouldShowFreeAccountBenefits": true,
+    "sku": {},
+    "total": 0.0,
+    "upfrontTotal": 0.0,
+    "version": "v1.0.0",
+    "agentsCount": 0,
+    "agentsHours": 730,
+    "agentsHoursFactor": 1,
+    "agentUnitPerHour": 4,
+    "agentUnitPerSec": 0.25,
+    "tasksCountPerDay": 0,
+    "tasksRunningDaysFactor": 0,
+    "eachTasksRunTime": 0,
+    "isDeprecated": false,
+    "months": 1
+  },
+  "configuration": {
+    "region": "us-east",
+    "agentsCount": 0,
+    "agentsHours": 730,
+    "agentsHoursFactor": 1,
+    "agentUnitPerHour": 4,
+    "agentUnitPerSec": 0.25,
+    "tasksCountPerDay": 0,
+    "tasksRunningDaysFactor": 0,
+    "eachTasksRunTime": 0,
+    "months": 1
+  },
+  "endpoints": [
+    {
+      "version": "v3",
+      "slug": "sre-agent"
+    }
+  ]
+}

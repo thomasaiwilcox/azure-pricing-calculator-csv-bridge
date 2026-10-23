@@ -1,0 +1,2 @@
+batch_id,line_id,service,label,notes,config.region,config.offer,config.instances,config.hours,config.hoursFactor,config.isScaleOutAdded,config.scaleOutInstance,config.scaleOutInstanceHours,config.scaleOutInstanceHoursFactor,config.months
+analysis-services,example-001,analysis-services,Azure Analysis Services example,Microsoft native defaults; review every setting and usage,us-south-central,s1,1,730,1,false,1,730,1,1

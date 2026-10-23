@@ -1,0 +1,2 @@
+batch_id,line_id,service,label,notes,config.region,config.tier,config.userUnits,config.months
+data-catalog,example-001,data-catalog,Data Catalog example,Microsoft native defaults; review every setting and usage,us-east,free,0,1

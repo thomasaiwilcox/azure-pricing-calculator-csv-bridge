@@ -1,0 +1,2 @@
+batch_id,line_id,service,label,notes,config.region,config.physicalCores,config.virtualDays,config.months
+aks-hci,example-001,aks-hci,Azure Kubernetes Service on Azure Local example,Microsoft native defaults; review every setting and usage,us-east-2,0,30,1

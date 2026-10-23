@@ -1,0 +1,2 @@
+batch_id,line_id,service,label,notes,config.servers,config.months
+azure-policy,example-001,azure-policy,Azure Policy example,Microsoft native defaults; review every setting and usage,1,1

@@ -1,0 +1,2 @@
+batch_id,line_id,service,label,notes,config.region,config.customer,config.azure,config.months
+site-recovery,example-001,site-recovery,Azure Site Recovery example,Microsoft native defaults; review every setting and usage,us-east,0,0,1

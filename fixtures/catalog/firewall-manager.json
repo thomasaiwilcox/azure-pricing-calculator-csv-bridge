@@ -1,0 +1,67 @@
+{
+  "service": "firewall-manager",
+  "display_name": "Azure Firewall Manager",
+  "observed_utc": "2026-10-22",
+  "site_build": "20261019-0214-20261019-2100-186570892",
+  "schema_signature": {
+    "displayName": "string",
+    "isBreakingChange": "boolean",
+    "isCollapsed": "boolean",
+    "isDeprecated": "boolean",
+    "months": "number",
+    "policies": "array",
+    "region": "string",
+    "serviceSlug": "string",
+    "total": "number",
+    "upfrontTotal": "number",
+    "version": "string"
+  },
+  "golden": {
+    "description": "",
+    "displayName": "",
+    "layoutId": "",
+    "hasPricing": true,
+    "isBreakingChange": false,
+    "isCollapsed": false,
+    "prices": {
+      "upfrontTotal": 0,
+      "total": 0
+    },
+    "region": "us-west",
+    "resourceId": {},
+    "serviceSlug": "firewall-manager",
+    "shouldShowFreeAccountBenefits": true,
+    "sku": {},
+    "total": 0.0,
+    "upfrontTotal": 0.0,
+    "version": "v1.0.0",
+    "policies": [
+      {
+        "displayName": "Policy 1",
+        "firewalls": 1,
+        "regions": 1,
+        "childPolicies": []
+      }
+    ],
+    "isDeprecated": false,
+    "months": 1
+  },
+  "configuration": {
+    "region": "us-west",
+    "policies": [
+      {
+        "displayName": "Policy 1",
+        "firewalls": 1,
+        "regions": 1,
+        "childPolicies": []
+      }
+    ],
+    "months": 1
+  },
+  "endpoints": [
+    {
+      "version": "v2",
+      "slug": "firewall-manager"
+    }
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "service": "azure-virtual-enclaves",
+  "display_name": "Azure Enclave",
+  "observed_utc": "2026-10-22",
+  "site_build": "20261019-0214-20261019-2100-186570892",
+  "schema_signature": {
+    "allEnclavesHaveBastion": "boolean",
+    "bandwidthEgressVolume": "number",
+    "bastionCountPerRegion": "array",
+    "bastionScaleUnits": "number",
+    "bastionTier": "string",
+    "connectivityType": "string",
+    "deployEnclavesFromHubs": "boolean",
+    "deploymentHours": "number",
+    "deploymentHoursFactor": "number",
+    "deploymentRegions": "array",
+    "deploymentUnits": "array",
+    "deploymentUnitsFactor": "array",
+    "displayName": "string",
+    "egressVolume": "number",
+    "enclaveCounts": "array",
+    "enclaveDeploymentHours": "array",
+    "enclaveLogIngestionVolume": "number",
+    "enclaveMonitorEnabled": "boolean",
+    "enclavePerHourPrices": "array",
+    "enclaveRegions": "array",
+    "expressRouteScaleUnits": "number",
+    "expressRouteSku": "string",
+    "firewallDataVolume": "number",
+    "firewallTier": "string",
+    "hubCountPerRegion": "array",
+    "isBreakingChange": "boolean",
+    "isCollapsed": "boolean",
+    "isDeprecated": "boolean",
+    "logIngestionVolume": "number",
+    "months": "number",
+    "secureHubRegions": "array",
+    "serviceSlug": "string",
+    "total": "number",
+    "upfrontTotal": "number",
+    "version": "string",
+    "vpnScaleUnits": "number"
+  },
+  "golden": {
+    "description": "",
+    "displayName": "",
+    "layoutId": "",
+    "hasPricing": true,
+    "isBreakingChange": false,
+    "isCollapsed": false,
+    "prices": {
+      "upfrontTotal": 0,
+      "total": 0
+    },
+    "region": "global",
+    "resourceId": {},
+    "serviceSlug": "azure-virtual-enclaves",
+    "shouldShowFreeAccountBenefits": true,
+    "sku": {},
+    "total": 0.0,
+    "upfrontTotal": 0.0,
+    "version": "v1.3.0",
+    "deploymentHours": 730,
+    "deploymentHoursFactor": 1,
+    "deploymentRegions": [
+      "us-east"
+    ],
+    "enclaveRegions": [
+      "us-east"
+    ],
+    "deploymentUnits": [
+      1
+    ],
+    "deploymentUnitsFactor": [
+      1
+    ],
+    "enclaveCounts": [
+      1
+    ],
+    "enclavePerHourPrices": [
+      0.0
+    ],
+    "enclaveDeploymentHours": [
+      730
+    ],
+    "firewallTier": "Standard",
+    "firewallDataVolume": 100.0,
+    "bastionTier": "Standard",
+    "bastionScaleUnits": 2,
+    "logIngestionVolume": 7.0,
+    "egressVolume": 50.0,
+    "vpnScaleUnits": 1,
+    "connectivityType": "None",
+    "bandwidthEgressVolume": 50.0,
+    "expressRouteSku": "Standard",
+    "expressRouteScaleUnits": 1,
+    "allEnclavesHaveBastion": true,
+    "bastionCountPerRegion": [
+      1
+    ],
+    "enclaveMonitorEnabled": false,
+    "enclaveLogIngestionVolume": 2.0,
+    "secureHubRegions": [
+      "us-east"
+    ],
+    "hubCountPerRegion": [
+      1
+    ],
+    "deployEnclavesFromHubs": true,
+    "isDeprecated": false,
+    "months": 1
+  },
+  "configuration": {
+    "deploymentHours": 730,
+    "deploymentHoursFactor": 1,
+    "deploymentRegions": [
+      "us-east"
+    ],
+    "enclaveRegions": [
+      "us-east"
+    ],
+    "deploymentUnits": [
+      1
+    ],
+    "deploymentUnitsFactor": [
+      1
+    ],
+    "enclaveCounts": [
+      1
+    ],
+    "enclaveDeploymentHours": [
+      730
+    ],
+    "firewallTier": "Standard",
+    "firewallDataVolume": 100,
+    "bastionTier": "Standard",
+    "bastionScaleUnits": 2,
+    "logIngestionVolume": 7,
+    "egressVolume": 50,
+    "vpnScaleUnits": 1,
+    "connectivityType": "None",
+    "bandwidthEgressVolume": 50,
+    "expressRouteSku": "Standard",
+    "expressRouteScaleUnits": 1,
+    "allEnclavesHaveBastion": true,
+    "bastionCountPerRegion": [
+      1
+    ],
+    "enclaveMonitorEnabled": false,
+    "enclaveLogIngestionVolume": 2,
+    "secureHubRegions": [
+      "us-east"
+    ],
+    "hubCountPerRegion": [
+      1
+    ],
+    "deployEnclavesFromHubs": true,
+    "months": 1
+  },
+  "endpoints": [
+    {
+      "version": "v2",
+      "slug": "azure-firewall"
+    },
+    {
+      "version": "v2",
+      "slug": "firewall-manager"
+    },
+    {
+      "version": "v2",
+      "slug": "virtual-wan"
+    },
+    {
+      "version": "v2",
+      "slug": "azure-bastion"
+    },
+    {
+      "version": "v2",
+      "slug": "expressroute"
+    },
+    {
+      "version": "v2",
+      "slug": "ip-addresses"
+    },
+    {
+      "version": "v2",
+      "slug": "bandwidth"
+    },
+    {
+      "version": "v2",
+      "slug": "monitor"
+    },
+    {
+      "version": "v3",
+      "slug": "azure-virtual-enclaves"
+    },
+    {
+      "version": "v3",
+      "slug": "storage"
+    }
+  ],
+  "pricing_evidence": "native-derived-total"
+}

@@ -1,0 +1,2 @@
+batch_id,line_id,service,label,notes,config.region,config.tier,config.capture,config.events,config.units,config.hours,config.hoursFactor,config.capacityUnits,config.dedicatedHours,config.dedicatedHoursFactor,config.dedicatedExtendedRetention,config.processingUnits,config.premiumHours,config.premiumHoursFactor,config.premiumExtendedRetention,config.months
+event-hubs,example-001,event-hubs,Event Hubs example,Microsoft native defaults; review every setting and usage,us-east,basic,false,0,1,730,1,one,730,1,0,one,730,1,0,1

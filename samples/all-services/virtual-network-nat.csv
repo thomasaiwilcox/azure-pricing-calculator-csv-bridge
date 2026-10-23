@@ -1,0 +1,2 @@
+batch_id,line_id,service,label,notes,config.region,config.tier,config.hours,config.hoursFactor,config.dataProcessed,config.dataProcessedUnits,config.months
+virtual-network-nat,example-001,virtual-network-nat,Azure NAT Gateway example,Microsoft native defaults; review every setting and usage,us-east,standard,730,1,0,1,1

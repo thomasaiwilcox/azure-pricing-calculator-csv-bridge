@@ -1,0 +1,74 @@
+{
+  "service": "database-migration",
+  "display_name": "Azure Database Migration Service (classic)",
+  "observed_utc": "2026-10-22",
+  "site_build": "20261019-0214-20261019-2100-186570892",
+  "schema_signature": {
+    "billingOption": "string",
+    "cores": "number",
+    "displayName": "string",
+    "hours": "number",
+    "hoursFactor": "number",
+    "instance": "number",
+    "instanceCount": "number",
+    "isBreakingChange": "boolean",
+    "isCollapsed": "boolean",
+    "isDeprecated": "boolean",
+    "months": "number",
+    "paymentOption": "string",
+    "pricingTier": "string",
+    "region": "string",
+    "serviceSlug": "string",
+    "total": "number",
+    "upfrontTotal": "number",
+    "version": "string"
+  },
+  "golden": {
+    "description": "",
+    "displayName": "",
+    "layoutId": "",
+    "hasPricing": true,
+    "isBreakingChange": false,
+    "isCollapsed": false,
+    "prices": {
+      "upfrontTotal": 0,
+      "total": 0
+    },
+    "region": "us-east",
+    "resourceId": {},
+    "serviceSlug": "database-migration",
+    "shouldShowFreeAccountBenefits": true,
+    "sku": {},
+    "total": 0.0,
+    "upfrontTotal": 0.0,
+    "version": "v1.0.2",
+    "pricingTier": "premium",
+    "instance": 4,
+    "instanceCount": 1,
+    "cores": 4,
+    "hours": 1,
+    "hoursFactor": 1,
+    "billingOption": "payg",
+    "paymentOption": "monthly",
+    "isDeprecated": false,
+    "months": 1
+  },
+  "configuration": {
+    "region": "us-east",
+    "pricingTier": "premium",
+    "instance": 4,
+    "instanceCount": 1,
+    "cores": 4,
+    "hours": 1,
+    "hoursFactor": 1,
+    "billingOption": "payg",
+    "paymentOption": "monthly",
+    "months": 1
+  },
+  "endpoints": [
+    {
+      "version": "v2",
+      "slug": "database-migration"
+    }
+  ]
+}

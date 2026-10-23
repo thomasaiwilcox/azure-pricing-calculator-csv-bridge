@@ -1,0 +1,2570 @@
+{
+  "id": "0f6e4408-97f6-4b85-8ae7-524ebaee7269",
+  "errors": [],
+  "modules": [
+    {
+      "service": "frontdoor-standard-premium",
+      "state": {
+        "description": "Azure Front Door (Classic) - Outbound Data Transfer [North America, Europe, Middle East and Africa - 5GB], 5 GB Inbound Data Transfer, 0 Routing rules x 730 Hours, 0 Additional rules x 730 Hours, 0 Additional Custom Domains, 1 Policies, 0 Custom Rules, 0 x 1 million Custom requests processed, 0 Default rulesets, 0 Managed rulseset requests processed, 0 x 1,000 CAPTCHA sessions",
+        "displayName": "",
+        "layoutId": "frontdoor-standard-premium-9c5c74c2-6e7f-4d8d-9fa1-4bda42318c1b-layout",
+        "hasPricing": true,
+        "isBreakingChange": false,
+        "isCollapsed": true,
+        "prices": {
+          "additionalDomains": {
+            "additionalData": {
+              "diskSize": 0
+            },
+            "baseOffers": {
+              "undefined": {
+                "slug": "custom-domains",
+                "meter": "permonth",
+                "value": 5
+              }
+            },
+            "meterSlug": "payg",
+            "offerKind": "v3-flat",
+            "pricingType": "WebDirect",
+            "region": "global",
+            "resourceId": [],
+            "sku": [],
+            "skuSlug": "custom-domains",
+            "total": 0,
+            "value": 5
+          },
+          "baseCost": {
+            "additionalData": {
+              "diskSize": 0
+            },
+            "baseOffers": {
+              "undefined": {
+                "slug": "base-cost-premium",
+                "meter": "permonth",
+                "value": 330
+              }
+            },
+            "meterSlug": "payg",
+            "offerKind": "v3-flat",
+            "pricingType": "WebDirect",
+            "region": "zone1",
+            "resourceId": [],
+            "sku": [],
+            "skuSlug": "base-cost-premium",
+            "total": 330,
+            "value": 330
+          },
+          "customRequests": {
+            "additionalData": {
+              "diskSize": 0
+            },
+            "baseOffers": {
+              "undefined": {
+                "slug": "waf-requests",
+                "meter": "permillionrequests",
+                "value": 0.6
+              }
+            },
+            "meterSlug": "payg",
+            "offerKind": "v3-flat",
+            "pricingType": "WebDirect",
+            "region": "global",
+            "resourceId": [],
+            "sku": [],
+            "skuSlug": "waf-requests",
+            "total": 0,
+            "value": 0.6
+          },
+          "customRule": {
+            "additionalData": {
+              "diskSize": 0
+            },
+            "baseOffers": {
+              "undefined": {
+                "slug": "waf-rules",
+                "meter": "permonth",
+                "value": 1
+              }
+            },
+            "meterSlug": "payg",
+            "offerKind": "v3-flat",
+            "pricingType": "WebDirect",
+            "region": "global",
+            "resourceId": [],
+            "sku": [],
+            "skuSlug": "waf-rules",
+            "total": 0,
+            "value": 1
+          },
+          "captcha": {
+            "additionalData": {
+              "diskSize": 0
+            },
+            "baseOffers": {
+              "undefined": {
+                "slug": "captcha-premium",
+                "meter": "per1k",
+                "value": 0.4
+              }
+            },
+            "meterSlug": "payg",
+            "offerKind": "v3-flat",
+            "pricingType": "WebDirect",
+            "region": "zone1",
+            "resourceId": [],
+            "sku": [],
+            "skuSlug": "captcha-premium",
+            "total": 0,
+            "value": 0.4
+          },
+          "egress": {
+            "additionalData": {
+              "diskSize": 0
+            },
+            "baseOffers": {
+              "undefined": {
+                "slug": "internet-egress-premium",
+                "meter": "pergb"
+              }
+            },
+            "meterSlug": "payg",
+            "offerKind": "v3-flat",
+            "pricingType": "WebDirect",
+            "region": "zone1",
+            "resourceId": [],
+            "sku": [],
+            "skuSlug": "internet-egress-premium",
+            "total": 0.41250000000000003,
+            "value": 0.41250000000000003
+          },
+          "inbound": {
+            "additionalData": {
+              "diskSize": 0
+            },
+            "baseOffers": {
+              "undefined": {
+                "slug": "data-transfer-in",
+                "meter": "pergb",
+                "value": 0.01
+              }
+            },
+            "meterSlug": "payg",
+            "offerKind": "v3-flat",
+            "pricingType": "WebDirect",
+            "region": "global",
+            "resourceId": [],
+            "sku": [],
+            "skuSlug": "data-transfer-in",
+            "total": 0.05,
+            "value": 0.01
+          },
+          "ingress": {
+            "additionalData": {
+              "diskSize": 0
+            },
+            "baseOffers": {
+              "undefined": {
+                "slug": "internet-ingress-premium",
+                "meter": "pergb",
+                "value": 0.02
+              }
+            },
+            "meterSlug": "payg",
+            "offerKind": "v3-flat",
+            "pricingType": "WebDirect",
+            "region": "zone1",
+            "resourceId": [],
+            "sku": [],
+            "skuSlug": "internet-ingress-premium",
+            "total": 0.1,
+            "value": 0.02
+          },
+          "managedRequests": {
+            "additionalData": {
+              "diskSize": 0
+            },
+            "baseOffers": {
+              "undefined": {
+                "slug": "waf-default-requests",
+                "meter": "permillionrequests",
+                "value": 1
+              }
+            },
+            "meterSlug": "payg",
+            "offerKind": "v3-flat",
+            "pricingType": "WebDirect",
+            "region": "global",
+            "resourceId": [],
+            "sku": [],
+            "skuSlug": "waf-default-requests",
+            "total": 0,
+            "value": 1
+          },
+          "managedRuleset": {
+            "additionalData": {
+              "diskSize": 0
+            },
+            "baseOffers": {
+              "undefined": {
+                "slug": "waf-default-ruleset",
+                "meter": "permonth",
+                "value": 20
+              }
+            },
+            "meterSlug": "payg",
+            "offerKind": "v3-flat",
+            "pricingType": "WebDirect",
+            "region": "global",
+            "resourceId": [],
+            "sku": [],
+            "skuSlug": "waf-default-ruleset",
+            "total": 0,
+            "value": 20
+          },
+          "outbound": {
+            "0": {
+              "additionalData": {
+                "diskSize": 0
+              },
+              "baseOffers": {
+                "undefined": {
+                  "slug": "data-transfer-out-zone1",
+                  "meter": "pergb"
+                }
+              },
+              "meterSlug": "payg",
+              "offerKind": "v3-flat",
+              "pricingType": "WebDirect",
+              "region": "canada-central",
+              "resourceId": [],
+              "sku": [],
+              "skuSlug": "data-transfer-out-zone1",
+              "total": 0.8500000000000001,
+              "value": 0.8500000000000001
+            },
+            "total": 0.8500000000000001
+          },
+          "routing": {
+            "includedRouting": {
+              "additionalData": {
+                "diskSize": 0
+              },
+              "baseOffers": {
+                "undefined": {
+                  "slug": "included-routing-rules",
+                  "meter": "perhour"
+                }
+              },
+              "meterSlug": "payg",
+              "offerKind": "v3-flat",
+              "pricingType": "WebDirect",
+              "region": "global",
+              "resourceId": [],
+              "sku": [],
+              "skuSlug": "included-routing-rules",
+              "total": 0,
+              "value": 0
+            },
+            "overageRouting": {
+              "additionalData": {
+                "diskSize": 0
+              },
+              "baseOffers": {
+                "undefined": {
+                  "slug": "overage-routing-rules",
+                  "meter": "perhour",
+                  "value": 0.012
+                }
+              },
+              "meterSlug": "payg",
+              "offerKind": "v3-flat",
+              "pricingType": "WebDirect",
+              "region": "global",
+              "resourceId": [],
+              "sku": [],
+              "skuSlug": "overage-routing-rules",
+              "total": 0,
+              "value": 0.012
+            },
+            "sku": [],
+            "resourceId": [],
+            "total": 0,
+            "upfrontTotal": 0,
+            "value": 0
+          },
+          "additionalRouting": {
+            "includedRouting": {
+              "additionalData": {
+                "diskSize": 0
+              },
+              "baseOffers": {
+                "undefined": {
+                  "slug": "included-routing-rules",
+                  "meter": "perhour"
+                }
+              },
+              "meterSlug": "payg",
+              "offerKind": "v3-flat",
+              "pricingType": "WebDirect",
+              "region": "global",
+              "resourceId": [],
+              "sku": [],
+              "skuSlug": "included-routing-rules",
+              "total": 0,
+              "value": 0
+            },
+            "overageRouting": {
+              "additionalData": {
+                "diskSize": 0
+              },
+              "baseOffers": {
+                "undefined": {
+                  "slug": "overage-routing-rules",
+                  "meter": "perhour",
+                  "value": 0.012
+                }
+              },
+              "meterSlug": "payg",
+              "offerKind": "v3-flat",
+              "pricingType": "WebDirect",
+              "region": "global",
+              "resourceId": [],
+              "sku": [],
+              "skuSlug": "overage-routing-rules",
+              "total": 0,
+              "value": 0.012
+            },
+            "sku": [],
+            "resourceId": [],
+            "total": 0,
+            "upfrontTotal": 0,
+            "value": 0.012
+          },
+          "standardPremiumRequest": {
+            "additionalData": {
+              "diskSize": 0
+            },
+            "baseOffers": {
+              "undefined": {
+                "slug": "request-pricing-premium",
+                "meter": "per10k"
+              }
+            },
+            "meterSlug": "payg",
+            "offerKind": "v3-flat",
+            "pricingType": "WebDirect",
+            "region": "zone1",
+            "resourceId": [],
+            "sku": [],
+            "skuSlug": "request-pricing-premium",
+            "total": 0,
+            "value": 0
+          },
+          "total": 5.9,
+          "upfrontTotal": 0,
+          "wafPolicy": {
+            "additionalData": {
+              "diskSize": 0
+            },
+            "baseOffers": {
+              "undefined": {
+                "slug": "waf-policies",
+                "meter": "permonth",
+                "value": 5
+              }
+            },
+            "meterSlug": "payg",
+            "offerKind": "v3-flat",
+            "pricingType": "WebDirect",
+            "region": "global",
+            "resourceId": [],
+            "sku": [],
+            "skuSlug": "waf-policies",
+            "total": 5,
+            "value": 5
+          }
+        },
+        "region": "global",
+        "resourceId": {
+          "additionalDomains": [],
+          "baseCost": [],
+          "customRequests": [],
+          "customRule": [],
+          "captcha": [],
+          "egress": [],
+          "inbound": [],
+          "ingress": [],
+          "managedRequests": [],
+          "managedRuleset": [],
+          "routing": [],
+          "additionalRouting": [],
+          "standardPremiumRequest": [],
+          "wafPolicy": []
+        },
+        "serviceSlug": "frontdoor-standard-premium",
+        "shouldShowFreeAccountBenefits": true,
+        "sku": {
+          "additionalDomains": [],
+          "baseCost": [],
+          "customRequests": [],
+          "customRule": [],
+          "captcha": [],
+          "egress": [],
+          "inbound": [],
+          "ingress": [],
+          "managedRequests": [],
+          "managedRuleset": [],
+          "routing": [],
+          "additionalRouting": [],
+          "standardPremiumRequest": [],
+          "wafPolicy": []
+        },
+        "total": 5.9,
+        "upfrontTotal": 0,
+        "version": "v2.0.2",
+        "additionalDomainUnits": 0,
+        "customRules": 0,
+        "customRequestUnits": 0,
+        "enableBaseCost": true,
+        "inboundUnits": 5,
+        "inboundUnitsFactor": 1,
+        "internetEgressCount": 5,
+        "internetEgressFactor": 1,
+        "internetIngressCount": 5,
+        "internetIngressFactor": 1,
+        "managedRulesetRequests": 0,
+        "managedRulesetUnits": 0,
+        "outboundDataTransferZones": [
+          "classiczone1"
+        ],
+        "outboundDataTransferUnits": [
+          5
+        ],
+        "outboundDataTransferUnitsFactor": [
+          1
+        ],
+        "policyUnits": 1,
+        "routingHours": 730,
+        "routingHoursFactor": 1,
+        "routingUnits": 0,
+        "additionalRoutingHours": 730,
+        "additionalRoutingHoursFactor": 1,
+        "additionalRoutingUnits": 0,
+        "standardPremiumRequests": 0,
+        "tier": "frontdoor",
+        "zone": "zone1",
+        "captchaPremium": 0,
+        "isDeprecated": false,
+        "months": 1,
+        "zonesRemaining": [
+          {
+            "slug": "classiczone2",
+            "displayName": "Asia Pacific (including Japan)"
+          },
+          {
+            "slug": "classiczone3",
+            "displayName": "South America"
+          },
+          {
+            "slug": "classiczone4",
+            "displayName": "Australia"
+          },
+          {
+            "slug": "classiczone5",
+            "displayName": "India"
+          }
+        ]
+      }
+    },
+    {
+      "service": "communication-services",
+      "state": {
+        "description": "Phone numbers leasing: 0 local and 0 toll-free United States (+1) phone number(s); Phone number lookup: 0 line type queries; Voice and Video Calling - over IP: 1 reoccurring call(s) (30 minutes X 0 call(s) per month X 0 participants per call); SIP Direct Routing: 0 Inbound calling minutes, 0 Outbound calling minutes; Call Recording: 0 Mixed audio recorded minutes, 0 Mixed audio and video recorded minutes, 0 Unmixed audio minutes for 0 participants; Audio Streaming - 0 Mixed audio streaming minutes, 0 Unmixed audio streaming minutes, 0 Unmixed audio insights streaming minutes; Closed Caption: 0 Closed caption minutes; Chat: 0 chat users x 0 message(s) sent per chat user; Whatsapp messaging: 0 Inbound messages, 0 Outbound messages; Email: 0 Email sent per month, 0 MB per Email; Job Router: 0 Jobs Routed per month",
+        "displayName": "",
+        "layoutId": "communication-services-9d1be32a-7532-4040-993f-0ceab616b519-layout",
+        "hasPricing": true,
+        "isBreakingChange": false,
+        "isCollapsed": true,
+        "prices": {
+          "calls": {
+            "callsPrices": [
+              {
+                "additionalData": {
+                  "diskSize": 0
+                },
+                "baseOffers": {
+                  "undefined": {
+                    "slug": "calls",
+                    "meter": "perminute",
+                    "value": 0.004
+                  }
+                },
+                "meterSlug": "payg",
+                "offerKind": "v3-flat",
+                "pricingType": "WebDirect",
+                "region": "us-east",
+                "resourceId": [],
+                "sku": [],
+                "skuSlug": "calls",
+                "total": 0,
+                "value": 0
+              }
+            ],
+            "totalCallsPrice": 0
+          },
+          "chat": {
+            "additionalData": {
+              "diskSize": 0
+            },
+            "baseOffers": {
+              "undefined": {
+                "slug": "chat",
+                "meter": "permessage",
+                "value": 0.0008
+              }
+            },
+            "meterSlug": "payg",
+            "offerKind": "v3-flat",
+            "pricingType": "WebDirect",
+            "region": "us-east",
+            "resourceId": [],
+            "sku": [],
+            "skuSlug": "chat",
+            "total": 0,
+            "value": 0.0008
+          },
+          "geographicNumbers": {
+            "additionalData": {
+              "diskSize": 0
+            },
+            "baseOffers": {
+              "undefined": {
+                "slug": "geographic-numbers",
+                "meter": "permonth",
+                "value": 1
+              }
+            },
+            "meterSlug": "payg",
+            "offerKind": "v3-flat",
+            "pricingType": "WebDirect",
+            "region": "us-east",
+            "resourceId": [],
+            "sku": [],
+            "skuSlug": "geographic-numbers",
+            "total": 0,
+            "value": 1
+          },
+          "tollFree": {
+            "additionalData": {
+              "diskSize": 0
+            },
+            "baseOffers": {
+              "undefined": {
+                "slug": "tollfree-numbers",
+                "meter": "permonth",
+                "value": 2
+              }
+            },
+            "meterSlug": "payg",
+            "offerKind": "v3-flat",
+            "pricingType": "WebDirect",
+            "region": "us-east",
+            "resourceId": [],
+            "sku": [],
+            "skuSlug": "tollfree-numbers",
+            "total": 0,
+            "value": 2
+          },
+          "mixedAudio": {
+            "additionalData": {
+              "diskSize": 0
+            },
+            "baseOffers": {
+              "undefined": {
+                "slug": "mixed-audio-recording",
+                "meter": "perminute",
+                "value": 0.002
+              }
+            },
+            "meterSlug": "payg",
+            "offerKind": "v3-flat",
+            "pricingType": "WebDirect",
+            "region": "us-east",
+            "resourceId": [],
+            "sku": [],
+            "skuSlug": "mixed-audio-recording",
+            "total": 0,
+            "value": 0.002
+          },
+          "mixedAudioStreaming": {
+            "additionalData": {
+              "diskSize": 0
+            },
+            "baseOffers": {
+              "undefined": {
+                "slug": "mixed-audio-streaming",
+                "meter": "perminute",
+                "value": 0.004
+              }
+            },
+            "meterSlug": "payg",
+            "offerKind": "v3-flat",
+            "pricingType": "WebDirect",
+            "region": "us-east",
+            "resourceId": [],
+            "sku": [],
+            "skuSlug": "mixed-audio-streaming",
+            "total": 0,
+            "value": 0.004
+          },
+          "mixedAudioVideo": {
+            "additionalData": {
+              "diskSize": 0
+            },
+            "baseOffers": {
+              "undefined": {
+                "slug": "mixed-audio-video-recording",
+                "meter": "perminute",
+                "value": 0.01
+              }
+            },
+            "meterSlug": "payg",
+            "offerKind": "v3-flat",
+            "pricingType": "WebDirect",
+            "region": "us-east",
+            "resourceId": [],
+            "sku": [],
+            "skuSlug": "mixed-audio-video-recording",
+            "total": 0,
+            "value": 0.01
+          },
+          "unmixedAudio": {
+            "additionalData": {
+              "diskSize": 0
+            },
+            "baseOffers": {
+              "undefined": {
+                "slug": "unmixed-audio-recording",
+                "meter": "perminute",
+                "value": 0.0012
+              }
+            },
+            "meterSlug": "payg",
+            "offerKind": "v3-flat",
+            "pricingType": "WebDirect",
+            "region": "us-east",
+            "resourceId": [],
+            "sku": [],
+            "skuSlug": "unmixed-audio-recording",
+            "total": 0,
+            "value": 0.0012
+          },
+          "sipminutesInbound": {
+            "additionalData": {
+              "diskSize": 0
+            },
+            "baseOffers": {
+              "undefined": {
+                "slug": "sip-direct-routing-inbound",
+                "meter": "perminute",
+                "value": 0.004
+              }
+            },
+            "meterSlug": "payg",
+            "offerKind": "v3-flat",
+            "pricingType": "WebDirect",
+            "region": "us-east",
+            "resourceId": [],
+            "sku": [],
+            "skuSlug": "sip-direct-routing-inbound",
+            "total": 0,
+            "value": 0.004
+          },
+          "sipminutesOutbound": {
+            "additionalData": {
+              "diskSize": 0
+            },
+            "baseOffers": {
+              "undefined": {
+                "slug": "sip-direct-routing-outbound",
+                "meter": "perminute",
+                "value": 0.004
+              }
+            },
+            "meterSlug": "payg",
+            "offerKind": "v3-flat",
+            "pricingType": "WebDirect",
+            "region": "us-east",
+            "resourceId": [],
+            "sku": [],
+            "skuSlug": "sip-direct-routing-outbound",
+            "total": 0,
+            "value": 0.004
+          },
+          "emailsSent": {
+            "additionalData": {
+              "diskSize": 0
+            },
+            "baseOffers": {
+              "undefined": {
+                "slug": "email-sent",
+                "meter": "perunit",
+                "value": 0.00025
+              }
+            },
+            "meterSlug": "payg",
+            "offerKind": "v3-flat",
+            "pricingType": "WebDirect",
+            "region": "us-east",
+            "resourceId": [],
+            "sku": [],
+            "skuSlug": "email-sent",
+            "total": 0,
+            "value": 0.00025
+          },
+          "emailsSize": {
+            "additionalData": {
+              "diskSize": 0
+            },
+            "baseOffers": {
+              "undefined": {
+                "slug": "email-size",
+                "meter": "perunit",
+                "value": 0.00012
+              }
+            },
+            "meterSlug": "payg",
+            "offerKind": "v3-flat",
+            "pricingType": "WebDirect",
+            "region": "us-east",
+            "resourceId": [],
+            "sku": [],
+            "skuSlug": "email-size",
+            "total": 0,
+            "value": 0.00012
+          },
+          "whatsappChat": {
+            "additionalData": {
+              "diskSize": 0
+            },
+            "baseOffers": {
+              "undefined": {
+                "slug": "advanced-messaging",
+                "meter": "permessage",
+                "value": 0.005
+              }
+            },
+            "meterSlug": "payg",
+            "offerKind": "v3-flat",
+            "pricingType": "WebDirect",
+            "region": "us-east",
+            "resourceId": [],
+            "sku": [],
+            "skuSlug": "advanced-messaging",
+            "total": 0,
+            "value": 0.005
+          },
+          "numberLookup": {
+            "additionalData": {
+              "diskSize": 0
+            },
+            "baseOffers": {
+              "undefined": {
+                "slug": "number-lookup",
+                "meter": "perminute",
+                "value": 0.005
+              }
+            },
+            "meterSlug": "payg",
+            "offerKind": "v3-flat",
+            "pricingType": "WebDirect",
+            "region": "us-east",
+            "resourceId": [],
+            "sku": [],
+            "skuSlug": "number-lookup",
+            "total": 0,
+            "value": 0.005
+          },
+          "jobRouter": {
+            "additionalData": {
+              "diskSize": 0
+            },
+            "baseOffers": {
+              "undefined": {
+                "slug": "job-router",
+                "meter": "perhour"
+              }
+            },
+            "meterSlug": "payg",
+            "offerKind": "v3-flat",
+            "pricingType": "WebDirect",
+            "region": "us-east",
+            "resourceId": [],
+            "sku": [],
+            "skuSlug": "job-router",
+            "total": 0,
+            "value": 0
+          },
+          "unmixedAudioInsightsStreaming": {
+            "additionalData": {
+              "diskSize": 0
+            },
+            "baseOffers": {
+              "undefined": {
+                "slug": "unmixed-audio-insights-streaming",
+                "meter": "perminute",
+                "value": 0.004
+              }
+            },
+            "meterSlug": "payg",
+            "offerKind": "v3-flat",
+            "pricingType": "WebDirect",
+            "region": "us-east",
+            "resourceId": [],
+            "sku": [],
+            "skuSlug": "unmixed-audio-insights-streaming",
+            "total": 0,
+            "value": 0.004
+          },
+          "unmixedAudioStreaming": {
+            "additionalData": {
+              "diskSize": 0
+            },
+            "baseOffers": {
+              "undefined": {
+                "slug": "unmixed-audio-streaming",
+                "meter": "perminute",
+                "value": 0.004
+              }
+            },
+            "meterSlug": "payg",
+            "offerKind": "v3-flat",
+            "pricingType": "WebDirect",
+            "region": "us-east",
+            "resourceId": [],
+            "sku": [],
+            "skuSlug": "unmixed-audio-streaming",
+            "total": 0,
+            "value": 0.004
+          },
+          "closedCaptions": {
+            "additionalData": {
+              "diskSize": 0
+            },
+            "baseOffers": {
+              "undefined": {
+                "slug": "closed-caption-standard",
+                "meter": "perminute",
+                "value": 0.021
+              }
+            },
+            "meterSlug": "payg",
+            "offerKind": "v3-flat",
+            "pricingType": "WebDirect",
+            "region": "us-east",
+            "resourceId": [],
+            "sku": [],
+            "skuSlug": "closed-caption-standard",
+            "total": 0,
+            "value": 0.021
+          },
+          "messagingConnect": {
+            "additionalData": {
+              "diskSize": 0
+            },
+            "baseOffers": {
+              "undefined": {
+                "slug": "messaging-connect",
+                "meter": "permessage",
+                "value": 0.0025
+              }
+            },
+            "meterSlug": "payg",
+            "offerKind": "v3-flat",
+            "pricingType": "WebDirect",
+            "region": "us-east",
+            "resourceId": [],
+            "sku": [],
+            "skuSlug": "messaging-connect",
+            "total": 0,
+            "value": 0.0025
+          },
+          "total": 0,
+          "upfrontTotal": 0
+        },
+        "region": "us-east",
+        "resourceId": {
+          "calls": [],
+          "chat": [],
+          "geographic-numbers": [],
+          "tollfree-numbers": [],
+          "messaging-connect": []
+        },
+        "serviceSlug": "communication-services",
+        "shouldShowFreeAccountBenefits": true,
+        "sku": {
+          "calls": [],
+          "chat": [],
+          "geographic-numbers": [],
+          "tollfree-numbers": [],
+          "messaging-connect": []
+        },
+        "total": 0,
+        "upfrontTotal": 0,
+        "version": "v1.0.9",
+        "avgMessagePerUser": 0,
+        "callDuration": [
+          "minutes-30"
+        ],
+        "callsPerMonth": [
+          0
+        ],
+        "chatUsers": 0,
+        "localPhoneFee": 0,
+        "participantsPerCall": [
+          0
+        ],
+        "tollFreePhoneFee": 0,
+        "recordedMinutesMixedAudio": 0,
+        "recordedMinutesMixedAudioAndVideo": 0,
+        "minutesInbound": 0,
+        "minutesOutbound": 0,
+        "emailsSentPerMonth": 0,
+        "emailSize": 0,
+        "numberOfParticipants": 0,
+        "recordedMinutesUnMixedAudio": 0,
+        "numberOfInboundMessages": 0,
+        "numberOfOutboundMessages": 0,
+        "jobRouter": 0,
+        "numberLookup": 0,
+        "mixedAudioStreamedMinutes": 0,
+        "unmixedAudioStreamedMinutes": 0,
+        "unmixedAudioInsightsStreamedMinutes": 0,
+        "closedCaption": 0,
+        "isDeprecated": false,
+        "months": 1
+      }
+    },
+    {
+      "service": "mariadb",
+      "state": {
+        "description": "",
+        "displayName": "",
+        "layoutId": "",
+        "hasPricing": true,
+        "isBreakingChange": false,
+        "isCollapsed": true,
+        "prices": {
+          "upfrontTotal": 0,
+          "total": 0
+        },
+        "region": "us-east",
+        "resourceId": {},
+        "serviceSlug": "mariadb",
+        "shouldShowFreeAccountBenefits": true,
+        "sku": {},
+        "total": 0,
+        "upfrontTotal": 0,
+        "version": "v1.0.2",
+        "tier": "generalpurpose",
+        "computeType": "g5-2",
+        "servers": 1,
+        "hours": 730,
+        "hoursFactor": 1,
+        "storageCount": 5,
+        "redundancy": "lrs",
+        "backupUnits": 100,
+        "backupUnitsFactor": 1,
+        "billingOption": "payg",
+        "paymentOption": "monthly",
+        "isDeprecated": false,
+        "months": 1
+      }
+    },
+    {
+      "service": "data-explorer",
+      "state": {
+        "description": "730 Hours of 2 x E2ADSV5 Engine Instances, 730 Hours of Data Management Instances, 730 Hours of Data Explorer Markup, Production Environment, 100 GB of data collected per day, 7 days of Hot Cache, 30 days of total retention, 7 times estimated data compression, Auto Selected Engine Instances enabled",
+        "displayName": "",
+        "layoutId": "data-explorer-9c6c8138-eaae-4db6-8381-34c5eb2c27e0-layout",
+        "hasPricing": true,
+        "isBreakingChange": false,
+        "isCollapsed": true,
+        "prices": {
+          "dataExplorerMarkup": {
+            "additionalData": {
+              "diskSize": 0,
+              "devTestHotCache": 0,
+              "hotCache": 0,
+              "series": "",
+              "isBaseOffer": false,
+              "workload": ""
+            },
+            "baseOffers": {
+              "undefined": {
+                "slug": "markup",
+                "meter": "percoreperhour",
+                "value": 0.11
+              }
+            },
+            "meterSlug": "payg",
+            "offerKind": "v3-flat",
+            "pricingType": "WebDirect",
+            "region": "us-east-2",
+            "resourceId": [],
+            "sku": [],
+            "skuSlug": "markup",
+            "total": 321.2,
+            "value": 0.11,
+            "averagePerMonth": 321.2,
+            "engineCores": 4,
+            "payGoOffer": {
+              "additionalData": {
+                "diskSize": 0,
+                "devTestHotCache": 0,
+                "hotCache": 0,
+                "series": "",
+                "isBaseOffer": false,
+                "workload": ""
+              },
+              "baseOffers": {
+                "undefined": {
+                  "slug": "markup",
+                  "meter": "percoreperhour",
+                  "value": 0.11
+                }
+              },
+              "meterSlug": "payg",
+              "offerKind": "v3-flat",
+              "pricingType": "WebDirect",
+              "region": "us-east-2",
+              "resourceId": [],
+              "sku": [],
+              "skuSlug": "markup",
+              "total": 321.2,
+              "value": 0.11
+            },
+            "resolvedOffer": {
+              "additionalData": {
+                "diskSize": 0,
+                "devTestHotCache": 0,
+                "hotCache": 0,
+                "series": "",
+                "isBaseOffer": false,
+                "workload": ""
+              },
+              "baseOffers": {
+                "undefined": {
+                  "slug": "markup",
+                  "meter": "percoreperhour",
+                  "value": 0.11
+                }
+              },
+              "meterSlug": "payg",
+              "offerKind": "v3-flat",
+              "pricingType": "WebDirect",
+              "region": "us-east-2",
+              "resourceId": [],
+              "sku": [],
+              "skuSlug": "markup",
+              "total": 321.2,
+              "value": 0.11
+            },
+            "oneYearOffer": {
+              "additionalData": {
+                "diskSize": 0,
+                "devTestHotCache": 0,
+                "hotCache": 0,
+                "series": "",
+                "isBaseOffer": false,
+                "workload": ""
+              },
+              "baseOffers": {
+                "undefined": {
+                  "slug": "markup",
+                  "meter": "perhouroneyearreserved",
+                  "value": 0.0934931507
+                }
+              },
+              "meterSlug": "one-year",
+              "offerKind": "v3-flat",
+              "pricingType": "WebDirect",
+              "region": "us-east-2",
+              "resourceId": [],
+              "sku": [],
+              "skuSlug": "markup",
+              "total": 273.000000044,
+              "value": 0.0934931507
+            },
+            "threeYearOffer": {
+              "additionalData": {
+                "diskSize": 0,
+                "devTestHotCache": 0,
+                "hotCache": 0,
+                "series": "",
+                "isBaseOffer": false,
+                "workload": ""
+              },
+              "baseOffers": {
+                "undefined": {
+                  "slug": "markup",
+                  "meter": "perhourthreeyearreserved",
+                  "value": 0.0770167428
+                }
+              },
+              "meterSlug": "three-year",
+              "offerKind": "v3-flat",
+              "pricingType": "WebDirect",
+              "region": "us-east-2",
+              "resourceId": [],
+              "sku": [],
+              "skuSlug": "markup",
+              "total": 224.88888897599998,
+              "value": 0.0770167428
+            },
+            "upfrontTotal": 0
+          },
+          "dataManagement": {
+            "additionalData": {
+              "diskSize": 50,
+              "cores": 1,
+              "ram": 3.5,
+              "series": "Dv2",
+              "isBaseOffer": true,
+              "isVcpu": true
+            },
+            "baseOffers": {
+              "undefined": {
+                "slug": "linux-d1v2-standard",
+                "meter": "perhour",
+                "value": 0.057
+              }
+            },
+            "meterSlug": "payg",
+            "offerKind": "v3-flat",
+            "pricingType": "WebDirect",
+            "region": "us-east-2",
+            "resourceId": [],
+            "sku": [],
+            "skuSlug": "linux-d1v2-standard",
+            "total": 83.22,
+            "value": 0.057,
+            "averagePerMonth": 83.22,
+            "dataManagementSku": "data-management-d1v2",
+            "displayName": "D1 v2: 1 vCPUs, 3.5 GB RAM, 200 GB Temporary storage",
+            "instances": 2,
+            "payGoOffer": {
+              "additionalData": {
+                "diskSize": 50,
+                "cores": 1,
+                "ram": 3.5,
+                "series": "Dv2",
+                "isBaseOffer": true,
+                "isVcpu": true
+              },
+              "baseOffers": {
+                "undefined": {
+                  "slug": "linux-d1v2-standard",
+                  "meter": "perhour",
+                  "value": 0.057
+                }
+              },
+              "meterSlug": "payg",
+              "offerKind": "v3-flat",
+              "pricingType": "WebDirect",
+              "region": "us-east-2",
+              "resourceId": [],
+              "sku": [],
+              "skuSlug": "linux-d1v2-standard",
+              "total": 83.22,
+              "value": 0.057
+            },
+            "resolvedOffer": {
+              "additionalData": {
+                "diskSize": 50,
+                "cores": 1,
+                "ram": 3.5,
+                "series": "Dv2",
+                "isBaseOffer": true,
+                "isVcpu": true
+              },
+              "baseOffers": {
+                "undefined": {
+                  "slug": "linux-d1v2-standard",
+                  "meter": "perhour",
+                  "value": 0.057
+                }
+              },
+              "meterSlug": "payg",
+              "offerKind": "v3-flat",
+              "pricingType": "WebDirect",
+              "region": "us-east-2",
+              "resourceId": [],
+              "sku": [],
+              "skuSlug": "linux-d1v2-standard",
+              "total": 83.22,
+              "value": 0.057
+            },
+            "oneYearOffer": {
+              "additionalData": {
+                "diskSize": 0
+              },
+              "baseOffers": {},
+              "meterSlug": "one-year",
+              "offerKind": "v3-flat",
+              "pricingType": "",
+              "region": "us-east-2",
+              "resourceId": [],
+              "sku": [],
+              "skuSlug": "linux-d1v2-standard",
+              "total": 0,
+              "value": null,
+              "upfrontTotal": 0
+            },
+            "threeYearOffer": {
+              "additionalData": {
+                "diskSize": 0
+              },
+              "baseOffers": {},
+              "meterSlug": "three-year",
+              "offerKind": "v3-flat",
+              "pricingType": "",
+              "region": "us-east-2",
+              "resourceId": [],
+              "sku": [],
+              "skuSlug": "linux-d1v2-standard",
+              "total": 0,
+              "value": null,
+              "upfrontTotal": 0
+            },
+            "savingsOneYearOffer": {
+              "additionalData": {
+                "diskSize": 50,
+                "cores": 1,
+                "ram": 3.5,
+                "series": "Dv2",
+                "isBaseOffer": true,
+                "isVcpu": true
+              },
+              "baseOffers": {
+                "undefined": {
+                  "slug": "linux-d1v2-standard",
+                  "meter": "perunitoneyearsavings",
+                  "value": 0.03933
+                }
+              },
+              "meterSlug": "sv-one-year",
+              "offerKind": "v3-flat",
+              "pricingType": "WebDirect",
+              "region": "us-east-2",
+              "resourceId": [],
+              "sku": [],
+              "skuSlug": "linux-d1v2-standard",
+              "total": 57.4218,
+              "value": 0.03933,
+              "upfrontTotal": 689.0616
+            },
+            "savingsThreeYearOffer": {
+              "additionalData": {
+                "diskSize": 50,
+                "cores": 1,
+                "ram": 3.5,
+                "series": "Dv2",
+                "isBaseOffer": true,
+                "isVcpu": true
+              },
+              "baseOffers": {
+                "undefined": {
+                  "slug": "linux-d1v2-standard",
+                  "meter": "perunitthreeyearsavings",
+                  "value": 0.02679
+                }
+              },
+              "meterSlug": "sv-three-year",
+              "offerKind": "v3-flat",
+              "pricingType": "WebDirect",
+              "region": "us-east-2",
+              "resourceId": [],
+              "sku": [],
+              "skuSlug": "linux-d1v2-standard",
+              "total": 39.1134,
+              "value": 0.02679,
+              "upfrontTotal": 469.3608
+            },
+            "upfrontTotal": 0
+          },
+          "engineInstances": {
+            "additionalData": {
+              "diskSize": 55,
+              "devTestHotCache": 0,
+              "hotCache": 55,
+              "series": "Easdv5",
+              "isBaseOffer": false,
+              "vmSkuSlug": "linux-e2adsv5-standard",
+              "workload": "ComputeOptimized"
+            },
+            "baseOffers": {
+              "undefined": {
+                "slug": "engine-e2adsv5",
+                "meter": "percoreperhour",
+                "value": 0.11
+              }
+            },
+            "meterSlug": "payg",
+            "offerKind": "v3-flat",
+            "pricingType": "WebDirect",
+            "region": "us-east-2",
+            "resourceId": [],
+            "sku": [],
+            "skuSlug": "engine-e2adsv5",
+            "total": 191.26000000000002,
+            "value": 0.11,
+            "autoSelectedEngineInstance": {
+              "instance": {
+                "slug": "engine-e2adsv5",
+                "displayName": "E2ads v5: 2 vCPUs, 16 GB RAM, 55 GB Temporary storage",
+                "series": "easdv5",
+                "workload": "computeoptimized",
+                "cores": 2,
+                "price": "$0.131/hour",
+                "hasPricing": true
+              },
+              "instanceCount": 2,
+              "resolvedWorkload": "computeoptimized"
+            },
+            "averagePerMonth": 191.26000000000002,
+            "payGoOffer": {
+              "additionalData": {
+                "diskSize": 75,
+                "cores": 2,
+                "ram": 16,
+                "series": "Eadsv5",
+                "isBaseOffer": true,
+                "isVcpu": true
+              },
+              "baseOffers": {
+                "undefined": {
+                  "slug": "linux-e2adsv5-standard",
+                  "meter": "perhour",
+                  "value": 0.131
+                }
+              },
+              "meterSlug": "payg",
+              "offerKind": "v3-flat",
+              "pricingType": "WebDirect",
+              "region": "us-east-2",
+              "resourceId": [],
+              "sku": [],
+              "skuSlug": "linux-e2adsv5-standard",
+              "total": 191.26000000000002,
+              "value": 0.131
+            },
+            "resolvedOffer": {
+              "additionalData": {
+                "diskSize": 75,
+                "cores": 2,
+                "ram": 16,
+                "series": "Eadsv5",
+                "isBaseOffer": true,
+                "isVcpu": true
+              },
+              "baseOffers": {
+                "undefined": {
+                  "slug": "linux-e2adsv5-standard",
+                  "meter": "perhour",
+                  "value": 0.131
+                }
+              },
+              "meterSlug": "payg",
+              "offerKind": "v3-flat",
+              "pricingType": "WebDirect",
+              "region": "us-east-2",
+              "resourceId": [],
+              "sku": [],
+              "skuSlug": "linux-e2adsv5-standard",
+              "total": 191.26000000000002,
+              "value": 0.131
+            },
+            "oneYearOffer": {
+              "additionalData": {
+                "diskSize": 75,
+                "cores": 2,
+                "ram": 16,
+                "series": "Eadsv5",
+                "isBaseOffer": true,
+                "isVcpu": true
+              },
+              "baseOffers": {
+                "undefined": {
+                  "slug": "linux-e2adsv5-standard",
+                  "meter": "perhouroneyearreserved",
+                  "value": 0.077283105
+                }
+              },
+              "meterSlug": "one-year",
+              "offerKind": "v3-flat",
+              "pricingType": "WebDirect",
+              "region": "us-east-2",
+              "resourceId": [],
+              "sku": [],
+              "skuSlug": "linux-e2adsv5-standard",
+              "total": 112.8333333,
+              "value": 0.077283105,
+              "upfrontTotal": 1353.9999996000001
+            },
+            "slug": "engine-e2adsv5",
+            "threeYearOffer": {
+              "additionalData": {
+                "diskSize": 75,
+                "cores": 2,
+                "ram": 16,
+                "series": "Eadsv5",
+                "isBaseOffer": true,
+                "isVcpu": true
+              },
+              "baseOffers": {
+                "undefined": {
+                  "slug": "linux-e2adsv5-standard",
+                  "meter": "perhourthreeyearreserved",
+                  "value": 0.0497716895
+                }
+              },
+              "meterSlug": "three-year",
+              "offerKind": "v3-flat",
+              "pricingType": "WebDirect",
+              "region": "us-east-2",
+              "resourceId": [],
+              "sku": [],
+              "skuSlug": "linux-e2adsv5-standard",
+              "total": 72.66666667,
+              "value": 0.0497716895,
+              "upfrontTotal": 2616.00000012
+            },
+            "savingsOneYearOffer": {
+              "additionalData": {
+                "diskSize": 75,
+                "cores": 2,
+                "ram": 16,
+                "series": "Eadsv5",
+                "isBaseOffer": true,
+                "isVcpu": true
+              },
+              "baseOffers": {
+                "undefined": {
+                  "slug": "linux-e2adsv5-standard",
+                  "meter": "perunitoneyearsavings",
+                  "value": 0.08896
+                }
+              },
+              "meterSlug": "sv-one-year",
+              "offerKind": "v3-flat",
+              "pricingType": "WebDirect",
+              "region": "us-east-2",
+              "resourceId": [],
+              "sku": [],
+              "skuSlug": "linux-e2adsv5-standard",
+              "total": 129.8816,
+              "value": 0.08896,
+              "upfrontTotal": 1558.5792
+            },
+            "savingsThreeYearOffer": {
+              "additionalData": {
+                "diskSize": 75,
+                "cores": 2,
+                "ram": 16,
+                "series": "Eadsv5",
+                "isBaseOffer": true,
+                "isVcpu": true
+              },
+              "baseOffers": {
+                "undefined": {
+                  "slug": "linux-e2adsv5-standard",
+                  "meter": "perunitthreeyearsavings",
+                  "value": 0.06124
+                }
+              },
+              "meterSlug": "sv-three-year",
+              "offerKind": "v3-flat",
+              "pricingType": "WebDirect",
+              "region": "us-east-2",
+              "resourceId": [],
+              "sku": [],
+              "skuSlug": "linux-e2adsv5-standard",
+              "total": 89.41040000000001,
+              "value": 0.06124,
+              "upfrontTotal": 1072.9248000000002
+            },
+            "upfrontTotal": 0
+          },
+          "storage": {
+            "additionalData": {
+              "burstingIops": 30000,
+              "burstingThroughput": 1000,
+              "iops": 5000,
+              "maxPaidTransaction": 0,
+              "size": 1024,
+              "speed": 200
+            },
+            "meterSlug": "premiumssd-p30-lrs",
+            "offerKind": "v2-flat",
+            "pricingType": "WebDirect",
+            "region": "us-east-2",
+            "resourceId": "",
+            "sku": "",
+            "total": 0,
+            "value": 0.16832876712328768,
+            "count": null
+          },
+          "storageAndTransactions": {
+            "read": {
+              "additionalData": {
+                "diskSize": 0
+              },
+              "baseOffers": {
+                "undefined": {
+                  "slug": "general-purpose-v2-block-blob-flat-hot-lrs-read-operations",
+                  "meter": "per10k",
+                  "value": 0.004
+                }
+              },
+              "meterSlug": "payg",
+              "offerKind": "v3-flat",
+              "pricingType": "WebDirect",
+              "region": "us-east-2",
+              "resourceId": [],
+              "sku": [],
+              "skuSlug": "general-purpose-v2-block-blob-flat-hot-lrs-read-operations",
+              "total": 0.9,
+              "value": 0.004,
+              "readAmount": 2250000
+            },
+            "storage": {
+              "additionalData": {
+                "diskSize": 0
+              },
+              "baseOffers": {
+                "undefined": {
+                  "slug": "general-purpose-v2-block-blob-flat-hot-lrs",
+                  "meter": "pergb"
+                }
+              },
+              "meterSlug": "payg",
+              "offerKind": "v3-flat",
+              "pricingType": "WebDirect",
+              "region": "us-east-2",
+              "resourceId": [],
+              "sku": [],
+              "skuSlug": "general-purpose-v2-block-blob-flat-hot-lrs",
+              "total": 15.03542857142857,
+              "value": 15.03542857142857,
+              "storageAmount": 817.1428571428571
+            },
+            "write": {
+              "additionalData": {
+                "diskSize": 0
+              },
+              "baseOffers": {
+                "undefined": {
+                  "slug": "general-purpose-v2-block-blob-flat-hot-lrs-write-operations",
+                  "meter": "per10k",
+                  "value": 0.05
+                }
+              },
+              "meterSlug": "payg",
+              "offerKind": "v3-flat",
+              "pricingType": "WebDirect",
+              "region": "us-east-2",
+              "resourceId": [],
+              "sku": [],
+              "skuSlug": "general-purpose-v2-block-blob-flat-hot-lrs-write-operations",
+              "total": 11.25,
+              "value": 0.05,
+              "writeAmount": 2250000
+            },
+            "total": 27.18542857142857
+          },
+          "total": 622.8654285714285,
+          "upfrontTotal": 0
+        },
+        "region": "us-east-2",
+        "resourceId": {
+          "dataExplorerMarkup": [],
+          "dataManagement": [],
+          "engineInstances": [],
+          "storage": "",
+          "storageAndTransactionsRead": [],
+          "storageAndTransactionsWrite": []
+        },
+        "serviceSlug": "data-explorer",
+        "shouldShowFreeAccountBenefits": true,
+        "sku": {
+          "dataExplorerMarkup": [],
+          "dataManagement": [],
+          "engineInstances": [],
+          "storage": "",
+          "storageAndTransactionsRead": [],
+          "storageAndTransactionsWrite": []
+        },
+        "total": 622.8654285714285,
+        "upfrontTotal": 0,
+        "version": "v1.0.4",
+        "storageAvailabilityZoneToggler": false,
+        "dataCollectedUnit": 100,
+        "dataCollectedUnitFactor": 1,
+        "dataExplorerMarkupBillingOption": "payg",
+        "dataManagementBillingOption": "payg",
+        "dataManagementHours": 730,
+        "dataManagementHoursFactor": 1,
+        "enableAutoSelectEngineInstances": true,
+        "engineInstanceBillingOption": "payg",
+        "engineInstanceHours": 730,
+        "engineInstanceHoursFactor": 1,
+        "engineInstanceInstance": "engine-e2adsv5",
+        "engineInstanceNodes": 2,
+        "engineInstanceSeries": "all",
+        "engineInstanceWorkload": "computeoptimized",
+        "environment": "production",
+        "estimatedDataCompression": 7,
+        "hotCache": 7,
+        "paymentOption": "monthly",
+        "totalRetention": 30,
+        "isDeprecated": false,
+        "months": 1
+      }
+    },
+    {
+      "service": "healthcare-agent-service",
+      "state": {
+        "description": "",
+        "displayName": "",
+        "layoutId": "",
+        "hasPricing": true,
+        "isBreakingChange": false,
+        "isCollapsed": true,
+        "prices": {
+          "upfrontTotal": 0,
+          "total": 0
+        },
+        "region": "us-east",
+        "resourceId": {},
+        "serviceSlug": "healthcare-agent-service",
+        "shouldShowFreeAccountBenefits": true,
+        "sku": {},
+        "total": 0,
+        "upfrontTotal": 0,
+        "version": "v1.0.0",
+        "tier": "free",
+        "messages": 100,
+        "medicalContentUnits": 0,
+        "isDeprecated": false,
+        "months": 1
+      }
+    },
+    {
+      "service": "time-series-insights",
+      "state": {
+        "description": "S1 tier: 1 unit(s)",
+        "displayName": "",
+        "layoutId": "time-series-insights-c29f3983-2599-452c-b07c-e69c067aed62-layout",
+        "hasPricing": true,
+        "isBreakingChange": false,
+        "isCollapsed": true,
+        "prices": {
+          "additionalData": {
+            "eventsPerDay": 1000000
+          },
+          "meterSlug": "s1",
+          "offerKind": "v2-flat",
+          "pricingType": "WebDirect",
+          "region": "us-west",
+          "resourceId": "",
+          "sku": "",
+          "total": 149.999979,
+          "value": 4.838709,
+          "timeSeries": {
+            "additionalData": {
+              "eventsPerDay": 1000000
+            },
+            "meterSlug": "s1",
+            "offerKind": "v2-flat",
+            "pricingType": "WebDirect",
+            "region": "us-west",
+            "resourceId": "",
+            "sku": "",
+            "total": 149.999979,
+            "value": 4.838709
+          },
+          "upfrontTotal": 0
+        },
+        "region": "us-west",
+        "resourceId": {
+          "tier": ""
+        },
+        "serviceSlug": "time-series-insights",
+        "shouldShowFreeAccountBenefits": true,
+        "sku": {
+          "tier": ""
+        },
+        "total": 149.999979,
+        "upfrontTotal": 0,
+        "version": "v1.0.1",
+        "tier": "s1",
+        "units": 1,
+        "isDeprecated": false,
+        "months": 1
+      }
+    },
+    {
+      "service": "azure-sql-edge",
+      "state": {
+        "description": "",
+        "displayName": "",
+        "layoutId": "",
+        "hasPricing": true,
+        "isBreakingChange": false,
+        "isCollapsed": true,
+        "prices": {
+          "upfrontTotal": 0,
+          "total": 0
+        },
+        "region": "us-east",
+        "resourceId": {},
+        "serviceSlug": "azure-sql-edge",
+        "shouldShowFreeAccountBenefits": true,
+        "sku": {},
+        "total": 0,
+        "upfrontTotal": 0,
+        "version": "v2.0.0",
+        "devices": 0,
+        "billingOption": "payg",
+        "paymentOption": "monthly",
+        "devicesHours": 730,
+        "devicesHoursFactor": 1,
+        "isDeprecated": false,
+        "months": 1
+      }
+    },
+    {
+      "service": "active-directory-b2c",
+      "state": {
+        "description": "Premium P1 tier: 50,000 monthly active user(s), 0 SMS/Phone Events",
+        "displayName": "",
+        "layoutId": "active-directory-b2c-0844dd2d-5967-45a8-b0e5-88ea805ed5dc-layout",
+        "hasPricing": true,
+        "isBreakingChange": false,
+        "isCollapsed": true,
+        "prices": {
+          "authentications": {
+            "additionalData": {
+              "australia-central": {
+                "prices": [
+                  {
+                    "limit": 50000,
+                    "price": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "limit": 1.7976931348623157e+308,
+                    "price": {
+                      "value": 0.00325
+                    }
+                  }
+                ],
+                "pricingTypes": "WebDirect"
+              },
+              "australia-central-2": {
+                "prices": [
+                  {
+                    "limit": 50000,
+                    "price": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "limit": 1.7976931348623157e+308,
+                    "price": {
+                      "value": 0.00325
+                    }
+                  }
+                ],
+                "pricingTypes": "WebDirect"
+              },
+              "australia-east": {
+                "prices": [
+                  {
+                    "limit": 50000,
+                    "price": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "limit": 1.7976931348623157e+308,
+                    "price": {
+                      "value": 0.00325
+                    }
+                  }
+                ],
+                "pricingTypes": "WebDirect"
+              },
+              "australia-southeast": {
+                "prices": [
+                  {
+                    "limit": 50000,
+                    "price": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "limit": 1.7976931348623157e+308,
+                    "price": {
+                      "value": 0.00325
+                    }
+                  }
+                ],
+                "pricingTypes": "WebDirect"
+              },
+              "brazil-south": {
+                "prices": [
+                  {
+                    "limit": 50000,
+                    "price": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "limit": 1.7976931348623157e+308,
+                    "price": {
+                      "value": 0.00325
+                    }
+                  }
+                ],
+                "pricingTypes": "WebDirect"
+              },
+              "canada-central": {
+                "prices": [
+                  {
+                    "limit": 50000,
+                    "price": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "limit": 1.7976931348623157e+308,
+                    "price": {
+                      "value": 0.00325
+                    }
+                  }
+                ],
+                "pricingTypes": "WebDirect"
+              },
+              "canada-east": {
+                "prices": [
+                  {
+                    "limit": 50000,
+                    "price": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "limit": 1.7976931348623157e+308,
+                    "price": {
+                      "value": 0.00325
+                    }
+                  }
+                ],
+                "pricingTypes": "WebDirect"
+              },
+              "central-india": {
+                "prices": [
+                  {
+                    "limit": 50000,
+                    "price": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "limit": 1.7976931348623157e+308,
+                    "price": {
+                      "value": 0.00325
+                    }
+                  }
+                ],
+                "pricingTypes": "WebDirect"
+              },
+              "us-central": {
+                "prices": [
+                  {
+                    "limit": 50000,
+                    "price": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "limit": 1.7976931348623157e+308,
+                    "price": {
+                      "value": 0.00325
+                    }
+                  }
+                ],
+                "pricingTypes": "WebDirect"
+              },
+              "asia-pacific-east": {
+                "prices": [
+                  {
+                    "limit": 50000,
+                    "price": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "limit": 1.7976931348623157e+308,
+                    "price": {
+                      "value": 0.00325
+                    }
+                  }
+                ],
+                "pricingTypes": "WebDirect"
+              },
+              "us-east": {
+                "prices": [
+                  {
+                    "limit": 50000,
+                    "price": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "limit": 1.7976931348623157e+308,
+                    "price": {
+                      "value": 0.00325
+                    }
+                  }
+                ],
+                "pricingTypes": "WebDirect"
+              },
+              "us-east-2": {
+                "prices": [
+                  {
+                    "limit": 50000,
+                    "price": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "limit": 1.7976931348623157e+308,
+                    "price": {
+                      "value": 0.00325
+                    }
+                  }
+                ],
+                "pricingTypes": "WebDirect"
+              },
+              "france-central": {
+                "prices": [
+                  {
+                    "limit": 50000,
+                    "price": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "limit": 1.7976931348623157e+308,
+                    "price": {
+                      "value": 0.00325
+                    }
+                  }
+                ],
+                "pricingTypes": "WebDirect"
+              },
+              "france-south": {
+                "prices": [
+                  {
+                    "limit": 50000,
+                    "price": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "limit": 1.7976931348623157e+308,
+                    "price": {
+                      "value": 0.00325
+                    }
+                  }
+                ],
+                "pricingTypes": "WebDirect"
+              },
+              "germany-north": {
+                "prices": [
+                  {
+                    "limit": 50000,
+                    "price": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "limit": 1.7976931348623157e+308,
+                    "price": {
+                      "value": 0.00325
+                    }
+                  }
+                ],
+                "pricingTypes": "WebDirect"
+              },
+              "germany-west-central": {
+                "prices": [
+                  {
+                    "limit": 50000,
+                    "price": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "limit": 1.7976931348623157e+308,
+                    "price": {
+                      "value": 0.00325
+                    }
+                  }
+                ],
+                "pricingTypes": "WebDirect"
+              },
+              "israel-central": {
+                "prices": [
+                  {
+                    "limit": 50000,
+                    "price": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "limit": 1.7976931348623157e+308,
+                    "price": {
+                      "value": 0.00325
+                    }
+                  }
+                ],
+                "pricingTypes": "WebDirect"
+              },
+              "japan-east": {
+                "prices": [
+                  {
+                    "limit": 50000,
+                    "price": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "limit": 1.7976931348623157e+308,
+                    "price": {
+                      "value": 0.00325
+                    }
+                  }
+                ],
+                "pricingTypes": "WebDirect"
+              },
+              "japan-west": {
+                "prices": [
+                  {
+                    "limit": 50000,
+                    "price": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "limit": 1.7976931348623157e+308,
+                    "price": {
+                      "value": 0.00325
+                    }
+                  }
+                ],
+                "pricingTypes": "WebDirect"
+              },
+              "korea-central": {
+                "prices": [
+                  {
+                    "limit": 50000,
+                    "price": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "limit": 1.7976931348623157e+308,
+                    "price": {
+                      "value": 0.00325
+                    }
+                  }
+                ],
+                "pricingTypes": "WebDirect"
+              },
+              "korea-south": {
+                "prices": [
+                  {
+                    "limit": 50000,
+                    "price": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "limit": 1.7976931348623157e+308,
+                    "price": {
+                      "value": 0.00325
+                    }
+                  }
+                ],
+                "pricingTypes": "WebDirect"
+              },
+              "us-north-central": {
+                "prices": [
+                  {
+                    "limit": 50000,
+                    "price": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "limit": 1.7976931348623157e+308,
+                    "price": {
+                      "value": 0.00325
+                    }
+                  }
+                ],
+                "pricingTypes": "WebDirect"
+              },
+              "europe-north": {
+                "prices": [
+                  {
+                    "limit": 50000,
+                    "price": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "limit": 1.7976931348623157e+308,
+                    "price": {
+                      "value": 0.00325
+                    }
+                  }
+                ],
+                "pricingTypes": "WebDirect"
+              },
+              "norway-east": {
+                "prices": [
+                  {
+                    "limit": 50000,
+                    "price": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "limit": 1.7976931348623157e+308,
+                    "price": {
+                      "value": 0.00325
+                    }
+                  }
+                ],
+                "pricingTypes": "WebDirect"
+              },
+              "norway-west": {
+                "prices": [
+                  {
+                    "limit": 50000,
+                    "price": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "limit": 1.7976931348623157e+308,
+                    "price": {
+                      "value": 0.00325
+                    }
+                  }
+                ],
+                "pricingTypes": "WebDirect"
+              },
+              "qatar-central": {
+                "prices": [
+                  {
+                    "limit": 50000,
+                    "price": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "limit": 1.7976931348623157e+308,
+                    "price": {
+                      "value": 0.00325
+                    }
+                  }
+                ],
+                "pricingTypes": "WebDirect"
+              },
+              "south-africa-north": {
+                "prices": [
+                  {
+                    "limit": 50000,
+                    "price": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "limit": 1.7976931348623157e+308,
+                    "price": {
+                      "value": 0.00325
+                    }
+                  }
+                ],
+                "pricingTypes": "WebDirect"
+              },
+              "south-africa-west": {
+                "prices": [
+                  {
+                    "limit": 50000,
+                    "price": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "limit": 1.7976931348623157e+308,
+                    "price": {
+                      "value": 0.00325
+                    }
+                  }
+                ],
+                "pricingTypes": "WebDirect"
+              },
+              "us-south-central": {
+                "prices": [
+                  {
+                    "limit": 50000,
+                    "price": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "limit": 1.7976931348623157e+308,
+                    "price": {
+                      "value": 0.00325
+                    }
+                  }
+                ],
+                "pricingTypes": "WebDirect"
+              },
+              "asia-pacific-southeast": {
+                "prices": [
+                  {
+                    "limit": 50000,
+                    "price": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "limit": 1.7976931348623157e+308,
+                    "price": {
+                      "value": 0.00325
+                    }
+                  }
+                ],
+                "pricingTypes": "WebDirect"
+              },
+              "south-india": {
+                "prices": [
+                  {
+                    "limit": 50000,
+                    "price": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "limit": 1.7976931348623157e+308,
+                    "price": {
+                      "value": 0.00325
+                    }
+                  }
+                ],
+                "pricingTypes": "WebDirect"
+              },
+              "switzerland-north": {
+                "prices": [
+                  {
+                    "limit": 50000,
+                    "price": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "limit": 1.7976931348623157e+308,
+                    "price": {
+                      "value": 0.00325
+                    }
+                  }
+                ],
+                "pricingTypes": "WebDirect"
+              },
+              "switzerland-west": {
+                "prices": [
+                  {
+                    "limit": 50000,
+                    "price": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "limit": 1.7976931348623157e+308,
+                    "price": {
+                      "value": 0.00325
+                    }
+                  }
+                ],
+                "pricingTypes": "WebDirect"
+              },
+              "uae-central": {
+                "prices": [
+                  {
+                    "limit": 50000,
+                    "price": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "limit": 1.7976931348623157e+308,
+                    "price": {
+                      "value": 0.00325
+                    }
+                  }
+                ],
+                "pricingTypes": "WebDirect"
+              },
+              "uae-north": {
+                "prices": [
+                  {
+                    "limit": 50000,
+                    "price": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "limit": 1.7976931348623157e+308,
+                    "price": {
+                      "value": 0.00325
+                    }
+                  }
+                ],
+                "pricingTypes": "WebDirect"
+              },
+              "united-kingdom-south": {
+                "prices": [
+                  {
+                    "limit": 50000,
+                    "price": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "limit": 1.7976931348623157e+308,
+                    "price": {
+                      "value": 0.00325
+                    }
+                  }
+                ],
+                "pricingTypes": "WebDirect"
+              },
+              "united-kingdom-west": {
+                "prices": [
+                  {
+                    "limit": 50000,
+                    "price": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "limit": 1.7976931348623157e+308,
+                    "price": {
+                      "value": 0.00325
+                    }
+                  }
+                ],
+                "pricingTypes": "WebDirect"
+              },
+              "usgov-arizona": {
+                "prices": [
+                  {
+                    "limit": 50000,
+                    "price": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "limit": 1.7976931348623157e+308,
+                    "price": {
+                      "value": 0.00406
+                    }
+                  }
+                ],
+                "pricingTypes": "WebDirect"
+              },
+              "usgov-texas": {
+                "prices": [
+                  {
+                    "limit": 50000,
+                    "price": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "limit": 1.7976931348623157e+308,
+                    "price": {
+                      "value": 0.00406
+                    }
+                  }
+                ],
+                "pricingTypes": "WebDirect"
+              },
+              "usgov-virginia": {
+                "prices": [
+                  {
+                    "limit": 50000,
+                    "price": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "limit": 1.7976931348623157e+308,
+                    "price": {
+                      "value": 0.00406
+                    }
+                  }
+                ],
+                "pricingTypes": "WebDirect"
+              },
+              "us-west-central": {
+                "prices": [
+                  {
+                    "limit": 50000,
+                    "price": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "limit": 1.7976931348623157e+308,
+                    "price": {
+                      "value": 0.00325
+                    }
+                  }
+                ],
+                "pricingTypes": "WebDirect"
+              },
+              "europe-west": {
+                "prices": [
+                  {
+                    "limit": 50000,
+                    "price": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "limit": 1.7976931348623157e+308,
+                    "price": {
+                      "value": 0.00325
+                    }
+                  }
+                ],
+                "pricingTypes": "WebDirect"
+              },
+              "west-india": {
+                "prices": [
+                  {
+                    "limit": 50000,
+                    "price": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "limit": 1.7976931348623157e+308,
+                    "price": {
+                      "value": 0.00325
+                    }
+                  }
+                ],
+                "pricingTypes": "WebDirect"
+              },
+              "us-west": {
+                "prices": [
+                  {
+                    "limit": 50000,
+                    "price": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "limit": 1.7976931348623157e+308,
+                    "price": {
+                      "value": 0.00325
+                    }
+                  }
+                ],
+                "pricingTypes": "WebDirect"
+              },
+              "us-west-2": {
+                "prices": [
+                  {
+                    "limit": 50000,
+                    "price": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "limit": 1.7976931348623157e+308,
+                    "price": {
+                      "value": 0.00325
+                    }
+                  }
+                ],
+                "pricingTypes": "WebDirect"
+              }
+            },
+            "meterSlug": "premium1",
+            "offerKind": "v2-graduated",
+            "pricingType": "WebDirect",
+            "region": "us-west",
+            "resourceId": "",
+            "sku": "",
+            "total": 0,
+            "value": 0
+          },
+          "mfa": {
+            "additionalData": {},
+            "meterSlug": "multi-factor-authentication-users",
+            "offerKind": "v2-flat",
+            "pricingType": "WebDirect",
+            "region": "us-west",
+            "resourceId": "",
+            "sku": "",
+            "total": 0,
+            "value": 0.03
+          },
+          "total": 0,
+          "upfrontTotal": 0
+        },
+        "region": "us-west",
+        "resourceId": {
+          "authentications": "",
+          "mfa": ""
+        },
+        "serviceSlug": "active-directory-b2c",
+        "shouldShowFreeAccountBenefits": true,
+        "sku": {
+          "authentications": "",
+          "mfa": ""
+        },
+        "total": 0,
+        "upfrontTotal": 0,
+        "version": "v1.0.3",
+        "authentications": 50000,
+        "multiFactorAuthentications": 0,
+        "tier": "p1",
+        "isDeprecated": false,
+        "months": 1
+      }
+    }
+  ]
+}

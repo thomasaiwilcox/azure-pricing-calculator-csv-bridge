@@ -1,0 +1,59 @@
+{
+  "service": "active-directory-b2c",
+  "display_name": "Azure Active Directory B2C",
+  "observed_utc": "2026-10-22",
+  "site_build": "20261019-0214-20261019-2100-186570892",
+  "schema_signature": {
+    "authentications": "number",
+    "displayName": "string",
+    "isBreakingChange": "boolean",
+    "isCollapsed": "boolean",
+    "isDeprecated": "boolean",
+    "months": "number",
+    "multiFactorAuthentications": "number",
+    "region": "string",
+    "serviceSlug": "string",
+    "tier": "string",
+    "total": "number",
+    "upfrontTotal": "number",
+    "version": "string"
+  },
+  "golden": {
+    "description": "",
+    "displayName": "",
+    "layoutId": "",
+    "hasPricing": true,
+    "isBreakingChange": false,
+    "isCollapsed": false,
+    "prices": {
+      "upfrontTotal": 0,
+      "total": 0
+    },
+    "region": "us-west",
+    "resourceId": {},
+    "serviceSlug": "active-directory-b2c",
+    "shouldShowFreeAccountBenefits": true,
+    "sku": {},
+    "total": 0.0,
+    "upfrontTotal": 0.0,
+    "version": "v1.0.3",
+    "authentications": 50000,
+    "multiFactorAuthentications": 0,
+    "tier": "p1",
+    "isDeprecated": false,
+    "months": 1
+  },
+  "configuration": {
+    "region": "us-west",
+    "authentications": 50000,
+    "multiFactorAuthentications": 0,
+    "tier": "p1",
+    "months": 1
+  },
+  "endpoints": [
+    {
+      "version": "v2",
+      "slug": "active-directory-b2c"
+    }
+  ]
+}

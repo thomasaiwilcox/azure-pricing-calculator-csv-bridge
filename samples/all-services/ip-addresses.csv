@@ -1,0 +1,2 @@
+batch_id,line_id,service,label,notes,config.region,config.type,config.dynamicAddresses,config.dynamicAddressHours,config.dynamicAddressHoursFactor,config.staticAddresses,config.staticAddressHours,config.staticAddressHoursFactor,config.publicIPPrefix,config.publicIPPrefixHours,config.publicIPPrefixHoursFactor,config.remaps,config.months
+ip-addresses,example-001,ip-addresses,IP Addresses example,Microsoft native defaults; review every setting and usage,us-east,basicclassic,0,730,1,0,730,1,0,730,1,0,1

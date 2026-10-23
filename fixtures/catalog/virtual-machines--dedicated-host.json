@@ -1,0 +1,109 @@
+{
+  "service": "virtual-machines\\dedicated-host",
+  "display_name": "Azure Dedicated Host",
+  "observed_utc": "2026-10-22",
+  "site_build": "20261019-0214-20261019-2100-186570892",
+  "schema_signature": {
+    "displayName": "string",
+    "enableSqlServerEnterpriseLicense": "boolean",
+    "enableWindowsServerDatacenterLicense": "boolean",
+    "hostBillingOption": "string",
+    "hostCount": "number",
+    "hostHours": "number",
+    "hostHoursFactor": "number",
+    "hostType": "string",
+    "isBreakingChange": "boolean",
+    "isCollapsed": "boolean",
+    "isDeprecated": "boolean",
+    "months": "number",
+    "paymentOption": "string",
+    "region": "string",
+    "serviceSlug": "string",
+    "softwareAhb": "array",
+    "softwareHours": "array",
+    "softwareHoursFactor": "array",
+    "softwareLicense": "array",
+    "softwareTotal": "array",
+    "softwareUbuntu": "array",
+    "softwareVcpu": "array",
+    "total": "number",
+    "upfrontTotal": "number",
+    "version": "string",
+    "vmSeries": "string"
+  },
+  "golden": {
+    "description": "",
+    "displayName": "",
+    "layoutId": "",
+    "hasPricing": true,
+    "isBreakingChange": false,
+    "isCollapsed": false,
+    "prices": {
+      "upfrontTotal": 0,
+      "total": 0
+    },
+    "region": "us-west",
+    "resourceId": {},
+    "serviceSlug": "virtual-machines\\dedicated-host",
+    "shouldShowFreeAccountBenefits": true,
+    "sku": {},
+    "total": 0.0,
+    "upfrontTotal": 0.0,
+    "version": "v1.0.2",
+    "enableSqlServerEnterpriseLicense": false,
+    "enableWindowsServerDatacenterLicense": false,
+    "hostBillingOption": "payg",
+    "hostCount": 1,
+    "hostHours": 730.0,
+    "hostHoursFactor": 1,
+    "hostType": "type3",
+    "paymentOption": "monthly",
+    "softwareAhb": [],
+    "softwareLicense": [],
+    "softwareHours": [],
+    "softwareHoursFactor": [],
+    "softwareVcpu": [],
+    "softwareUbuntu": [],
+    "softwareTotal": [],
+    "vmSeries": "dsv3",
+    "isDeprecated": false,
+    "months": 1
+  },
+  "configuration": {
+    "region": "us-west",
+    "enableSqlServerEnterpriseLicense": false,
+    "enableWindowsServerDatacenterLicense": false,
+    "hostBillingOption": "payg",
+    "hostCount": 1,
+    "hostHours": 730,
+    "hostHoursFactor": 1,
+    "hostType": "type3",
+    "paymentOption": "monthly",
+    "softwareAhb": [
+      false
+    ],
+    "softwareLicense": [
+      "windows_os"
+    ],
+    "softwareHours": [
+      730
+    ],
+    "softwareHoursFactor": [
+      1
+    ],
+    "softwareVcpu": [
+      2
+    ],
+    "softwareUbuntu": [
+      "advanced"
+    ],
+    "vmSeries": "dsv3",
+    "months": 1
+  },
+  "endpoints": [
+    {
+      "version": "v3",
+      "slug": "virtual-machines\\dedicated-host"
+    }
+  ]
+}

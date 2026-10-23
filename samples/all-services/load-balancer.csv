@@ -1,0 +1,2 @@
+batch_id,line_id,service,label,notes,config.region,config.capacity,config.capacityFactor,config.chainHours,config.dataProcessedUnits,config.dataProcessedUnitFactor,config.gatewayHours,config.rules,config.tier,config.months
+load-balancer,example-001,load-balancer,Load Balancer example,Microsoft native defaults; review every setting and usage,us-west,1000,1,0,1000,1,0,5,basic,1

@@ -1,0 +1,2 @@
+batch_id,line_id,service,label,notes,config.region,config.tier,config.basicOperations,config.standardOperations,config.listeners,config.listenerOverages,config.relayHours,config.relayMessages,config.messageUnits,config.brokeredConnections,config.messagingOperationsHours,config.messagingOperationsHoursFactor,config.partitions,config.months
+service-bus,example-001,service-bus,Service Bus example,Microsoft native defaults; review every setting and usage,us-east,basic,0,0,0,0,0,0,0,0,730,1,1,1

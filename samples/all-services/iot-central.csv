@@ -1,0 +1,2 @@
+batch_id,line_id,service,label,notes,config.region,config.tier,config.devices,config.additionalMessages,config.hours,config.perThousandMessages,config.months
+iot-central,example-001,iot-central,Azure IoT Central example,Microsoft native defaults; review every setting and usage,us-west,standard-tier-one,2,0,730,1000,1

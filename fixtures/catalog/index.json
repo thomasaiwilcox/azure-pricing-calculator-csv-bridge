@@ -1,0 +1,1827 @@
+{
+  "format": "calcbridge-service-catalog/v1",
+  "site_build": "20261019-0214-20261019-2100-186570892",
+  "observed_utc": "2026-10-22",
+  "services": [
+    {
+      "service": "virtual-machines",
+      "display_name": "Virtual Machines",
+      "template": "virtual-machines.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "5a70fbce9b7193ee6d54b08e7af324507600cf41278b79c4e0e2b569383b1ebf",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "friendly",
+        "native"
+      ]
+    },
+    {
+      "service": "storage",
+      "display_name": "Storage Accounts",
+      "template": "storage.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "9047bda3307c7efd4f2b7d0b7920a05ed9216470140a0d588d72b7c16f10145b",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "azure-sql-database",
+      "display_name": "Azure SQL Database",
+      "template": "azure-sql-database.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "27a492be2e4163df8f21d081e3ad2c937142253083cb58bbbaed45b9a47dc3a5",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "app-service",
+      "display_name": "App Service",
+      "template": "app-service.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "b516181c86558b1743edb7a47bf528667e5ead91cf90239f064f2fe8ec82de16",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "cosmos-db",
+      "display_name": "Azure Cosmos DB",
+      "template": "cosmos-db.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "0b52400e693db8d67bc28733eefd5e9f80aeda5a212a7d9bcda2f7eb2401d841",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "kubernetes-service",
+      "display_name": "Azure Kubernetes Service (AKS)",
+      "template": "kubernetes-service.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "718b7a99a90b2532c8201defbad567eb7be442d000e06579cef0307eeb1c773b",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "functions",
+      "display_name": "Azure Functions",
+      "template": "functions.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "7244845fb6059ff07e744bd58627d0586229b11653761d6e969ca368d801c288",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "cognitive-services",
+      "display_name": "Foundry Tools",
+      "template": "cognitive-services.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "c6c92833440829682ca6aba555469014ee76b44bbf77a8a8fe7e0c9ef2cbae3e",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "cost-management",
+      "display_name": "Microsoft Cost Management",
+      "template": "cost-management.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "6b93cb1c15ec68acc6504a2563a8f1bca13736d04ac71ef5569f3dd88d381365",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "virtual-machine-scale-sets",
+      "display_name": "Virtual Machine Scale Sets",
+      "template": "virtual-machine-scale-sets.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "0f823ca8d6f39d6568bda815e2dd56fb1d2dd2282c908c436b91e8b716dfc84d",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "service-fabric",
+      "display_name": "Azure Service Fabric",
+      "template": "service-fabric.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "4c309096ee00d4ffc3e82f87f6991e45904421a463b92da6b4dd0124b45f2fe0",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "container-instances",
+      "display_name": "Azure Container Instances",
+      "template": "container-instances.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "83da33b588b5cbb69e7b5a98ed25681eae1b7df8262c7bef57da4acb67b72031",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "batch",
+      "display_name": "Batch",
+      "template": "batch.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "3bc1a65a5ce9b34599326b4626e9d4dd7bf3ed0784263ec375cf5549d1a103eb",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "cloud-services",
+      "display_name": "Cloud Services",
+      "template": "cloud-services.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "6b48c393ca643f1af8cbe8786c5a60d42e1010e1d3fa0202e57ae1e519dca865",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "azure-vmware",
+      "display_name": "Azure VMware Solution",
+      "template": "azure-vmware.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "af8a40f7beacbb3b7aca8138f159713c06fd918d535cf178579cb2704aca4d43",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "virtual-desktop",
+      "display_name": "Azure Virtual Desktop",
+      "template": "virtual-desktop.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "ef0d1105799b44b71ca238da2bc59983d3628deb64c63b3b418b363790602131",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "spring-apps",
+      "display_name": "Azure Spring Apps",
+      "template": "spring-apps.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "e6adfef05eab3db66e8783b2bb227091fadd6bae2920c3e2314963953086e19e",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "virtual-machines\\dedicated-host",
+      "display_name": "Azure Dedicated Host",
+      "template": "virtual-machines--dedicated-host.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "a5ec82ec9c50072d2e784d5d6dbe504d9f9ba022b860dc369b7058aeb18f4c22",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "nutanix-on-azure",
+      "display_name": "Nutanix Cloud Clusters on Azure",
+      "template": "nutanix-on-azure.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "2d9ab7a6f43f323ce706a86b2a23b1a431a07db01d1caae9f8453778431538e8",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "virtual-network",
+      "display_name": "Virtual Network",
+      "template": "virtual-network.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "086348b51242e2788509d29ada691f1ee99f3fd69d08688f295534b59cbbb912",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "virtual-network-manager",
+      "display_name": "Azure Virtual Network Manager",
+      "template": "virtual-network-manager.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "a44730701726acefc5b13e37ab81a39179dab5ec6166f03a87e9669f86e21c00",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "load-balancer",
+      "display_name": "Load Balancer",
+      "template": "load-balancer.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "eb2c056b05ca694839e36003da4253e570339edb18fe5d58e990602158a763f0",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "application-gateway",
+      "display_name": "Application Gateway",
+      "template": "application-gateway.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "dd9e85695efeb7dd2f618968ce92888df56ca0a488c9ab8e78dfc010dc379467",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "vpn-gateway",
+      "display_name": "VPN Gateway",
+      "template": "vpn-gateway.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "28ae78184a406c6eb07fbc2c5f99da8423b7ca064b5ed1c47cfe7e97f70ba7e2",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "dns",
+      "display_name": "Azure DNS",
+      "template": "dns.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "9c7ccdd13f921eafa4ea4bb37c8834f1764eb2c4f4d058f43697d6ebabd922d5",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "cdn",
+      "display_name": "Content Delivery Network",
+      "template": "cdn.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "5f209f0d9a58fee79f1eba960f7701717484d61b0d1443c387ee03db2c733727",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "ddos-protection",
+      "display_name": "Azure DDoS Protection",
+      "template": "ddos-protection.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "2bff3ed2af68e3c9e8294b94374d100e51c82c194ede789eb26583a0bafed7da",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "traffic-manager",
+      "display_name": "Traffic Manager",
+      "template": "traffic-manager.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "71292479609ced138624957780e51a8fe7a57ab386a88988edb5579ee54c293d",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "expressroute",
+      "display_name": "Azure ExpressRoute",
+      "template": "expressroute.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "681163fa74b366281e8148ad587be6e9a910abdc8f1db14d15c8757e1f34ef0a",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "network-watcher",
+      "display_name": "Network Watcher",
+      "template": "network-watcher.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "d27ba4958d1a0218070c0de10658b5f0ceceaed6d234f37cb504c5461c76ff7f",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "bandwidth",
+      "display_name": "Bandwidth",
+      "template": "bandwidth.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "587de8a65bcf52e357667c7c6a60581a2c3b4ce064ac68415cc81521c8b0ba00",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "ip-addresses",
+      "display_name": "IP Addresses",
+      "template": "ip-addresses.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "78474debde56efa2e16c1526ab15479ec69bc10b06d37edbd2e9f3c195557ca0",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "azure-firewall",
+      "display_name": "Azure Firewall",
+      "template": "azure-firewall.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "b7bc144444560772adb53fd3e9003a1a431e7dec8ef923589d549eda7076740b",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "virtual-wan",
+      "display_name": "Virtual WAN",
+      "template": "virtual-wan.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "5be9228b5a82e477296973e0a8b6f1c8d416063f4700db0adeed2074f9757fbe",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "azure-bastion",
+      "display_name": "Azure Bastion",
+      "template": "azure-bastion.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "3dffd475d841500579d4652433e4bb456f3d3c6491030466d2b06dcceec6953b",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "private-link",
+      "display_name": "Azure Private Link",
+      "template": "private-link.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "a35dbfa08ada3faadff4dc722fec9d077eda8378ea1425cd1d63c412316dea3e",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "firewall-manager",
+      "display_name": "Azure Firewall Manager",
+      "template": "firewall-manager.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "c660e8a101b11f6a2feefbe1c8cc4456e846ebae18ba3eec88389cddc5be94e6",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "frontdoor-standard-premium",
+      "display_name": "Azure Front Door",
+      "template": "frontdoor-standard-premium.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "91e3afef438ef9802e9f730383306b789bcfc1cef0ab44d0ff051706c2cf69c4",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "route-server",
+      "display_name": "Azure Route Server",
+      "template": "route-server.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "2fc6e849ae5889c54edeb1388309edfc96ee3189aaf57ea073575e1e5c6d5a9d",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "communications-gateway",
+      "display_name": "Azure Communications Gateway",
+      "template": "communications-gateway.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "2fd5b6143fe92cdaa4a9262b1500a708fe688e06f149e537cf7b730b0ab16f86",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "virtual-network-nat",
+      "display_name": "Azure NAT Gateway",
+      "template": "virtual-network-nat.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "f4042966108fb81602742cc88ee78ca2af1f979720c33fe02891b2fac967a487",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "advanced-container-networking-services",
+      "display_name": "Advanced Container Networking Services",
+      "template": "advanced-container-networking-services.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "2200c161929d90aed73dc9c2eb59fc2043096b05f6f36854ab8ebb3868c279fe",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "storage-actions",
+      "display_name": "Azure Storage Actions",
+      "template": "storage-actions.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "225a4d3d05dd68cfd152c0be9374fd4850ab5b269d59d1960e2500faf82dce12",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "azure-virtual-enclaves",
+      "display_name": "Azure Enclave",
+      "template": "azure-virtual-enclaves.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "d07813fa1e8f1b82b4935b81d7e2d277ab5302df14af8c21a283b479cc36959c",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "databox",
+      "display_name": "Azure Data Box",
+      "template": "databox.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "0ee362e826bc6351dcce51d72bec3f3646be3a8389adb9148ab080c6c8be33c9",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "data-share",
+      "display_name": "Azure Data Share",
+      "template": "data-share.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "23cff41aab3310cbfb7e603bbd06b835e0a0600750f5b6b65faa2620a2956187",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "netapp",
+      "display_name": "Azure NetApp Files",
+      "template": "netapp.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "5d64b16e650a57c115711191fd152f1a2468d0119579d5500fdfff011fab750d",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "azure-stack-edge",
+      "display_name": "Azure Stack Edge",
+      "template": "azure-stack-edge.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "63e8d6cc91017c65dd1bb0a6b7908e46bf27e7a573f742fcd214f4f2471983e3",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "managed-disks",
+      "display_name": "Managed Disks",
+      "template": "managed-disks.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "2d80aa38b057cf6567e61527c075d2e2a36bdf7f705ed2ce8f94538570251601",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "friendly",
+        "native"
+      ]
+    },
+    {
+      "service": "confidential-ledger",
+      "display_name": "Azure confidential ledger",
+      "template": "confidential-ledger.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "f446a0c546f541aa9b142840fcbe692fb719426b3c106d39ae0d7e482c3f36ec",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "azure-elastic-san",
+      "display_name": "Azure Elastic SAN",
+      "template": "azure-elastic-san.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "7ee9dae5917fa3da88d79d11f914f8f92f74ae89483a04f3ef6d00854e215e02",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "managed-lustre",
+      "display_name": "Azure Managed Lustre",
+      "template": "managed-lustre.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "a396f17d8f7ce2e09bb23dda586aac317104cafb193ac6d837d9258d993796e5",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "storage\\files",
+      "display_name": "Azure Files",
+      "template": "storage--files.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "a629a030d61c136a576dbc64b0490cca0974163e84b608353f730678f13484e9",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "container-storage",
+      "display_name": "Azure Container Storage",
+      "template": "container-storage.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "41437d30515f9991a2e0d558728cceb058a2a04cff9404bfe9c5f9700c400a79",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "azure-storage-discovery",
+      "display_name": "Azure Storage Discovery",
+      "template": "azure-storage-discovery.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "5f01b1a67af5ee413c5d77718515936559601c63a4cdb3f7b3cdec147e395d9f",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "api-management",
+      "display_name": "API Management",
+      "template": "api-management.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "90e8e3b82dabc39e61a8711583f5d6a97a8a41dfba15519aa8d0113ad0e547b6",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "search",
+      "display_name": "Foundry IQ",
+      "template": "search.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "6848032989550a61cc06e7ca736a728bd69e200740507f871aa269eb5d260f98",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "signalr-service",
+      "display_name": "Azure SignalR Service",
+      "template": "signalr-service.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "40ebfe6644e9c5f381ffa8e15a86a11514c73aa89f73b06ce075eeeebe1972d7",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "web-pubsub",
+      "display_name": "Azure Web PubSub",
+      "template": "web-pubsub.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "cce118370b2b0a014dc14f829790b72c8e3f72fbeac30229d6e0e7ad022bb607",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "notification-hubs",
+      "display_name": "Notification Hubs",
+      "template": "notification-hubs.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "0d5e706b59c261f52b05aba954efe02b6b9a67d60730cd976a30eb2ddf4d86ff",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "app-service\\static",
+      "display_name": "Static Web Apps",
+      "template": "app-service--static.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "7788ee5fcf2b281483b92035b545fc409a433b9a2a4ac7b071a0ba4dbcee6bfb",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "communication-services",
+      "display_name": "Azure Communication Services",
+      "template": "communication-services.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "9dca699ebd649508f96b54668290342e6358ece33608f98bdfb981039f49bd73",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "fluid-relay",
+      "display_name": "Azure Fluid Relay",
+      "template": "fluid-relay.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "6fd3377b46814d24671551692a8be190f637914f05f846953b2fdd8466fe7e97",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "azure-maps",
+      "display_name": "Azure Maps",
+      "template": "azure-maps.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "108ae2c61a95ef7c12dc4e8fc6a2fbdce31fce659d1857054b8db20ef102aa82",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "remote-rendering",
+      "display_name": "Remote Rendering",
+      "template": "remote-rendering.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "31b35461c4c3f9ee702f9e49c06b4896f2781b7ef771e922dfd083a527be2110",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "container-registry",
+      "display_name": "Azure Container Registry",
+      "template": "container-registry.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "0b7e3e99ea97a2550fc0aa1562028cbf612cb175ae4668b8847f217c8474444f",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "openshift",
+      "display_name": "Azure Red Hat OpenShift",
+      "template": "openshift.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "48a5368f163df8fc6524a4da0c1b36d3e21d5fff052541f353d540a24c6d8639",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "container-apps",
+      "display_name": "Azure Container Apps",
+      "template": "container-apps.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "311535c72bbc77196764c1e3b3b5e8bd5b7fd6a66a906149e95d257ed407feb3",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "aks-ee",
+      "display_name": "Azure Kubernetes Service Edge Essentials",
+      "template": "aks-ee.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "c11cd4a352b2e00b80585148c0cd75ace86d9099410bcfd27837c67defc155f8",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "documentdb",
+      "display_name": "Azure DocumentDB",
+      "template": "documentdb.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "e6313d2e9f86cba7249e989446fb117977514b0d3c591b584a5bce12a1632c19",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "mysql",
+      "display_name": "Azure Database for MySQL",
+      "template": "mysql.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "f96b54e9b1c28c71ee81f859d06b117175ea46f9ee62de695ed838a3d3ab00fd",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "mariadb",
+      "display_name": "Azure Database for MariaDB",
+      "template": "mariadb.json",
+      "status": "native-pricing-unavailable",
+      "note": "Normal native product picker returned only initial zero-price placeholders, with no computed description/layout or price output; blocked before import",
+      "template_sha256": "9832d468d5cef24ef864ba9b2fa7f903ff7e6f167a2588e144a2c238dd792283",
+      "export_status": "blocked-by-pricing-unavailable",
+      "export_verified_formats": []
+    },
+    {
+      "service": "postgresql",
+      "display_name": "Azure Database for PostgreSQL",
+      "template": "postgresql.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "ce00663677dec52f606f3e6c6ace297b6f707d72a3cfac07e422b4cceb006193",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "synapse-analytics",
+      "display_name": "Azure Synapse Analytics",
+      "template": "synapse-analytics.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "957dbcc2048c61f9ee69bd19075e7582e301c585d45113c9de99fbd12a228b49",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "database-migration",
+      "display_name": "Azure Database Migration Service (classic)",
+      "template": "database-migration.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "c418fb01ce64fe7c6e89ed38ac6cf11ccd261c6c3cab56463410f729be27aee6",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "redis-cache",
+      "display_name": "Azure Cache for Redis",
+      "template": "redis-cache.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "4a752eb9d08d31f107e474c7eb2940dbf1d8030a6e3ce75dfd9e7d6d5e6d5e30",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "health-data-services",
+      "display_name": "Azure Health Data Services",
+      "template": "health-data-services.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "e1891330a2a51cc650803367ae282882edf6a9afe7c28d772eac174b7e43f828",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "azure-sql",
+      "display_name": "Azure SQL",
+      "template": "azure-sql.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "71b2a4b6403497373d1c6bbc02a9b9dba6e76ded4e4868dc2696d3de05b48c7d",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "managed-instance-apache-cassandra",
+      "display_name": "Azure Managed Instance for Apache Cassandra",
+      "template": "managed-instance-apache-cassandra.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "b1e4845ade5ad09f8f6ee926b0ea66cd41d42d2ca3d1e71578a9f550d2212ad5",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "managed-redis",
+      "display_name": "Azure Managed Redis",
+      "template": "managed-redis.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "f2c18ce14a0aa0e08a220b87b200fb27b0718717de9e11b1911dfff9b62eefab",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "horizondb",
+      "display_name": "Azure HorizonDB",
+      "template": "horizondb.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "8624ba40e09daba31c38a3ccfff0d726ead9e4012fcfd3ac446f3ea8f10640a2",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "microsoft-fabric",
+      "display_name": "Microsoft Fabric",
+      "template": "microsoft-fabric.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "0504dd24ba9f00563da4240850a0327827ee239a42ae23ad8834083f2df15a14",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "databricks",
+      "display_name": "Azure Databricks",
+      "template": "databricks.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "e166e8e6a227247d2645ff6f23d3d78227e9e199bc5d38316eaf449882150488",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "hdinsight",
+      "display_name": "HDInsight",
+      "template": "hdinsight.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "ccc47dab60a05880cfc1e51a3ca411cd83318ef1c27d97b18f365b961d894cd9",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "machine-learning-service",
+      "display_name": "Azure Machine Learning",
+      "template": "machine-learning-service.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "47b45c5dbcd76f09f2a2cd5ea3cbbbfa0ca3b9c0520cd7f09f143297d9d1cd2a",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "stream-analytics",
+      "display_name": "Azure Stream Analytics",
+      "template": "stream-analytics.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "1f3b35a4190c27fbadf7c970b9a98b605ada1c576a052e792928f3f266833fce",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "event-hubs",
+      "display_name": "Event Hubs",
+      "template": "event-hubs.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "9316ecab98fad7ef2a4b6576ee03e3bbea735e16500816f9e6d6037e8eb71c2d",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "power-bi-embedded",
+      "display_name": "Power BI Embedded",
+      "template": "power-bi-embedded.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "7eb03bde451dfc7b6bee654d4503fd20d30bb8da38bacfe9b8b141021f5c6aab",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "analysis-services",
+      "display_name": "Azure Analysis Services",
+      "template": "analysis-services.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "4b8882e9b2163527dd24f74a559b5cc05f8f317ed92325ef019e23ab30f7e582",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "data-catalog",
+      "display_name": "Data Catalog",
+      "template": "data-catalog.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "2f6d2617ebb3fc187ee1d9e85e6169b49aa463bf8f908d3615ebb05e4a82580d",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "bot-services",
+      "display_name": "Azure AI Bot Service",
+      "template": "bot-services.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "50ccc76acefa7f7333bb932ddcdfad67988c72ac67eec9a36068e51bcd25bd44",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "data-explorer",
+      "display_name": "Azure Data Explorer",
+      "template": "data-explorer.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "fb74eff3bb17f635f13e4b7b891077bcc52fc23f068ce0d337f10b6c97aa974b",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "data-factory",
+      "display_name": "Azure Data Factory",
+      "template": "data-factory.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "ebd0b6797ecba2a466659f79baee88493fe7bd838b6a5af4c84a5c7a62be520b",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "purview",
+      "display_name": "Microsoft Purview",
+      "template": "purview.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "14695abdd9c2854a6c2041fa2297736301d8e1d3c17b1c34f6f4ac8069358fff",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "chaos-studio",
+      "display_name": "Azure Chaos Studio",
+      "template": "chaos-studio.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "b181dee17197f5bc20e78f82d744a98092abafa7f1bc2ae1f2713d2792828d2e",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "managed-grafana",
+      "display_name": "Azure Managed Grafana",
+      "template": "managed-grafana.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "d2dc2d4035993961033dea387e0423e7ee1dc1e26b39ea7d3a1fcaabf2957411",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "graph-data-connect",
+      "display_name": "Microsoft Graph Data Connect",
+      "template": "graph-data-connect.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "61c6a623c7a9a1315b9fb5baf857757602cc9e66182b924446f0a7a89174d1cf",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "genomics",
+      "display_name": "Microsoft Genomics",
+      "template": "genomics.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "9db51f0a89fb9fd9ae5a2858523219ad28ee3f6c41369ab9e253970c91aaf79c",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "machine-learning-studio",
+      "display_name": "Machine Learning Studio (classic)",
+      "template": "machine-learning-studio.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "455cd31ec6dd9247bec3047ba2b0c21a5d6485c0bd7c69a7cae9176ce3928ea4",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "open-datasets",
+      "display_name": "Azure Open Datasets",
+      "template": "open-datasets.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "4fb88a0cbe75357962d787d0de038db958a9ee405ce84cc18281aa51482cc886",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "openai-service",
+      "display_name": "Azure OpenAI",
+      "template": "openai-service.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "64742b606945cd92a3f59f56f0c88557902ca6c640ad0eadbbd20586f5029658",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "healthcare-agent-service",
+      "display_name": "Healthcare agent service",
+      "template": "healthcare-agent-service.json",
+      "status": "native-pricing-unavailable",
+      "note": "Normal native product picker returned only initial zero-price placeholders, with no computed description/layout or price output; blocked before import",
+      "template_sha256": "577b7744e8fed9a1ccd1f7b3925bdcc47cbf9d7fe3e4f92f5d1b363eb7d735ab",
+      "export_status": "blocked-by-pricing-unavailable",
+      "export_verified_formats": []
+    },
+    {
+      "service": "form-recognizer",
+      "display_name": "Azure Document Intelligence in Foundry Tools",
+      "template": "form-recognizer.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "46cb7e8e70afce731476d8b5bcb5867582e1fa13fa5d76e96bbab3b0161f9b77",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "video-indexer",
+      "display_name": "Azure AI Video Indexer",
+      "template": "video-indexer.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "4a020055f2232cb8d15cee5d02ab7ac5457e5d937f0f9592e0a09e579c58758e",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "content-understanding",
+      "display_name": "Azure Content Understanding in Foundry Tools",
+      "template": "content-understanding.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "e1153fa8c5b0110b6e04e8cba2dd8b4c0c34ab8bdd8443fee94ffc30eebda581",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "sre-agent",
+      "display_name": "Azure SRE Agent",
+      "template": "sre-agent.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "7320990d5a20ddb2fa67f4ac957e44a24162e59694d3b98e40d1a002501cc531",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "planetary-computer-pro",
+      "display_name": "Microsoft Planetary Computer Pro",
+      "template": "planetary-computer-pro.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "8d090d5deca6b1b414909e75c2fecabba6cef62b6e06bf2a69e65ceb5a14815d",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "iot-hub",
+      "display_name": "Azure IoT Hub",
+      "template": "iot-hub.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "8c01ff6b1a1b4f5c359a64780db57065385866f41aa424f5f88508a555f6eee6",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "iot-edge",
+      "display_name": "Azure IoT Edge",
+      "template": "iot-edge.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "3664323f853f5b800725e0f0fc98cd5521d725406753ddea1d45552030c267e6",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "iot-central",
+      "display_name": "Azure IoT Central",
+      "template": "iot-central.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "20893c644431f6f82463a681a8ee15b1498dc29fe97b78a120809fba9ff40b23",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "digital-twins",
+      "display_name": "Azure Digital Twins",
+      "template": "digital-twins.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "e4a27c29f23126b04165898677fa8445936fe7bf885603e3ca321e543d35f4e9",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "time-series-insights",
+      "display_name": "Azure Time Series Insights",
+      "template": "time-series-insights.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "4fc8362fb9de0175f6b98c1c7bbd8a6b735bf52c424751b5f52041b3023b471f",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "event-grid",
+      "display_name": "Event Grid",
+      "template": "event-grid.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "932479a8bcf7751b6f27fc40a19e25f352ef6d8516a7c5d531508eac9f9abed8",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "logic-apps",
+      "display_name": "Logic Apps",
+      "template": "logic-apps.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "b70f22c111ff158b28a5c420ba204f452851aae3dc0ab2b52263f0dc080b174f",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "windows-10-iot-core",
+      "display_name": "Windows 10 IoT Core Services",
+      "template": "windows-10-iot-core.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "0a266b330326a85f8071efa8f5dda84c90c717b1274e73d3fdc98862cc146851",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "azure-sql-edge",
+      "display_name": "Azure SQL Edge",
+      "template": "azure-sql-edge.json",
+      "status": "native-pricing-unavailable",
+      "note": "Normal native product picker returned only initial zero-price placeholders, with no computed description/layout or price output; blocked before import",
+      "template_sha256": "515ef130d1d1a39407239d0f2c1eb7df4fc39a747daf8152ec7627c39d8ba14d",
+      "export_status": "blocked-by-pricing-unavailable",
+      "export_verified_formats": []
+    },
+    {
+      "service": "iot-operations",
+      "display_name": "Azure IoT Operations",
+      "template": "iot-operations.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "94b5a3d96bdf2a5e9155cf56ed05725c300a0e39d6706e48c43eabdf17e32c5d",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "service-bus",
+      "display_name": "Service Bus",
+      "template": "service-bus.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "a66bb8b35cedad3409b37b8393581025a56e21ef8ffd46859ba4ed272e8c0709",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "energy-data-services",
+      "display_name": "Azure Data Manager for Energy",
+      "template": "energy-data-services.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "08f944460ae1bdfcf0e3d99c4d57b6bc8b78383932f905426562284b629cc965",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "active-directory",
+      "display_name": "Microsoft Entra ID (formerly Azure AD)",
+      "template": "active-directory.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "cd4dd492c0a2e1297b6c22b34d68f357ffba3954c1e5855a3e20b8784b6c14ba",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "active-directory-b2c",
+      "display_name": "Azure Active Directory B2C",
+      "template": "active-directory-b2c.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "176556acf9fd5d159138f9216d77dcc6d19a49b04c8047d979f4215aac3a2c5a",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "microsoft-entra-external-id",
+      "display_name": "Microsoft Entra External ID",
+      "template": "microsoft-entra-external-id.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "3b9d5c6528558eac6ccc3f31210649a7eeeae2bb9aec5ebca52441d07aec55c6",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "defender-for-cloud",
+      "display_name": "Microsoft Defender for Cloud",
+      "template": "defender-for-cloud.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "6927dc2c9fa176496d9064fafb91815486c1d3aa2c5069b1d089056167de5dbc",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "azure-sentinel",
+      "display_name": "Microsoft Sentinel",
+      "template": "azure-sentinel.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "ab1ebef5cf169751d31d12d21f113dd0cc00329e610e744d603774f551f2f499",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "key-vault",
+      "display_name": "Key Vault",
+      "template": "key-vault.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "164e661bf46018d85c2ed7e38097a98ef7e0ff877eb8f8bb1046672798ac9724",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "azure-dedicated-hsm",
+      "display_name": "Azure Dedicated HSM",
+      "template": "azure-dedicated-hsm.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "a52eb195c79a4dfc2d8d5cd60c2726926506bd3a93276eddd0086444bc4dc3bb",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "defender-easm",
+      "display_name": "Defender External Attack Surface Management",
+      "template": "defender-easm.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "99efbfebeaf3f7e0b10f80561132599f9d1e66cf2c7977290c008480704fee63",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "microsoft-security-copilot",
+      "display_name": "Microsoft Security Copilot",
+      "template": "microsoft-security-copilot.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "cd9069ed9aa251fb62ea7c09fd5dbfad5ceffa1bb43843912893c856979da397",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "artifact-signing",
+      "display_name": "Artifact Signing",
+      "template": "artifact-signing.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "431c555f2ccd3eb1b6c570bf1da982f2542e05c727a8dde70cfba2f126f7cb07",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "azure-cloud-hsm",
+      "display_name": "Azure Cloud HSM",
+      "template": "azure-cloud-hsm.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "e9ccc9d20bdf4d7737cecef8c1a75832bb9d19ab9b051ef34f75e3f2f8d603b9",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "extended-security-updates",
+      "display_name": "Extended Security Updates (ESU)",
+      "template": "extended-security-updates.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "74fba43eade3b8627fcac802a5227a2a838f0471121c764ab303a92c3416dc29",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "microsoft-defender-isoc",
+      "display_name": "ISOC in Microsoft Defender",
+      "template": "microsoft-defender-isoc.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "35068ba6c0bd37b0a7ecc2f8d592cbb20eb8d3fce3129d68a3e974bbc283ff83",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "azure-devops",
+      "display_name": "Azure DevOps",
+      "template": "azure-devops.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "51683e4863fa471d203bf26d40bfe8615aaa550b21f25830e10f7081c321bb3b",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "lab-services",
+      "display_name": "Azure Lab Services",
+      "template": "lab-services.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "60efeaec02ae75940f9c2af0a847678ab1d9db775ad98db8fb05029cecfba1d2",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "app-configuration",
+      "display_name": "App Configuration",
+      "template": "app-configuration.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "1cf5c9d4681c525db42bb729bf0f7b7fd47cb1a03b650b17b70b3fda510b0b1b",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "githubenterprise",
+      "display_name": "GitHub Enterprise",
+      "template": "githubenterprise.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "a2c08f0d6d520311f1fab6eb2aab32fda74d99ec55623135bd2e56398fcaf48c",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "monitor",
+      "display_name": "Azure Monitor",
+      "template": "monitor.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "8d0ed9140c4251d6f5593769ed27b65446a4e73b00ea266deb4a753f5c842310",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "load-testing",
+      "display_name": "Azure App Testing",
+      "template": "load-testing.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "f81b4bd7434f1fe1bb38b7649cd93c7e807fb21e3b5759fa26b4640a25314195",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "advisor",
+      "display_name": "Azure Advisor",
+      "template": "advisor.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "5b7a2f363dd5b80e175939fddffe68a4c63e246f06f4b6514cc4c6bbbb677acd",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "backup",
+      "display_name": "Azure Backup",
+      "template": "backup.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "7eb07635bff3b5588d8edd8c07c5f5230a8ee612bfd13f51ee562bab96d68966",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "azure-policy",
+      "display_name": "Azure Policy",
+      "template": "azure-policy.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "c96e3387373250b64301d5cf11d002addf5071f71a50942fc3d34f8dd0be6f47",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "site-recovery",
+      "display_name": "Azure Site Recovery",
+      "template": "site-recovery.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "4da14f0500247d12f5d7df19878c4b8a1aab5ce3052108cd53edf4d34733751b",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "automation",
+      "display_name": "Automation",
+      "template": "automation.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "fa0f56e08666ab065e721ddb20c1bad0ee7764fa04b70a3ba809ee9a65388673",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "managed-applications",
+      "display_name": "Azure Managed Applications",
+      "template": "managed-applications.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "1a875ccf38cc3b8734d25b4f7d82774e30a7220ae95fb2ee482497e5aa6c3546",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "azure-migrate",
+      "display_name": "Azure Migrate",
+      "template": "azure-migrate.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "87cd49d74217b29a497e339b64dd3274bb6229795523ebc02f845ce8e4594d00",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "scheduler",
+      "display_name": "Scheduler",
+      "template": "scheduler.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "3089565218fe031b73794d84715426f461ec1d91ccff9c267ba71390bf8fe563",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "azure-lighthouse",
+      "display_name": "Azure Lighthouse",
+      "template": "azure-lighthouse.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "52e684881548c7a488f1ac2fd45f882b4f1318a7faa978219693ac224fd15a2d",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "resource-mover",
+      "display_name": "Azure Resource Mover",
+      "template": "resource-mover.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "932cbf6d62379ad3273e8b3c45e5df7547b3acf989846c026495fb8de7bfadc2",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "update-management-center",
+      "display_name": "Azure Update Manager",
+      "template": "update-management-center.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "fdc17b7e42b5cfa7ab73ce06e4ed5f17318fc19c330cc10a56406638db06875d",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "media-services",
+      "display_name": "Media Services",
+      "template": "media-services.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "a931812a84f288b0d83fd1d76439d77bb6dd9a8c830ee60abbb23eb5541a5a8f",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "aks-hci",
+      "display_name": "Azure Kubernetes Service on Azure Local",
+      "template": "aks-hci.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "42b4ecc47d50adfd2c74584da58232a9d490ad260a037fa3c86186ab1ddcd568",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    },
+    {
+      "service": "azure-arc",
+      "display_name": "Azure Arc",
+      "template": "azure-arc.json",
+      "status": "native-import-verified",
+      "note": "Tested native sample passed 149-file/149-service import and official combined GBP Excel export; other configurations require live checks",
+      "template_sha256": "6656fa3cde5f7d38d30697a7e2fbb77d94a73df30158ddb19f6bc4b20344bca7",
+      "export_status": "verified-in-combined-workbook",
+      "export_verified_formats": [
+        "native"
+      ]
+    }
+  ]
+}

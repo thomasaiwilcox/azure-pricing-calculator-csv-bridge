@@ -1,0 +1,59 @@
+{
+  "service": "storage-actions",
+  "display_name": "Azure Storage Actions",
+  "observed_utc": "2026-10-22",
+  "site_build": "20261019-0214-20261019-2100-186570892",
+  "schema_signature": {
+    "averageOperationPerBlobs": "number",
+    "blobsScannedPerRun": "number",
+    "displayName": "string",
+    "isBreakingChange": "boolean",
+    "isCollapsed": "boolean",
+    "isDeprecated": "boolean",
+    "months": "number",
+    "region": "string",
+    "serviceSlug": "string",
+    "taskAssignmentExecutionRuns": "number",
+    "total": "number",
+    "upfrontTotal": "number",
+    "version": "string"
+  },
+  "golden": {
+    "description": "",
+    "displayName": "",
+    "layoutId": "",
+    "hasPricing": true,
+    "isBreakingChange": false,
+    "isCollapsed": false,
+    "prices": {
+      "upfrontTotal": 0,
+      "total": 0
+    },
+    "region": "us-east",
+    "resourceId": {},
+    "serviceSlug": "storage-actions",
+    "shouldShowFreeAccountBenefits": true,
+    "sku": {},
+    "total": 0.0,
+    "upfrontTotal": 0.0,
+    "version": "v1.0.0",
+    "taskAssignmentExecutionRuns": 0,
+    "blobsScannedPerRun": 0,
+    "averageOperationPerBlobs": 0,
+    "isDeprecated": false,
+    "months": 1
+  },
+  "configuration": {
+    "region": "us-east",
+    "taskAssignmentExecutionRuns": 0,
+    "blobsScannedPerRun": 0,
+    "averageOperationPerBlobs": 0,
+    "months": 1
+  },
+  "endpoints": [
+    {
+      "version": "v3",
+      "slug": "storage-actions"
+    }
+  ]
+}

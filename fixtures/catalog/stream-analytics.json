@@ -1,0 +1,71 @@
+{
+  "service": "stream-analytics",
+  "display_name": "Azure Stream Analytics",
+  "observed_utc": "2026-10-22",
+  "site_build": "20261019-0214-20261019-2100-186570892",
+  "schema_signature": {
+    "displayName": "string",
+    "isBreakingChange": "boolean",
+    "isCollapsed": "boolean",
+    "isDeprecated": "boolean",
+    "months": "number",
+    "region": "string",
+    "selectedStandardV2Option": "string",
+    "selectedStandardV2SmallerThanOneOption": "string",
+    "serviceSlug": "string",
+    "streamingEdgeUnits": "number",
+    "streamingHours": "number",
+    "streamingHoursFactor": "number",
+    "streamingUnits": "number",
+    "total": "number",
+    "type": "string",
+    "upfrontTotal": "number",
+    "version": "string"
+  },
+  "golden": {
+    "description": "",
+    "displayName": "",
+    "layoutId": "",
+    "hasPricing": true,
+    "isBreakingChange": false,
+    "isCollapsed": false,
+    "prices": {
+      "upfrontTotal": 0,
+      "total": 0
+    },
+    "region": "us-east",
+    "resourceId": {},
+    "serviceSlug": "stream-analytics",
+    "shouldShowFreeAccountBenefits": true,
+    "sku": {},
+    "total": 0.0,
+    "upfrontTotal": 0.0,
+    "version": "v1.0.2",
+    "streamingUnits": 1,
+    "streamingHours": 730,
+    "streamingHoursFactor": 1,
+    "streamingEdgeUnits": 1,
+    "selectedStandardV2Option": "greater-than-equal-one",
+    "selectedStandardV2SmallerThanOneOption": "one-by-three",
+    "type": "standard",
+    "isDeprecated": false,
+    "months": 1
+  },
+  "configuration": {
+    "region": "us-east",
+    "streamingUnits": 1,
+    "streamingHours": 730,
+    "streamingHoursFactor": 1,
+    "streamingEdgeUnits": 1,
+    "selectedStandardV2Option": "greater-than-equal-one",
+    "selectedStandardV2SmallerThanOneOption": "one-by-three",
+    "type": "standard",
+    "months": 1
+  },
+  "endpoints": [
+    {
+      "version": "v2",
+      "slug": "stream-analytics"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "service": "private-link",
+  "display_name": "Azure Private Link",
+  "observed_utc": "2026-10-22",
+  "site_build": "20261019-0214-20261019-2100-186570892",
+  "schema_signature": {
+    "displayName": "string",
+    "inboundDataFactor": "number",
+    "inboundDataUnits": "number",
+    "isBreakingChange": "boolean",
+    "isCollapsed": "boolean",
+    "isDeprecated": "boolean",
+    "months": "number",
+    "outboundDataFactor": "number",
+    "outboundDataUnits": "number",
+    "privateEndpointHours": "number",
+    "privateEndpointHoursFactor": "number",
+    "privateEndpointUnits": "number",
+    "region": "string",
+    "serviceSlug": "string",
+    "total": "number",
+    "upfrontTotal": "number",
+    "version": "string"
+  },
+  "golden": {
+    "description": "",
+    "displayName": "",
+    "layoutId": "",
+    "hasPricing": true,
+    "isBreakingChange": false,
+    "isCollapsed": false,
+    "prices": {
+      "upfrontTotal": 0,
+      "total": 0
+    },
+    "region": "us-west",
+    "resourceId": {},
+    "serviceSlug": "private-link",
+    "shouldShowFreeAccountBenefits": true,
+    "sku": {},
+    "total": 0.0,
+    "upfrontTotal": 0.0,
+    "version": "v1.0.1",
+    "privateEndpointUnits": 1,
+    "privateEndpointHours": 730.0,
+    "privateEndpointHoursFactor": 1,
+    "outboundDataUnits": 100,
+    "outboundDataFactor": 1,
+    "inboundDataUnits": 100,
+    "inboundDataFactor": 1,
+    "isDeprecated": false,
+    "months": 1
+  },
+  "configuration": {
+    "region": "us-west",
+    "privateEndpointUnits": 1,
+    "privateEndpointHours": 730,
+    "privateEndpointHoursFactor": 1,
+    "outboundDataUnits": 100,
+    "outboundDataFactor": 1,
+    "inboundDataUnits": 100,
+    "inboundDataFactor": 1,
+    "months": 1
+  },
+  "endpoints": [
+    {
+      "version": "v2",
+      "slug": "private-link"
+    }
+  ]
+}

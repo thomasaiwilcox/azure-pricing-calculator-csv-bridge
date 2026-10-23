@@ -1,0 +1,2 @@
+batch_id,line_id,service,label,notes,config.tier,config.configurationStoreDays,config.configurationStoreDaysFactor,config.overageRequests,config.overageRequestsFactor,config.region,config.numberOfReplicas,config.replicaDays,config.months
+app-configuration,example-001,app-configuration,App Configuration example,Microsoft native defaults; review every setting and usage,free,30,1,1,1,us-west,0,30,1

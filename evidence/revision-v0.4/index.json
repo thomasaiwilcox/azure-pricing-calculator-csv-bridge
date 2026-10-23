@@ -1,0 +1,82 @@
+{
+  "format": "calcbridge-powershell-port-evidence/v1",
+  "version": "0.4.0",
+  "tested_utc_date": "2026-10-23",
+  "verdict": "GO for tested PowerShell 7 local port; Windows PowerShell 5.1 runtime verification outstanding",
+  "target_runtimes": [
+    "Windows PowerShell 5.1",
+    "PowerShell 7"
+  ],
+  "actual_runtime": {
+    "powershell": "7.6.8",
+    "os": "Unix 6.18.55.0",
+    "windows_powershell_51_executed": false
+  },
+  "standalone_powershell_tests": {
+    "passed": 38,
+    "failed": 0,
+    "report": "powershell-tests-linux.json",
+    "path_restricted_to_portable_powershell_directory": true,
+    "python_available_on_path": false,
+    "node_available_on_path": false
+  },
+  "existing_browser_tests": {
+    "passed": 17,
+    "failed": 0,
+    "node": "24.19.0",
+    "developer_check_only": true
+  },
+  "helper_csharp_5_compilation": {
+    "passed": true,
+    "actual_runtime": "PowerShell 7.6.8 / Linux",
+    "windows_dotnet_framework_executed": false,
+    "report": "csharp-language-check.json"
+  },
+  "new_live_browser_run": false,
+  "previous_live_evidence": "../revision-v0.3/index.json",
+  "original_workbooks_unchanged": true,
+  "previous_v03_artifact_hashes_verified": 16,
+  "browser_importer_unchanged": true,
+  "browser_importer_sha256": "9fbbae14c10066d9ca0df3616b10fff36d53b6515b2fcb9631866bb027982679",
+  "catalog_unchanged": true,
+  "catalog_sha256": "3289b99b09c79c7de45b90f3a0263ab4a4b7e1960d0a3a16b966635300c3a587",
+  "job_semantic_parity": {
+    "mixed_items": 15,
+    "mixed_files": 13,
+    "catalog_items": 149,
+    "catalog_files": 149,
+    "browser_resume_hashes_unchanged": true,
+    "report": "browser-job-parity.json"
+  },
+  "catalog_scope": {
+    "templates": 152,
+    "native_samples_with_prior_live_combined_export_proof": 149,
+    "blocked_services": [
+      "mariadb",
+      "healthcare-agent-service",
+      "azure-sql-edge"
+    ]
+  },
+  "pricing_context": "public; negotiated CSP/EA/MCA account pricing remains untested",
+  "portable_test_runtime": {
+    "shipped_to_operators": false,
+    "source": "https://github.com/PowerShell/PowerShell/releases/download/v7.6.8/powershell-7.6.8-linux-x64.tar.gz",
+    "sha256": "59112e38ad83350e4f6dc0195953c66b5926792f300ca2e7691b8242e7a16e7f",
+    "verified_against": "official release hashes.sha256"
+  },
+  "source_sha256": {
+    "CalcBridge.ps1": "24f07d26ca77e40bf4f034eb7e23098aacc7c47c11b06920616e580a79696bc9",
+    "powershell/CalcBridge.psm1": "f1efc565743590c7a0402bbc21f7a1c24d35fd48fb209dd1c195ed3a6ed944ad",
+    "powershell/Formats.cs": "805cfa99cab772a7621078e28347f97880e8917d96e7de9f8a6fc873872f9472",
+    "tests/Test-CalcBridge.ps1": "1cd803d5724a2531136ab613b558c8704231bb92307998ce64bb2cd1d4ebba4c"
+  },
+  "artifact_sha256": {
+    "PowerShell-catalog-149-import-job.json": "c791ca3f5d787f17a11f764ad89a1d27aff20eb54acb0a0db3277462abb8c4ab",
+    "PowerShell-mixed-15-import-job.json": "db3edd2f1f3e9d3ad14d5fa0a4f752c1e44bbade91c1d39b5a8e1ac6b29b3fdd",
+    "browser-job-parity.json": "5eb5fb64dceca5e60c0694acb7610151b364c6c04ae9b70637ec079e1c67aaed",
+    "catalog-149-workbook-inspection.json": "d4741a7236c0b8f1a4be2bb8d99b2b8bd0304c7a503682c6f397058675208b8d",
+    "csharp-language-check.json": "2caf472813fff3ced0179004bd643cd3c3f5b82938c31389d94d60788b76363a",
+    "mixed-15-workbook-inspection.json": "b58cb6781cb833056a443202e2c4c1e265ab118fee926ac3b9f2cb486c3c482e",
+    "powershell-tests-linux.json": "07a4c04ea490f709694ab74aa686d7a9577ea6d290d8f5f47ae7702ba8e1348a"
+  }
+}

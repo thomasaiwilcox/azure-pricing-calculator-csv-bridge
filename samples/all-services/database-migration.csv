@@ -1,0 +1,2 @@
+batch_id,line_id,service,label,notes,config.region,config.pricingTier,config.instance,config.instanceCount,config.cores,config.hours,config.hoursFactor,config.billingOption,config.paymentOption,config.months
+database-migration,example-001,database-migration,Azure Database Migration Service (classic) example,Microsoft native defaults; review every setting and usage,us-east,premium,4,1,4,1,1,payg,monthly,1

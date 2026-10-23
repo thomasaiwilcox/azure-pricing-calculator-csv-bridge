@@ -1,0 +1,2 @@
+batch_id,line_id,service,label,notes,config.region,config.computeHours,config.geospatialStorage,config.geospatialStorageFactor,config.dataOperations,config.transferData,config.transferDataFactor,config.storageGB,config.dataOperationsThousands,config.bandwidthGB,config.bcdrType,config.months
+planetary-computer-pro,example-001,planetary-computer-pro,Microsoft Planetary Computer Pro example,Microsoft native defaults; review every setting and usage,us-east,0,0,1,0,0,1,0,0,0,no,1

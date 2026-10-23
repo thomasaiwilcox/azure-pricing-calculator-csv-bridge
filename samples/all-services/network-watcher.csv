@@ -1,0 +1,2 @@
+batch_id,line_id,service,label,notes,config.region,config.networkLogs,config.diagnosticTools,config.pingMesh,config.networkAnalyticsMonitored,config.averageLogsIngested,config.trafficAnalyticsAcceleratedLogs,config.trafficAnalyticsStandardLogs,config.months
+network-watcher,example-001,network-watcher,Network Watcher example,Microsoft native defaults; review every setting and usage,us-east,1,0,1,1,0,1,1,1

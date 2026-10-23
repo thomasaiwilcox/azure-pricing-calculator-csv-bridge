@@ -1,0 +1,2 @@
+batch_id,line_id,service,label,notes,config.region,config.tier,config.units,config.months
+scheduler,example-001,scheduler,Scheduler example,Microsoft native defaults; review every setting and usage,us-east,standard,0,1

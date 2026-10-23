@@ -1,0 +1,2 @@
+batch_id,line_id,service,label,notes,config.months
+iot-edge,example-001,iot-edge,Azure IoT Edge example,Microsoft native defaults; review every setting and usage,1

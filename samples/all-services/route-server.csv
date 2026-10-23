@@ -1,0 +1,2 @@
+batch_id,line_id,service,label,notes,config.region,config.gatewayUnit,config.months
+route-server,example-001,route-server,Azure Route Server example,Microsoft native defaults; review every setting and usage,us-east,0,1

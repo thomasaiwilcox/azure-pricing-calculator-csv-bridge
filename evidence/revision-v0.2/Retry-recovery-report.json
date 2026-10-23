@@ -1,0 +1,196 @@
+{
+  "format": "calcbridge-browser-report/v2",
+  "run_id": "retry-proof",
+  "source_sha256": "fde45d8bb7c6f2594d45d9db68f640171f6c28b017be4bcc78a9f1f4a0359c60",
+  "site_build": "20261019-0214-20261019-2100-186570892",
+  "currency": "USD",
+  "pricing_context": "public",
+  "started_utc": "2026-10-22T14:34:35.290Z",
+  "verification_status": "website-validated",
+  "requested_rows": 3,
+  "loaded_rows": 3,
+  "steps": [
+    {
+      "estimate_id": "4a8d6bab-88cc-43e8-a422-bb3bf6ea962a",
+      "from": 0,
+      "until": 1,
+      "attempts": 2,
+      "status": "website-validated",
+      "finished_utc": "2026-10-22T14:34:40.716Z"
+    },
+    {
+      "estimate_id": "4a8d6bab-88cc-43e8-a422-bb3bf6ea962a",
+      "from": 1,
+      "until": 2,
+      "attempts": 2,
+      "status": "website-validated",
+      "finished_utc": "2026-10-22T14:34:43.438Z"
+    },
+    {
+      "estimate_id": "4a8d6bab-88cc-43e8-a422-bb3bf6ea962a",
+      "from": 2,
+      "until": 3,
+      "attempts": 1,
+      "status": "website-validated",
+      "finished_utc": "2026-10-22T14:34:45.368Z"
+    }
+  ],
+  "retries": [
+    {
+      "phase": "Pricing catalog",
+      "attempt": 1,
+      "nextAttempt": 2,
+      "delay_ms": 1000,
+      "message": "Native catalog HTTP 503",
+      "utc": "2026-10-22T14:34:37.446Z"
+    },
+    {
+      "phase": "Loading step",
+      "attempt": 1,
+      "nextAttempt": 2,
+      "delay_ms": 940,
+      "message": "Failed to fetch (injected lost acknowledgement)",
+      "utc": "2026-10-22T14:34:39.023Z"
+    },
+    {
+      "phase": "Loading step",
+      "attempt": 1,
+      "nextAttempt": 2,
+      "delay_ms": 853,
+      "message": "Failed to fetch (injected before commit)",
+      "utc": "2026-10-22T14:34:40.918Z"
+    },
+    {
+      "phase": "Excel export",
+      "attempt": 1,
+      "nextAttempt": 2,
+      "delay_ms": 1104,
+      "message": "Microsoft export HTTP 503",
+      "utc": "2026-10-22T14:34:46.399Z"
+    }
+  ],
+  "estimate": {
+    "name": "CSV-retry-proof",
+    "rows": [
+      {
+        "source_row": 2,
+        "batch_id": "migration-wave-a",
+        "line_id": "vm-001",
+        "custom_name": "[migration-wave-a/vm-001] web-01",
+        "module_id": "b0249af6-631f-43ae-adc7-501fef7889b9",
+        "region": "united-kingdom-south",
+        "description": "1 D4s v5 (4 vCPUs, 16 GB RAM) x 730 Hours (Pay as you go), Linux,  (Pay as you go); 0 managed disks \u2013 S4; Inter Region transfer type, 0 GB outbound data transfer from UK South to East Asia",
+        "configuration": {
+          "serviceSlug": "virtual-machines",
+          "version": "v1.3.1",
+          "region": "united-kingdom-south",
+          "displayName": "[migration-wave-a/vm-001] web-01",
+          "months": 1,
+          "operatingSystem": "linux",
+          "type": "ubuntu",
+          "size": "d4sv5",
+          "count": 1,
+          "hours": 730,
+          "hoursFactor": 1,
+          "tier": "standard",
+          "category": "all",
+          "instanceSeries": "all",
+          "billingOption": "payg",
+          "computeBillingOption": "payg",
+          "computePaymentOption": "monthly",
+          "osBillingOption": "payg",
+          "softwareBillingOption": "payg",
+          "sqlSoftwareBillingOption": "payg",
+          "addHybridBenefit": false,
+          "managedDisks": 0,
+          "managedDisksTransactions": 0,
+          "snapshotStorage": 0,
+          "addSnapshot": false,
+          "interRegionUnits": 0,
+          "internetEgressUnits": 0
+        },
+        "calculator_base_monthly_usd": 162.06
+      },
+      {
+        "source_row": 3,
+        "batch_id": "migration-wave-a",
+        "line_id": "vm-002",
+        "custom_name": "[migration-wave-a/vm-002] app-01",
+        "module_id": "fa1590a3-9c1e-4a91-8e24-7671c569c268",
+        "region": "united-kingdom-south",
+        "description": "2 D8s v5 (8 vCPUs, 32 GB RAM) x 730 Hours (Pay as you go), Windows (License included), OS Only; 0 managed disks \u2013 S4; Inter Region transfer type, 0 GB outbound data transfer from UK South to East Asia",
+        "configuration": {
+          "serviceSlug": "virtual-machines",
+          "version": "v1.3.1",
+          "region": "united-kingdom-south",
+          "displayName": "[migration-wave-a/vm-002] app-01",
+          "months": 1,
+          "operatingSystem": "windows",
+          "type": "os-only",
+          "size": "d8sv5",
+          "count": 2,
+          "hours": 730,
+          "hoursFactor": 1,
+          "tier": "standard",
+          "category": "all",
+          "instanceSeries": "all",
+          "billingOption": "payg",
+          "computeBillingOption": "payg",
+          "computePaymentOption": "monthly",
+          "osBillingOption": "payg",
+          "softwareBillingOption": "payg",
+          "sqlSoftwareBillingOption": "payg",
+          "addHybridBenefit": false,
+          "managedDisks": 0,
+          "managedDisksTransactions": 0,
+          "snapshotStorage": 0,
+          "addSnapshot": false,
+          "interRegionUnits": 0,
+          "internetEgressUnits": 0
+        },
+        "calculator_base_monthly_usd": 1185.52
+      },
+      {
+        "source_row": 4,
+        "batch_id": "migration-wave-a",
+        "line_id": "disk-001",
+        "custom_name": "[migration-wave-a/disk-001] app-data-disk",
+        "module_id": "1adfc848-a2d3-4982-b41b-218b8e88bfcf",
+        "region": "united-kingdom-south",
+        "description": "Managed Disks, Premium SSD, LRS Redundancy, P30 Disk Type 2 Disks; Pay as you go",
+        "configuration": {
+          "serviceSlug": "managed-disks",
+          "version": "v1.0.1",
+          "region": "united-kingdom-south",
+          "displayName": "[migration-wave-a/disk-001] app-data-disk",
+          "months": 1,
+          "tier": "premiumssd",
+          "managedDiskType": "p30",
+          "managedDisks": 2,
+          "managedDiskRedundancy": "lrs",
+          "managedDiskBillingOption": "payg",
+          "managedDiskPaymentOption": "monthly",
+          "managedDisksTransactions": 0,
+          "addDiskBursting": false,
+          "addManagedDisksSharedDisks": false,
+          "addSnapshot": false
+        },
+        "calculator_base_monthly_usd": 327.096
+      }
+    ],
+    "official_export": "server-file-received-download-requested",
+    "estimate_id": "4a8d6bab-88cc-43e8-a422-bb3bf6ea962a",
+    "calculator_base_monthly_usd": 1674.676,
+    "export": {
+      "filename": "CSV-retry-proof.xlsx",
+      "sha256": "d81caf2d69762f83114e6e20629ce10502e924c1bbb5896c1fb8536c5973a1d8",
+      "bytes": 53953,
+      "received_utc": "2026-10-22T14:34:50.228Z",
+      "request_bytes": 22961,
+      "original_json_bytes": 51313,
+      "compact_json_bytes": 15465
+    }
+  },
+  "configuration_sha256": "205e68cd3b1674b14110989b342c9469efad57977e4b2acc8ad1517a89c32666",
+  "validated_utc": "2026-10-22T14:34:46.345Z"
+}

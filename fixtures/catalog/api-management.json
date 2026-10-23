@@ -1,0 +1,128 @@
+{
+  "service": "api-management",
+  "display_name": "API Management",
+  "observed_utc": "2026-10-22",
+  "site_build": "20261019-0214-20261019-2100-186570892",
+  "schema_signature": {
+    "additionalHours": "object",
+    "additionalHoursFactor": "object",
+    "additionalUnits": "object",
+    "apiCenterHours": "number",
+    "apiCenterHoursFactor": "number",
+    "apiCenterUnits": "number",
+    "apiService": "string",
+    "consumptionUnits": "number",
+    "displayName": "string",
+    "gatewayHours": "number",
+    "gatewayHoursFactor": "number",
+    "gatewayUnits": "number",
+    "hours": "number",
+    "hoursFactor": "number",
+    "isBreakingChange": "boolean",
+    "isCollapsed": "boolean",
+    "isDeprecated": "boolean",
+    "months": "number",
+    "region": "string",
+    "requestsUnits": "number",
+    "scaleOutHours": "number",
+    "scaleOutHoursFactor": "number",
+    "scaleOutUnits": "number",
+    "serviceSlug": "string",
+    "tier": "string",
+    "total": "number",
+    "units": "number",
+    "upfrontTotal": "number",
+    "version": "string",
+    "workspacesGatewayHours": "number",
+    "workspacesGatewayHoursFactor": "number",
+    "workspacesGatewayUnits": "number"
+  },
+  "golden": {
+    "description": "",
+    "displayName": "",
+    "layoutId": "",
+    "hasPricing": true,
+    "isBreakingChange": false,
+    "isCollapsed": false,
+    "prices": {
+      "upfrontTotal": 0,
+      "total": 0
+    },
+    "region": "us-east",
+    "resourceId": {},
+    "serviceSlug": "api-management",
+    "shouldShowFreeAccountBenefits": true,
+    "sku": {},
+    "total": 0.0,
+    "upfrontTotal": 0.0,
+    "version": "v1.0.9",
+    "additionalUnits": {
+      "us-east": 0
+    },
+    "additionalHours": {
+      "us-east": 730.0
+    },
+    "additionalHoursFactor": {
+      "us-east": 1
+    },
+    "units": 1,
+    "consumptionUnits": 1,
+    "hours": 730.0,
+    "hoursFactor": 1,
+    "gatewayUnits": 0,
+    "gatewayHours": 730.0,
+    "gatewayHoursFactor": 1,
+    "tier": "basic-v2",
+    "apiCenterUnits": 1,
+    "apiCenterHours": 730.0,
+    "apiCenterHoursFactor": 1,
+    "apiService": "api-management-v2",
+    "workspacesGatewayUnits": 0,
+    "workspacesGatewayHours": 730.0,
+    "workspacesGatewayHoursFactor": 1,
+    "scaleOutUnits": 0,
+    "scaleOutHours": 730.0,
+    "scaleOutHoursFactor": 1,
+    "requestsUnits": 0,
+    "isDeprecated": false,
+    "months": 1
+  },
+  "configuration": {
+    "additionalUnits": {
+      "us-east": 0
+    },
+    "additionalHours": {
+      "us-east": 730
+    },
+    "additionalHoursFactor": {
+      "us-east": 1
+    },
+    "region": "us-east",
+    "units": 1,
+    "consumptionUnits": 1,
+    "hours": 730,
+    "hoursFactor": 1,
+    "gatewayUnits": 0,
+    "gatewayHours": 730,
+    "gatewayHoursFactor": 1,
+    "tier": "basic-v2",
+    "apiCenterUnits": 1,
+    "apiCenterHours": 730,
+    "apiCenterHoursFactor": 1,
+    "apiService": "api-management-v2",
+    "workspacesGatewayUnits": 0,
+    "workspacesGatewayHours": 730,
+    "workspacesGatewayHoursFactor": 1,
+    "scaleOutUnits": 0,
+    "scaleOutHours": 730,
+    "scaleOutHoursFactor": 1,
+    "requestsUnits": 0,
+    "months": 1
+  },
+  "endpoints": [
+    {
+      "version": "v2",
+      "slug": "api-management"
+    }
+  ]
+}

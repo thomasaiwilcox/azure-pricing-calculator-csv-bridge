@@ -1,0 +1,65 @@
+{
+  "service": "web-pubsub",
+  "display_name": "Azure Web PubSub",
+  "observed_utc": "2026-10-22",
+  "site_build": "20261019-0214-20261019-2100-186570892",
+  "schema_signature": {
+    "displayName": "string",
+    "hours": "number",
+    "hoursFactor": "number",
+    "isBreakingChange": "boolean",
+    "isCollapsed": "boolean",
+    "isDeprecated": "boolean",
+    "messages": "number",
+    "months": "number",
+    "region": "string",
+    "serviceSlug": "string",
+    "tier": "string",
+    "total": "number",
+    "units": "number",
+    "upfrontTotal": "number",
+    "version": "string"
+  },
+  "golden": {
+    "description": "",
+    "displayName": "",
+    "layoutId": "",
+    "hasPricing": true,
+    "isBreakingChange": false,
+    "isCollapsed": false,
+    "prices": {
+      "upfrontTotal": 0,
+      "total": 0
+    },
+    "region": "us-east",
+    "resourceId": {},
+    "serviceSlug": "web-pubsub",
+    "shouldShowFreeAccountBenefits": true,
+    "sku": {},
+    "total": 0.0,
+    "upfrontTotal": 0.0,
+    "version": "v1.0.0",
+    "tier": "free",
+    "hours": 730.0,
+    "hoursFactor": 1,
+    "units": 1,
+    "messages": 1,
+    "isDeprecated": false,
+    "months": 1
+  },
+  "configuration": {
+    "region": "us-east",
+    "tier": "free",
+    "hours": 730,
+    "hoursFactor": 1,
+    "units": 1,
+    "messages": 1,
+    "months": 1
+  },
+  "endpoints": [
+    {
+      "version": "v3",
+      "slug": "web-pubsub"
+    }
+  ]
+}

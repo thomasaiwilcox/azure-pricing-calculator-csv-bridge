@@ -1,0 +1,71 @@
+{
+  "service": "app-configuration",
+  "display_name": "App Configuration",
+  "observed_utc": "2026-10-22",
+  "site_build": "20261019-0214-20261019-2100-186570892",
+  "schema_signature": {
+    "configurationStoreDays": "number",
+    "configurationStoreDaysFactor": "number",
+    "displayName": "string",
+    "isBreakingChange": "boolean",
+    "isCollapsed": "boolean",
+    "isDeprecated": "boolean",
+    "months": "number",
+    "numberOfReplicas": "number",
+    "overageRequests": "number",
+    "overageRequestsFactor": "number",
+    "region": "string",
+    "replicaDays": "number",
+    "serviceSlug": "string",
+    "tier": "string",
+    "total": "number",
+    "upfrontTotal": "number",
+    "version": "string"
+  },
+  "golden": {
+    "description": "",
+    "displayName": "",
+    "layoutId": "",
+    "hasPricing": true,
+    "isBreakingChange": false,
+    "isCollapsed": false,
+    "prices": {
+      "upfrontTotal": 0,
+      "total": 0
+    },
+    "region": "us-west",
+    "resourceId": {},
+    "serviceSlug": "app-configuration",
+    "shouldShowFreeAccountBenefits": true,
+    "sku": {},
+    "total": 0.0,
+    "upfrontTotal": 0.0,
+    "version": "v1.0.2",
+    "tier": "free",
+    "configurationStoreDays": 30,
+    "configurationStoreDaysFactor": 1,
+    "overageRequests": 1,
+    "overageRequestsFactor": 1,
+    "numberOfReplicas": 0,
+    "replicaDays": 30,
+    "isDeprecated": false,
+    "months": 1
+  },
+  "configuration": {
+    "tier": "free",
+    "configurationStoreDays": 30,
+    "configurationStoreDaysFactor": 1,
+    "overageRequests": 1,
+    "overageRequestsFactor": 1,
+    "region": "us-west",
+    "numberOfReplicas": 0,
+    "replicaDays": 30,
+    "months": 1
+  },
+  "endpoints": [
+    {
+      "version": "v2",
+      "slug": "app-configuration"
+    }
+  ]
+}

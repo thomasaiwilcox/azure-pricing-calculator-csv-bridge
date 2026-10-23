@@ -1,0 +1,2 @@
+batch_id,line_id,service,label,notes,config.region,config.activeUsersCount,config.nodeCount,config.nodeHours,config.nodeHoursFactor,config.pricingPlan,config.zoneRedundancyToggler,config.months
+managed-grafana,example-001,managed-grafana,Azure Managed Grafana example,Microsoft native defaults; review every setting and usage,us-east,0,2,730,1,standard,false,1

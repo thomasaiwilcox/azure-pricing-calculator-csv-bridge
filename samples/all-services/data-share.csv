@@ -1,0 +1,2 @@
+batch_id,line_id,service,label,notes,config.region,config.datasetMovementVCores,config.datasetMovementHours,config.datasetMovementHoursFactor,config.datasetSnapshots,config.months
+data-share,example-001,data-share,Azure Data Share example,Microsoft native defaults; review every setting and usage,us-east-2,2,730,1,1,1

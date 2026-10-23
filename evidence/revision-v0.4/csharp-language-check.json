@@ -1,0 +1,15 @@
+{
+  "compilation_succeeded": true,
+  "compiler_language": "C# 5",
+  "os": "Unix 6.18.55.0",
+  "powershell_version": "7.6.8",
+  "roundtrip": {
+    "A": 1,
+    "a": 2,
+    "empty": [],
+    "one": [
+      false
+    ]
+  },
+  "windows_framework_execution": false
+}

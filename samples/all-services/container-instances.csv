@@ -1,0 +1,2 @@
+batch_id,line_id,service,label,notes,config.region,config.operatingSystem,config.containerGroups,config.memory,config.cores,config.durationUnits,config.durationUnitsFactor,config.months
+container-instances,example-001,container-instances,Azure Container Instances example,Microsoft native defaults; review every setting and usage,us-east,linux,1,1,1,10,1,1

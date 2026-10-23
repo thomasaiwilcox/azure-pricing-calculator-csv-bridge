@@ -1,0 +1,74 @@
+{
+  "service": "horizondb",
+  "display_name": "Azure HorizonDB",
+  "observed_utc": "2026-10-22",
+  "site_build": "20261019-0214-20261019-2100-186570892",
+  "schema_signature": {
+    "backupStorageCount": "number",
+    "backupStorageUnits": "number",
+    "computeHours": "number",
+    "computeHoursFactor": "number",
+    "coresPerReplica": "number",
+    "displayName": "string",
+    "isBreakingChange": "boolean",
+    "isCollapsed": "boolean",
+    "isDeprecated": "boolean",
+    "months": "number",
+    "numberOfReplicas": "number",
+    "region": "string",
+    "serviceSlug": "string",
+    "storageCount": "number",
+    "storageUnits": "number",
+    "total": "number",
+    "upfrontTotal": "number",
+    "version": "string"
+  },
+  "golden": {
+    "description": "",
+    "displayName": "",
+    "layoutId": "",
+    "hasPricing": true,
+    "isBreakingChange": false,
+    "isCollapsed": false,
+    "prices": {
+      "upfrontTotal": 0,
+      "total": 0
+    },
+    "region": "us-east",
+    "resourceId": {},
+    "serviceSlug": "horizondb",
+    "shouldShowFreeAccountBenefits": true,
+    "sku": {},
+    "total": 0.0,
+    "upfrontTotal": 0.0,
+    "version": "v1.0.0",
+    "backupStorageCount": 10,
+    "backupStorageUnits": 1,
+    "computeHours": 730,
+    "computeHoursFactor": 1,
+    "coresPerReplica": 2,
+    "numberOfReplicas": 1,
+    "storageCount": 10,
+    "storageUnits": 1,
+    "isDeprecated": false,
+    "months": 1
+  },
+  "configuration": {
+    "region": "us-east",
+    "backupStorageCount": 10,
+    "backupStorageUnits": 1,
+    "computeHours": 730,
+    "computeHoursFactor": 1,
+    "coresPerReplica": 2,
+    "numberOfReplicas": 1,
+    "storageCount": 10,
+    "storageUnits": 1,
+    "months": 1
+  },
+  "endpoints": [
+    {
+      "version": "v3",
+      "slug": "horizondb"
+    }
+  ]
+}

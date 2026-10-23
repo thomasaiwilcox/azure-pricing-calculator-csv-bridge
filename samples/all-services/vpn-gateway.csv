@@ -1,0 +1,2 @@
+batch_id,line_id,service,label,notes,config.region,config.type,config.gatewayHours,config.vpnType,config.interVnetGbs,config.interVnetUnits,config.bandwidthGbs,config.bandwidthUnits,config.tier,config.additionalTunnels,config.additionalP2STunnels,config.s2STunnelsGatewayHours,config.p2STunnelsGatewayHours,config.months
+vpn-gateway,example-001,vpn-gateway,VPN Gateway example,Microsoft native defaults; review every setting and usage,us-east,vpngateways,0,intervnet,0,1,0,1,basic,0,0,0,0,1

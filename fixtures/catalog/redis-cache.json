@@ -1,0 +1,118 @@
+{
+  "service": "redis-cache",
+  "display_name": "Azure Cache for Redis",
+  "observed_utc": "2026-10-22",
+  "site_build": "20261019-0214-20261019-2100-186570892",
+  "schema_signature": {
+    "billingOption": "string",
+    "count": "number",
+    "displayName": "string",
+    "enterpriseCount": "number",
+    "enterpriseFlashCount": "number",
+    "enterpriseFlashHours": "number",
+    "enterpriseFlashHoursFactor": "number",
+    "enterpriseFlashRegions": "array",
+    "enterpriseFlashScaleFactors": "string",
+    "enterpriseHours": "number",
+    "enterpriseHoursFactor": "number",
+    "enterpriseRegions": "array",
+    "enterpriseScaleFactors": "string",
+    "hours": "number",
+    "hoursFactor": "number",
+    "isBreakingChange": "boolean",
+    "isCollapsed": "boolean",
+    "isDeprecated": "boolean",
+    "months": "number",
+    "paymentOption": "string",
+    "region": "string",
+    "replicas": "number",
+    "serviceSlug": "string",
+    "shards": "number",
+    "size": "string",
+    "softwareBillingOption": "string",
+    "tier": "string",
+    "total": "number",
+    "upfrontTotal": "number",
+    "version": "string"
+  },
+  "golden": {
+    "description": "",
+    "displayName": "",
+    "layoutId": "",
+    "hasPricing": true,
+    "isBreakingChange": false,
+    "isCollapsed": false,
+    "prices": {
+      "upfrontTotal": 0,
+      "total": 0
+    },
+    "region": "us-west",
+    "resourceId": {},
+    "serviceSlug": "redis-cache",
+    "shouldShowFreeAccountBenefits": true,
+    "sku": {},
+    "total": 0.0,
+    "upfrontTotal": 0.0,
+    "version": "v1.0.8",
+    "tier": "basic",
+    "size": "c0",
+    "count": 1,
+    "hours": 730,
+    "hoursFactor": 1,
+    "billingOption": "payg",
+    "softwareBillingOption": "payg",
+    "paymentOption": "monthly",
+    "shards": 1,
+    "replicas": 0,
+    "enterpriseScaleFactors": "1",
+    "enterpriseCount": 1,
+    "enterpriseHours": 730,
+    "enterpriseHoursFactor": 1,
+    "enterpriseFlashScaleFactors": "1",
+    "enterpriseFlashCount": 1,
+    "enterpriseFlashHours": 730,
+    "enterpriseFlashHoursFactor": 1,
+    "enterpriseRegions": [
+      "us-west"
+    ],
+    "enterpriseFlashRegions": [
+      "us-west"
+    ],
+    "isDeprecated": false,
+    "months": 1
+  },
+  "configuration": {
+    "region": "us-west",
+    "tier": "basic",
+    "size": "c0",
+    "count": 1,
+    "hours": 730,
+    "hoursFactor": 1,
+    "billingOption": "payg",
+    "softwareBillingOption": "payg",
+    "paymentOption": "monthly",
+    "shards": 1,
+    "replicas": 0,
+    "enterpriseScaleFactors": "1",
+    "enterpriseCount": 1,
+    "enterpriseHours": 730,
+    "enterpriseHoursFactor": 1,
+    "enterpriseFlashScaleFactors": "1",
+    "enterpriseFlashCount": 1,
+    "enterpriseFlashHours": 730,
+    "enterpriseFlashHoursFactor": 1,
+    "enterpriseRegions": [
+      "us-west"
+    ],
+    "enterpriseFlashRegions": [
+      "us-west"
+    ],
+    "months": 1
+  },
+  "endpoints": [
+    {
+      "version": "v3",
+      "slug": "redis-cache"
+    }
+  ]
+}

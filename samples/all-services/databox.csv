@@ -1,0 +1,2 @@
+batch_id,line_id,service,label,notes,config.region,config.databoxProduct,config.diskAdditionalOrdersDisks,config.diskAdditionalOrdersDays,config.diskOrderProcessingFeeUnits,config.diskSelfManagedShippingFee,config.gatewayUnits,config.gatewayUnitsFactor,config.dataBox120AdditionalUnits,config.dataBox525AdditionalUnits,config.dataBox120AdditionalDays,config.dataBox525AdditionalDays,config.months
+databox,example-001,databox,Azure Data Box example,Microsoft native defaults; review every setting and usage,us-west,databox-disk,[1],[0],1,false,1,125,[1],[1],[0],[0],1

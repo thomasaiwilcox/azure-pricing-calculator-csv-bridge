@@ -1,0 +1,2 @@
+batch_id,line_id,service,label,notes,config.devOpsUsers,config.artifacts,config.artifactUnits,config.hostedAgents,config.privateAgents,config.test,config.tier,config.codeSecurityCommitters,config.secretProtectionCommitters,config.actionsOperatingSystem,config.actionsSize,config.jobsNumbersPerMonth,config.jobsDurationInMinutes,config.months
+azure-devops,example-001,azure-devops,Azure DevOps example,Microsoft native defaults; review every setting and usage,0,0,1,0,0,10,free,0,0,macos,standard,0,0,1

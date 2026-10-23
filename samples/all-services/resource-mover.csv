@@ -1,0 +1,2 @@
+batch_id,line_id,service,label,notes,config.months
+resource-mover,example-001,resource-mover,Azure Resource Mover example,Microsoft native defaults; review every setting and usage,1

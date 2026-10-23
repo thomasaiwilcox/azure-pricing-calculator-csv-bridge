@@ -1,0 +1,74 @@
+{
+  "service": "managed-redis",
+  "display_name": "Azure Managed Redis",
+  "observed_utc": "2026-10-22",
+  "site_build": "20261019-0214-20261019-2100-186570892",
+  "schema_signature": {
+    "billingOption": "string",
+    "displayName": "string",
+    "hours": "number",
+    "hoursFactor": "number",
+    "instances": "number",
+    "isBreakingChange": "boolean",
+    "isCollapsed": "boolean",
+    "isDeprecated": "boolean",
+    "isHighAvailability": "boolean",
+    "months": "number",
+    "paymentOption": "string",
+    "region": "string",
+    "serviceSlug": "string",
+    "sizes": "string",
+    "tier": "string",
+    "total": "number",
+    "upfrontTotal": "number",
+    "version": "string"
+  },
+  "golden": {
+    "description": "",
+    "displayName": "",
+    "layoutId": "",
+    "hasPricing": true,
+    "isBreakingChange": false,
+    "isCollapsed": false,
+    "prices": {
+      "upfrontTotal": 0,
+      "total": 0
+    },
+    "region": "us-west",
+    "resourceId": {},
+    "serviceSlug": "managed-redis",
+    "shouldShowFreeAccountBenefits": true,
+    "sku": {},
+    "total": 0.0,
+    "upfrontTotal": 0.0,
+    "version": "v1.0.1",
+    "instances": 1,
+    "isHighAvailability": true,
+    "tier": "memoryoptimized",
+    "sizes": "m10",
+    "hours": 730.0,
+    "hoursFactor": 1,
+    "billingOption": "payg",
+    "paymentOption": "monthly",
+    "isDeprecated": false,
+    "months": 1
+  },
+  "configuration": {
+    "region": "us-west",
+    "instances": 1,
+    "isHighAvailability": true,
+    "tier": "memoryoptimized",
+    "sizes": "m10",
+    "hours": 730,
+    "hoursFactor": 1,
+    "billingOption": "payg",
+    "paymentOption": "monthly",
+    "months": 1
+  },
+  "endpoints": [
+    {
+      "version": "v3",
+      "slug": "managed-redis"
+    }
+  ]
+}

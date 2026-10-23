@@ -1,0 +1,2 @@
+batch_id,line_id,service,label,notes,config.instances,config.hours,config.hoursFactor,config.units,config.size,config.region,config.months
+lab-services,example-001,lab-services,Azure Lab Services example,Microsoft native defaults; review every setting and usage,1,730,1,20,classroom-small,us-east,1

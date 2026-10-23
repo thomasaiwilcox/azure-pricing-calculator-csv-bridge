@@ -1,0 +1,66 @@
+{
+  "service": "virtual-network",
+  "display_name": "Virtual Network",
+  "observed_utc": "2026-10-22",
+  "site_build": "20261019-0214-20261019-2100-186570892",
+  "schema_signature": {
+    "displayName": "string",
+    "isBreakingChange": "boolean",
+    "isCollapsed": "boolean",
+    "isDeprecated": "boolean",
+    "months": "number",
+    "serviceSlug": "string",
+    "total": "number",
+    "upfrontTotal": "number",
+    "vNet1Peering": "number",
+    "vNet1PeeringFactor": "number",
+    "vNet1Region": "string",
+    "vNet2Peering": "number",
+    "vNet2PeeringFactor": "number",
+    "vNet2Region": "string",
+    "version": "string"
+  },
+  "golden": {
+    "description": "",
+    "displayName": "",
+    "layoutId": "",
+    "hasPricing": true,
+    "isBreakingChange": false,
+    "isCollapsed": false,
+    "prices": {
+      "upfrontTotal": 0,
+      "total": 0
+    },
+    "region": "global",
+    "resourceId": {},
+    "serviceSlug": "virtual-network",
+    "shouldShowFreeAccountBenefits": true,
+    "sku": {},
+    "total": 0.0,
+    "upfrontTotal": 0.0,
+    "version": "v1.0.2",
+    "vNet1Peering": 100,
+    "vNet1PeeringFactor": 1,
+    "vNet1Region": "us-east",
+    "vNet2Peering": 100,
+    "vNet2PeeringFactor": 1,
+    "vNet2Region": "us-east",
+    "isDeprecated": false,
+    "months": 1
+  },
+  "configuration": {
+    "vNet1Peering": 100,
+    "vNet1PeeringFactor": 1,
+    "vNet1Region": "us-east",
+    "vNet2Peering": 100,
+    "vNet2PeeringFactor": 1,
+    "vNet2Region": "us-east",
+    "months": 1
+  },
+  "endpoints": [
+    {
+      "version": "v2",
+      "slug": "virtual-network"
+    }
+  ]
+}

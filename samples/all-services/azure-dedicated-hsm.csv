@@ -1,0 +1,2 @@
+batch_id,line_id,service,label,notes,config.region,config.hours,config.hoursFactor,config.hsmCount,config.months
+azure-dedicated-hsm,example-001,azure-dedicated-hsm,Azure Dedicated HSM example,Microsoft native defaults; review every setting and usage,us-west,730,1,1,1

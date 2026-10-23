@@ -1,0 +1,97 @@
+{
+  "recorded_utc": "2026-10-22T13:02:36.696848+00:00",
+  "account_context": "anonymous public rates, no selected billing account/profile",
+  "files": [
+    {
+      "file": "Microsoft-CSV-Import-GBP.xlsx",
+      "sha256": "c698fc8f343aeab1e7e226c0fd68311da31df4910839366e82aa1781f212c7ed",
+      "bytes": 54008,
+      "structure": "xlsx",
+      "matched_source_lines": 3,
+      "origin_observed": "official calculator Export control; completed native download",
+      "unmodified": true
+    },
+    {
+      "file": "Microsoft-CSV-Import-USD.xlsx",
+      "sha256": "734f6eef86db68eb91e94db242052999d732eea4698c96bff9437e86d8dc54c8",
+      "bytes": 53962,
+      "structure": "xlsx",
+      "matched_source_lines": 3,
+      "origin_observed": "official calculator Export control; completed native download",
+      "unmodified": true
+    },
+    {
+      "file": "Microsoft-Mixed-POC.xlsx",
+      "sha256": "22af3cdcab4d51bad4d384ca398399ca9568ef8d50265bbfe0143b92fc6da800",
+      "bytes": 53962,
+      "structure": "xlsx",
+      "matched_source_lines": 3,
+      "origin_observed": "official calculator Export control; completed native download",
+      "unmodified": true
+    },
+    {
+      "file": "Microsoft-Scale-1.xlsx",
+      "sha256": "cb05f9938c703c4d7a48b0234816ce90da2f0522ac0c9d0ce39beef4bc1cd82f",
+      "bytes": 53739,
+      "structure": "xlsx",
+      "matched_source_lines": 1,
+      "origin_observed": "official calculator Export control; completed native download",
+      "unmodified": true
+    },
+    {
+      "file": "Microsoft-Scale-10.xlsx",
+      "sha256": "7f03d7eb3b45b4f509c735d898fc5d7269db6b165e9a7c1bdd5926dd24fcdd26",
+      "bytes": 53945,
+      "structure": "xlsx",
+      "matched_source_lines": 10,
+      "origin_observed": "official calculator Export control; completed native download",
+      "unmodified": true
+    },
+    {
+      "file": "Microsoft-Scale-100-Expanded.xlsx",
+      "sha256": "a4c7d75146899042d2405baeb5d3e748e2571e1f791f2ea438a9dcbb851bb9e6",
+      "bytes": 55618,
+      "structure": "xlsx",
+      "matched_source_lines": 100,
+      "origin_observed": "official calculator Export control; completed native download",
+      "unmodified": true
+    },
+    {
+      "file": "Microsoft-Scale-100.xlsx",
+      "sha256": "750325593165866093cc1a525d90cde33c0ba249b19f273ca36240dbd3b97370",
+      "bytes": 55629,
+      "structure": "xlsx",
+      "matched_source_lines": 100,
+      "origin_observed": "official calculator Export control; completed native download",
+      "unmodified": true
+    },
+    {
+      "file": "Microsoft-Scale-50.xlsx",
+      "sha256": "ae361f1a4cd3dbd725ddd8924dfdba50d0dbb06ccbefbfaab7fb90e9264b3a8d",
+      "bytes": 54741,
+      "structure": "xlsx",
+      "matched_source_lines": 50,
+      "origin_observed": "official calculator Export control; completed native download",
+      "unmodified": true
+    },
+    {
+      "file": "Microsoft-Final-GBP.xlsx",
+      "sha256": "93f19c46c0fd366cc3a85b7cfd39252b05a9dee999555daf440e159b8e213e0c",
+      "bytes": 54009,
+      "structure": "xlsx",
+      "matched_source_lines": 3,
+      "origin_observed": "official calculator Export control; completed native download",
+      "unmodified": true
+    }
+  ],
+  "final_acceptance": {
+    "generated_script": "runs/final-smoke/import.js",
+    "status": "passed",
+    "rows": 3,
+    "currency": "GBP",
+    "offline_tests_passed": 25,
+    "job": "Final-import-job.json",
+    "generated_script_sha256": "045de6d28ac08426f7a82d589b33b29c841216f6a1a2c1858fdf2fcb3c018309",
+    "reload_and_reverify": "passed"
+  }
+}

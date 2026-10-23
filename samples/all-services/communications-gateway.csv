@@ -1,0 +1,2 @@
+batch_id,line_id,service,label,notes,config.region,config.type,config.totalUser,config.months
+communications-gateway,example-001,communications-gateway,Azure Communications Gateway example,Microsoft native defaults; review every setting and usage,us-east,fixed-network,0,1

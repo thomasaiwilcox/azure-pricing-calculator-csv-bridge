@@ -1,0 +1,74 @@
+{
+  "service": "analysis-services",
+  "display_name": "Azure Analysis Services",
+  "observed_utc": "2026-10-22",
+  "site_build": "20261019-0214-20261019-2100-186570892",
+  "schema_signature": {
+    "displayName": "string",
+    "hours": "number",
+    "hoursFactor": "number",
+    "instances": "number",
+    "isBreakingChange": "boolean",
+    "isCollapsed": "boolean",
+    "isDeprecated": "boolean",
+    "isScaleOutAdded": "boolean",
+    "months": "number",
+    "offer": "string",
+    "region": "string",
+    "scaleOutInstance": "number",
+    "scaleOutInstanceHours": "number",
+    "scaleOutInstanceHoursFactor": "number",
+    "serviceSlug": "string",
+    "total": "number",
+    "upfrontTotal": "number",
+    "version": "string"
+  },
+  "golden": {
+    "description": "",
+    "displayName": "",
+    "layoutId": "",
+    "hasPricing": true,
+    "isBreakingChange": false,
+    "isCollapsed": false,
+    "prices": {
+      "upfrontTotal": 0,
+      "total": 0
+    },
+    "region": "us-south-central",
+    "resourceId": {},
+    "serviceSlug": "analysis-services",
+    "shouldShowFreeAccountBenefits": true,
+    "sku": {},
+    "total": 0.0,
+    "upfrontTotal": 0.0,
+    "version": "v1.0.2",
+    "offer": "s1",
+    "instances": 1,
+    "hours": 730.0,
+    "hoursFactor": 1,
+    "isScaleOutAdded": false,
+    "scaleOutInstance": 1,
+    "scaleOutInstanceHours": 730.0,
+    "scaleOutInstanceHoursFactor": 1,
+    "isDeprecated": false,
+    "months": 1
+  },
+  "configuration": {
+    "region": "us-south-central",
+    "offer": "s1",
+    "instances": 1,
+    "hours": 730,
+    "hoursFactor": 1,
+    "isScaleOutAdded": false,
+    "scaleOutInstance": 1,
+    "scaleOutInstanceHours": 730,
+    "scaleOutInstanceHoursFactor": 1,
+    "months": 1
+  },
+  "endpoints": [
+    {
+      "version": "v2",
+      "slug": "analysis-services"
+    }
+  ]
+}

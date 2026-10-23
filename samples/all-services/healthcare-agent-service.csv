@@ -1,0 +1,2 @@
+batch_id,line_id,service,label,notes,config.region,config.tier,config.messages,config.medicalContentUnits,config.months
+healthcare-agent-service,example-001,healthcare-agent-service,Healthcare agent service example,Microsoft native defaults; review every setting and usage,us-east,free,100,0,1

@@ -1,0 +1,2 @@
+batch_id,line_id,service,label,notes,config.region,config.operations,config.throughput,config.hours,config.hoursFactor,config.events,config.mqtt,config.tier,config.months
+event-grid,example-001,event-grid,Event Grid example,Microsoft native defaults; review every setting and usage,us-west-2,100000,1,0,1,0,0,basic,1

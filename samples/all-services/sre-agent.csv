@@ -1,0 +1,2 @@
+batch_id,line_id,service,label,notes,config.region,config.agentsCount,config.agentsHours,config.agentsHoursFactor,config.agentUnitPerHour,config.agentUnitPerSec,config.tasksCountPerDay,config.tasksRunningDaysFactor,config.eachTasksRunTime,config.months
+sre-agent,example-001,sre-agent,Azure SRE Agent example,Microsoft native defaults; review every setting and usage,us-east,0,730,1,4,0.25,0,0,0,1

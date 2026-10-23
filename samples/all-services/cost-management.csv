@@ -1,0 +1,2 @@
+batch_id,line_id,service,label,notes,config.azureCloud,config.months
+cost-management,example-001,cost-management,Microsoft Cost Management example,Microsoft native defaults; review every setting and usage,0,1
