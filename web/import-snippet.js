@@ -523,6 +523,7 @@
     throw new BridgeError("Calculator did not finish pricing in time. Resume to recheck the same estimate.", {retryable: true});
   }
   function status(message) {
+    runtime.message = message;
     const element = typeof document !== "undefined" && document.getElementById("calcbridge-status");
     if (element) element.textContent = message;
   }
@@ -639,7 +640,7 @@
       return rows;
     } catch (error) {step.status = error.code === "paused" ? "paused" : "failed"; step.error = String(error.message || error); throw error;}
   }
-  async function importJob(job) {
+  async function importJob(job, options = {}) {
     assert(!runtime.busy, "Another import is already running"); validateJob(job);
     runtime.busy = true; runtime.pauseRequested = false; runtime.job = job;
     runtime.report = {format: "calcbridge-browser-report/v2", run_id: job.run_id, source_sha256: job.source_sha256,
@@ -660,7 +661,7 @@
         assert(Object.keys(estimates).length < OPEN_ESTIMATE_TABS, "Close an unused calculator estimate tab yourself before creating this one.");
       }
       const action = checkpoint ? "Resume" : "Create new estimate";
-      if (!confirm(`${action} "${item.batch.name}"?\n\nAll ${item.instances.length} resources will be in ONE estimate.\nLoading steps: up to ${job.loading.chunk_size} items each.\n${job.currency}; public catalog prices; Basic support.\nReview operator-summary.txt before continuing. Existing unrelated estimates will be retained.`)) {
+      if (!(options.confirm ? await options.confirm(job) : confirm(`${action} "${item.batch.name}"?\n\nAll ${item.instances.length} resources will be in ONE estimate.\nLoading steps: up to ${job.loading.chunk_size} items each.\n${job.currency}; public catalog prices; Basic support.\nReview operator-summary.txt before continuing. Existing unrelated estimates will be retained.`))) {
         runtime.report.verification_status = "cancelled"; status("Import cancelled before any loading step."); return clone(runtime.report);
       }
       if (!checkpoint) {
@@ -834,13 +835,13 @@
     }
     document.body.append(panel);
   }
-  const api = {install, pick, importJob, resume, pause, verifyCurrent, exportCurrent, downloadReport,
+  const api = {validateJob, connect, getStatus: () => ({busy: runtime.busy, message: runtime.message || "Ready", report: runtime.report ? clone(runtime.report) : null}), install, pick, importJob, resume, pause, verifyCurrent, exportCurrent, downloadReport,
     getReport: () => runtime.report ? clone(runtime.report) : null};
   global.AzureCalcBridge = api;
   if (typeof module !== "undefined" && module.exports) module.exports = {validateJob, regionFor, sizeFor, signature, sameSchema, makeModule, stable,
     compactExportPayload, retryAfter, isTransient, withRetries, BridgeError, prefix, verifyEstimate, ownedEstimate,
     validateNativeConfiguration, makeNativeModule, nativeEndpoint, requestQueue};
-  if (typeof document !== "undefined") {
+  if (typeof document !== "undefined" && location.origin === "https://azure.microsoft.com" && !global.__CalcBridgeExtension) {
     try {install();} catch (error) {console.error("CSV bridge:", error.message);}
   }
 })(globalThis);

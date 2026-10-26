@@ -2,6 +2,11 @@
 
 Read `AGENT_PACK.md` before making changes; it defines the requirements, observed facts versus unverified hypotheses, milestones, validation gates and deliverables. `CODEX_START_HERE.md` is the kickoff task; `example-input.csv` is an *illustrative input format*, not an Azure schema fixture.
 
+## Current user request — extension pilot 0.5
+- Implement the approved Chrome/Edge Manifest V3 side-panel plan. Shared importer changes are authorized; preserve CLI compatibility, v3 job identity and safety checks.
+- Deliver an unpacked pilot ZIP and feature-branch PR. Proposal editing is required; full proposal storage is session-only. Keep compact export optional.
+- Distinguish shared-engine live proof, mocked extension UI/transport tests and actual installed-browser acceptance. Do not claim installed Chrome/Edge checks without executing them.
+
 ## Current user request - version 0.4
 - Make PowerShell the primary local CLI for Windows CSP/MSP workstations without Python. Target built-in Windows PowerShell 5.1 and PowerShell 7; no Python, Azure modules, Excel installation, browser drivers or external module dependencies for operators.
 - Port validation, folder/multi-file ingestion, catalog/sample generation, job building, summaries/manifests and read-only official workbook inspection. Preserve v3 job semantics, traceability and the existing JavaScript browser adapter unchanged.

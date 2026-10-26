@@ -1,3 +1,5 @@
+> **Browser extension pilot (0.5):** [Chrome/Edge installation and usage](extension/README.md). Includes editable CSV proposals and session recovery. Shared-engine live tests passed; installed Chrome/Edge acceptance remains outstanding. The PowerShell CLI below remains available.
+
 # Azure Pricing Calculator CSV Bridge — PowerShell 0.4
 
 Build one estimate on [Microsoft's Azure Pricing Calculator webpage](https://azure.microsoft.com/en-us/pricing/calculator/) from a CSV, several CSVs, or a folder of CSVs. Items load in configurable chunks into that same estimate, with bounded retries, backoff and resume checkpoints. Export one original Microsoft Excel workbook for the combined estimate.
