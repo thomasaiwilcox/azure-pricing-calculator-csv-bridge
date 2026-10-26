@@ -1,0 +1,38 @@
+{
+  "version": "0.5.0-pilot",
+  "date": "2026-10-26",
+  "site_build": "20261019-0214-20261019-2100-186570892",
+  "installed_extension_test": "blocked by administrator policy: Loading of unpacked extensions is disabled by the administrator.",
+  "edge_test": "unavailable",
+  "ui_test": "real DOM in Chromium with mocked chrome APIs; not extension installation",
+  "powershell_tests": 38,
+  "exports": [
+    {
+      "file": "CSV-extension-pilot-20261026.xlsx",
+      "sha256": "51de97452d9f35e20fb9adf7ade963005635c9d7b08f23312312a06e8b6b11ab",
+      "bytes": 56129,
+      "matched_label_count": 15,
+      "loaded_rows": 15,
+      "transport": "existing Chromium DevTools; shared engine, not installed extension",
+      "exact_source_names_matched": true
+    },
+    {
+      "file": "CSV-extension-scale-20261026.xlsx",
+      "sha256": "b268a7efe418ddcd21d3fcc8e666b493923fa51e3cfebea4af5e3ec727f60304",
+      "bytes": 59214,
+      "matched_label_count": 250,
+      "loaded_rows": 250,
+      "transport": "existing Chromium DevTools; shared engine, not installed extension",
+      "exact_source_names_matched": true
+    }
+  ],
+  "javascript_tests": 31,
+  "artifact_sha256": {
+    "powershell-tests.json": "07a4c04ea490f709694ab74aa686d7a9577ea6d290d8f5f47ae7702ba8e1348a",
+    "scale-browser-report.json": "f79fed8055208ebc061942676735daa8fd942aa43fd0cdbfcd6f3624f2d74d0d",
+    "CSV-extension-scale-20261026.xlsx": "b268a7efe418ddcd21d3fcc8e666b493923fa51e3cfebea4af5e3ec727f60304",
+    "ui-harness.json": "f84495fc7c3ba3096e068a4e11c644f84caa1ba77d3694e90ebf644cbfeb90f9",
+    "CSV-extension-pilot-20261026.xlsx": "51de97452d9f35e20fb9adf7ade963005635c9d7b08f23312312a06e8b6b11ab",
+    "mixed-browser-report.json": "86034a52d05e2d7bed39d49d93b149aa4fd1203537963e5fc1e0eb56fff4860c"
+  }
+}
